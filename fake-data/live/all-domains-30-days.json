@@ -1,0 +1,79 @@
+{
+  "name": "all-domains-30-days",
+  "query": {
+    "start-date": "30daysAgo",
+    "end-date": "yesterday",
+    "dimensions": "ga:hostname",
+    "metrics": [
+      "ga:sessions",
+      "ga:pageviews",
+      "ga:users",
+      "ga:pageviewsPerSession",
+      "ga:avgSessionDuration",
+      "ga:exits"
+    ],
+    "sort": [
+      "-ga:sessions"
+    ],
+    "filters": "ga:sessions>=10",
+    "start-index": 1,
+    "max-results": 10000,
+    "samplingLevel": "HIGHER_PRECISION"
+  },
+  "meta": {
+    "name": "All Domains (30 Days)",
+    "description": "Last 30 days' domains, measured by visits, for all sites."
+  },
+  "data": [
+    {
+      "domain": "portal.ct.gov",
+      "visits": "417264",
+      "pageviews": "783803",
+      "users": "254630",
+      "pageviews_per_session": "1.878434276621036",
+      "avg_session_duration": "158.4696642892749",
+      "exits": "413754"
+    },
+    {
+      "domain": "authoring.ct.gov",
+      "visits": "610",
+      "pageviews": "1196",
+      "users": "410",
+      "pageviews_per_session": "1.960655737704918",
+      "avg_session_duration": "237.13606557377048",
+      "exits": "609"
+    },
+    {
+      "domain": "portal.ct.gov.googleweblight.com",
+      "visits": "32",
+      "pageviews": "124",
+      "users": "29",
+      "pageviews_per_session": "3.875",
+      "avg_session_duration": "122.65625",
+      "exits": "32"
+    },
+    {
+      "domain": "www.portal.ct.gov",
+      "visits": "16",
+      "pageviews": "19",
+      "users": "1",
+      "pageviews_per_session": "1.1875",
+      "avg_session_duration": "126.4375",
+      "exits": "15"
+    },
+    {
+      "domain": "www.world-check.com",
+      "visits": "16",
+      "pageviews": "21",
+      "users": "16",
+      "pageviews_per_session": "1.3125",
+      "avg_session_duration": "99.375",
+      "exits": "16"
+    }
+  ],
+  "totals": {
+    "users": 255086,
+    "visits": 417938
+  },
+  "taken_at": "2019-06-11T22:30:23.000Z"
+}

@@ -1,121 +1,122 @@
 {
-    "name": "top-pages-realtime",
-    "query": {
-        "dimensions": "rt:pagePath,rt:pageTitle",
-        "metrics": [
-            "rt:activeUsers"
-        ],
-        "sort": [
-            "-rt:activeUsers"
-        ],
-        "max-results": 20
-    },
-    "meta": {
-        "name": "Top Pages (Live)",
-        "description": "The top 20 pages, measured by active onsite users, for all sites."
-    },
-    "data": [
-        {
-            "page": "earthquake.usgs.gov/earthquakes/eventpage/us100044k6",
-            "page_title": "M7.2 - 109km W of Murghob, Tajikistan",
-            "active_visitors": "804"
-        },
-        {
-            "page": "earthquake.usgs.gov/earthquakes/map/",
-            "page_title": "Earthquakes",
-            "active_visitors": "551"
-        },
-        {
-            "page": "forecast.weather.gov/mapclick.php",
-            "page_title": "National Weather Service",
-            "active_visitors": "444"
-        },
-        {
-            "page": "ceac.state.gov/genniv/general/complete/complete_travel.aspx?node=travel",
-            "page_title": "Nonimmigrant Visa - Travel Information",
-            "active_visitors": "229"
-        },
-        {
-            "page": "ceac.state.gov/genniv/default.aspx",
-            "page_title": "Nonimmigrant Visa - Instructions Page",
-            "active_visitors": "211"
-        },
-        {
-            "page": "ceac.state.gov/ceac/",
-            "page_title": "Consular Electronic Application Center",
-            "active_visitors": "210"
-        },
-        {
-            "page": "nasa.gov/",
-            "page_title": "NASA",
-            "active_visitors": "185"
-        },
-        {
-            "page": "ceac.state.gov/genniv/general/complete/complete_workeducation2.aspx?node=workeducation2",
-            "page_title": "Nonimmigrant Visa - Previous Work/Education/Training Information",
-            "active_visitors": "178"
-        },
-        {
-            "page": "ceac.state.gov/genniv/general/complete/complete_personal.aspx?node=personal1",
-            "page_title": "Nonimmigrant Visa - Personal Information 1",
-            "active_visitors": "177"
-        },
-        {
-            "page": "ceac.state.gov/genniv/general/complete/complete_workeducation1.aspx?node=workeducation1",
-            "page_title": "Nonimmigrant Visa - Present Work/Education/Training Information",
-            "active_visitors": "172"
-        },
-        {
-            "page": "ceac.state.gov/genniv/general/esign/complete_done.aspx?node=done",
-            "page_title": "Nonimmigrant Visa - Confirmation Page",
-            "active_visitors": "166"
-        },
-        {
-            "page": "nasa.gov/feature/new-horizons-returns-first-of-the-best-images-of-pluto/",
-            "page_title": "New Horizons Returns First, Best Images of Pluto | NASA",
-            "active_visitors": "162"
-        },
-        {
-            "page": "ceac.state.gov/genniv/general/complete/complete_contact.aspx?node=addressphone",
-            "page_title": "Nonimmigrant Visa - Address and Phone Information",
-            "active_visitors": "150"
-        },
-        {
-            "page": "usgs.gov/",
-            "page_title": "Welcome to the USGS - U.S. Geological Survey",
-            "active_visitors": "131"
-        },
-        {
-            "page": "ceac.state.gov/genniv/common/recovery.aspx",
-            "page_title": "Nonimmigrant Visa - Recover Your Application",
-            "active_visitors": "127"
-        },
-        {
-            "page": "whitehouse.gov/blog/2015/12/05/president-obama-addresses-nation-keeping-american-people-safe",
-            "page_title": "President Obama Addresses the Nation on Keeping the American People Safe | whitehouse.gov",
-            "active_visitors": "123"
-        },
-        {
-            "page": "ceac.state.gov/genniv/general/complete/passport_visa_info.aspx?node=pptvisa",
-            "page_title": "Nonimmigrant Visa - Passport Information",
-            "active_visitors": "116"
-        },
-        {
-            "page": "egov.uscis.gov/casestatus/mycasestatus.do",
-            "page_title": "myUSCIS - Case Status",
-            "active_visitors": "114"
-        },
-        {
-            "page": "weather.gov/",
-            "page_title": "National Weather Service",
-            "active_visitors": "114"
-        },
-        {
-            "page": "ceac.state.gov/genniv/",
-            "page_title": "Nonimmigrant Visa - Instructions Page",
-            "active_visitors": "112"
-        }
+  "name": "top-pages-realtime",
+  "query": {
+    "dimensions": "rt:pagePath,rt:pageTitle",
+    "metrics": [
+      "rt:activeUsers"
     ],
-    "totals": {},
-    "taken_at": "2015-12-07T08:34:03.637Z"
+    "sort": [
+      "-rt:activeUsers"
+    ],
+    "filters": "rt:pagePath!~ncbi\\.nlm\\.nih\\.gov/ncbi_.*",
+    "max-results": 20
+  },
+  "meta": {
+    "name": "Top Pages (Live)",
+    "description": "The top 20 pages, measured by active onsite users, for all sites."
+  },
+  "data": [
+    {
+      "page": "/",
+      "page_title": "CT.GOV-Connecticut's Official State Website",
+      "active_visitors": "23"
+    },
+    {
+      "page": "/en/services/public-safety/sex-offender-registry",
+      "page_title": "CT.gov: Sex Offender Registry",
+      "active_visitors": "4"
+    },
+    {
+      "page": "/services/jobs-and-employment",
+      "page_title": "CT.gov: Jobs and Employment",
+      "active_visitors": "4"
+    },
+    {
+      "page": "/services/driving-and-transportation/vehicle-registration-and-title/license-plates",
+      "page_title": "CT.gov: license plates",
+      "active_visitors": "2"
+    },
+    {
+      "page": "/services/health-and-human-services/children-family-and-older-adults/vital-records",
+      "page_title": "CT.gov: vital records",
+      "active_visitors": "2"
+    },
+    {
+      "page": "/cities_and_towns/",
+      "page_title": "CT.gov: Cities and Towns",
+      "active_visitors": "1"
+    },
+    {
+      "page": "/directories",
+      "page_title": "Directories",
+      "active_visitors": "1"
+    },
+    {
+      "page": "/en/404error/?item=/drs/individuals/individual-tax-page/8602975962&user=extranet\\anonymous&site=website",
+      "page_title": "404 Error Page",
+      "active_visitors": "1"
+    },
+    {
+      "page": "/for_state_employees_footer",
+      "page_title": "CT.gov: For State Employees",
+      "active_visitors": "1"
+    },
+    {
+      "page": "/government/departments-and-agencies/departments-and-agencies",
+      "page_title": "CT.gov: Departments and Agencies",
+      "active_visitors": "1"
+    },
+    {
+      "page": "/government/flag-status",
+      "page_title": "Flag Status",
+      "active_visitors": "1"
+    },
+    {
+      "page": "/search-results/?q=2019 income tax table",
+      "page_title": "CT.gov Search Results",
+      "active_visitors": "1"
+    },
+    {
+      "page": "/search-results/?q=correctional officer physical fitness test",
+      "page_title": "CT.gov Search Results",
+      "active_visitors": "1"
+    },
+    {
+      "page": "/search-results/?q=ct estate tax",
+      "page_title": "CT.gov Search Results",
+      "active_visitors": "1"
+    },
+    {
+      "page": "/search-results/?q=ct-w4",
+      "page_title": "CT.gov Search Results",
+      "active_visitors": "1"
+    },
+    {
+      "page": "/search-results/?q=how do i renew my ct hoisting equipment operator license",
+      "page_title": "CT.gov Search Results",
+      "active_visitors": "1"
+    },
+    {
+      "page": "/search-results/?q=jobs",
+      "page_title": "CT.gov Search Results",
+      "active_visitors": "1"
+    },
+    {
+      "page": "/search-results/?q=laws on magazine size",
+      "page_title": "CT.gov Search Results",
+      "active_visitors": "1"
+    },
+    {
+      "page": "/search-results/?q=registering a business",
+      "page_title": "CT.gov Search Results",
+      "active_visitors": "1"
+    },
+    {
+      "page": "/search-results/?q=schiller subaru",
+      "page_title": "CT.gov Search Results",
+      "active_visitors": "1"
+    }
+  ],
+  "totals": {},
+  "taken_at": "2019-06-11T22:30:11.719Z"
 }

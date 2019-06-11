@@ -1,48 +1,4503 @@
 {
-    "name": "browsers",
-    "query": {
-        "start-date": "90daysAgo",
-        "end-date": "yesterday",
-        "dimensions": "ga:date,ga:browser",
-        "metrics": [
-            "ga:sessions"
-        ],
-        "sort": [
-            "ga:date",
-            "-ga:sessions"
-        ],
-        "filters": "ga:sessions>1000",
-        "start-index": 1,
-        "max-results": 10000,
-        "samplingLevel": "HIGHER_PRECISION"
+  "name": "browsers",
+  "query": {
+    "start-date": "90daysAgo",
+    "end-date": "yesterday",
+    "dimensions": "ga:date,ga:browser",
+    "metrics": [
+      "ga:sessions"
+    ],
+    "sort": [
+      "ga:date",
+      "-ga:sessions"
+    ],
+    "filters": "ga:sessions>10",
+    "start-index": 1,
+    "max-results": 10000,
+    "samplingLevel": "HIGHER_PRECISION"
+  },
+  "meta": {
+    "name": "Browsers",
+    "description": "90 days of visits broken down by browser for all sites. (>100 sessions)"
+  },
+  "data": [
+    {
+      "date": "2019-03-13",
+      "browser": "Chrome",
+      "visits": "7036"
     },
-    "meta": {
-        "name": "Browsers",
-        "description": "90 days of visits broken down by browser for all sites."
+    {
+      "date": "2019-03-13",
+      "browser": "Internet Explorer",
+      "visits": "6730"
     },
-    "totals": {
-        "visits": 1520972917,
-        "browser": {
-            "Internet Explorer": 340000272,
-            "Edge": 22558313,
-            "Chrome": 635100386,
-            "Safari": 300634363,
-            "Firefox": 148504168,
-            "Android Browser": 32305234,
-            "Safari (in-app)": 17108886,
-            "Amazon Silk": 4700588,
-            "Opera": 5114180,
-            "Opera Mini": 7793867,
-            "IE with Chrome Frame": 398527,
-            "BlackBerry": 1841841,
-            "UC Browser": 3028949,
-            "YaBrowser": 509809,
-            "Maxthon": 458705,
-            "Coc Coc": 314362,
-            "Other": 600467
-        },
-        "start_date": "2015-09-07",
-        "end_date": "2015-12-05"
+    {
+      "date": "2019-03-13",
+      "browser": "Safari",
+      "visits": "3603"
     },
-    "taken_at": "2015-12-06T08:10:07.888Z"
+    {
+      "date": "2019-03-13",
+      "browser": "Edge",
+      "visits": "1620"
+    },
+    {
+      "date": "2019-03-13",
+      "browser": "Firefox",
+      "visits": "795"
+    },
+    {
+      "date": "2019-03-13",
+      "browser": "Samsung Internet",
+      "visits": "217"
+    },
+    {
+      "date": "2019-03-13",
+      "browser": "Android Webview",
+      "visits": "41"
+    },
+    {
+      "date": "2019-03-13",
+      "browser": "Amazon Silk",
+      "visits": "37"
+    },
+    {
+      "date": "2019-03-13",
+      "browser": "Safari (in-app)",
+      "visits": "32"
+    },
+    {
+      "date": "2019-03-13",
+      "browser": "Opera",
+      "visits": "18"
+    },
+    {
+      "date": "2019-03-14",
+      "browser": "Chrome",
+      "visits": "6792"
+    },
+    {
+      "date": "2019-03-14",
+      "browser": "Internet Explorer",
+      "visits": "6766"
+    },
+    {
+      "date": "2019-03-14",
+      "browser": "Safari",
+      "visits": "3338"
+    },
+    {
+      "date": "2019-03-14",
+      "browser": "Edge",
+      "visits": "1645"
+    },
+    {
+      "date": "2019-03-14",
+      "browser": "Firefox",
+      "visits": "793"
+    },
+    {
+      "date": "2019-03-14",
+      "browser": "Samsung Internet",
+      "visits": "221"
+    },
+    {
+      "date": "2019-03-14",
+      "browser": "Android Webview",
+      "visits": "40"
+    },
+    {
+      "date": "2019-03-14",
+      "browser": "Safari (in-app)",
+      "visits": "39"
+    },
+    {
+      "date": "2019-03-14",
+      "browser": "Amazon Silk",
+      "visits": "26"
+    },
+    {
+      "date": "2019-03-14",
+      "browser": "Opera",
+      "visits": "18"
+    },
+    {
+      "date": "2019-03-15",
+      "browser": "Chrome",
+      "visits": "6515"
+    },
+    {
+      "date": "2019-03-15",
+      "browser": "Internet Explorer",
+      "visits": "6022"
+    },
+    {
+      "date": "2019-03-15",
+      "browser": "Safari",
+      "visits": "3529"
+    },
+    {
+      "date": "2019-03-15",
+      "browser": "Edge",
+      "visits": "1618"
+    },
+    {
+      "date": "2019-03-15",
+      "browser": "Firefox",
+      "visits": "690"
+    },
+    {
+      "date": "2019-03-15",
+      "browser": "Samsung Internet",
+      "visits": "254"
+    },
+    {
+      "date": "2019-03-15",
+      "browser": "'Mozilla",
+      "visits": "41"
+    },
+    {
+      "date": "2019-03-15",
+      "browser": "Safari (in-app)",
+      "visits": "39"
+    },
+    {
+      "date": "2019-03-15",
+      "browser": "Amazon Silk",
+      "visits": "28"
+    },
+    {
+      "date": "2019-03-15",
+      "browser": "Android Webview",
+      "visits": "24"
+    },
+    {
+      "date": "2019-03-15",
+      "browser": "Opera",
+      "visits": "20"
+    },
+    {
+      "date": "2019-03-16",
+      "browser": "Chrome",
+      "visits": "2881"
+    },
+    {
+      "date": "2019-03-16",
+      "browser": "Safari",
+      "visits": "2567"
+    },
+    {
+      "date": "2019-03-16",
+      "browser": "Internet Explorer",
+      "visits": "952"
+    },
+    {
+      "date": "2019-03-16",
+      "browser": "Edge",
+      "visits": "800"
+    },
+    {
+      "date": "2019-03-16",
+      "browser": "Firefox",
+      "visits": "295"
+    },
+    {
+      "date": "2019-03-16",
+      "browser": "Samsung Internet",
+      "visits": "168"
+    },
+    {
+      "date": "2019-03-16",
+      "browser": "Android Webview",
+      "visits": "82"
+    },
+    {
+      "date": "2019-03-16",
+      "browser": "Safari (in-app)",
+      "visits": "32"
+    },
+    {
+      "date": "2019-03-16",
+      "browser": "Amazon Silk",
+      "visits": "25"
+    },
+    {
+      "date": "2019-03-17",
+      "browser": "Chrome",
+      "visits": "3066"
+    },
+    {
+      "date": "2019-03-17",
+      "browser": "Safari",
+      "visits": "2672"
+    },
+    {
+      "date": "2019-03-17",
+      "browser": "Internet Explorer",
+      "visits": "880"
+    },
+    {
+      "date": "2019-03-17",
+      "browser": "Edge",
+      "visits": "799"
+    },
+    {
+      "date": "2019-03-17",
+      "browser": "Firefox",
+      "visits": "254"
+    },
+    {
+      "date": "2019-03-17",
+      "browser": "Samsung Internet",
+      "visits": "161"
+    },
+    {
+      "date": "2019-03-17",
+      "browser": "Amazon Silk",
+      "visits": "29"
+    },
+    {
+      "date": "2019-03-17",
+      "browser": "Android Webview",
+      "visits": "17"
+    },
+    {
+      "date": "2019-03-17",
+      "browser": "Safari (in-app)",
+      "visits": "15"
+    },
+    {
+      "date": "2019-03-18",
+      "browser": "Chrome",
+      "visits": "7164"
+    },
+    {
+      "date": "2019-03-18",
+      "browser": "Internet Explorer",
+      "visits": "6641"
+    },
+    {
+      "date": "2019-03-18",
+      "browser": "Safari",
+      "visits": "3791"
+    },
+    {
+      "date": "2019-03-18",
+      "browser": "Edge",
+      "visits": "1520"
+    },
+    {
+      "date": "2019-03-18",
+      "browser": "Firefox",
+      "visits": "810"
+    },
+    {
+      "date": "2019-03-18",
+      "browser": "Samsung Internet",
+      "visits": "252"
+    },
+    {
+      "date": "2019-03-18",
+      "browser": "Amazon Silk",
+      "visits": "42"
+    },
+    {
+      "date": "2019-03-18",
+      "browser": "Safari (in-app)",
+      "visits": "37"
+    },
+    {
+      "date": "2019-03-18",
+      "browser": "Android Webview",
+      "visits": "27"
+    },
+    {
+      "date": "2019-03-18",
+      "browser": "Opera",
+      "visits": "13"
+    },
+    {
+      "date": "2019-03-19",
+      "browser": "Chrome",
+      "visits": "7015"
+    },
+    {
+      "date": "2019-03-19",
+      "browser": "Internet Explorer",
+      "visits": "6693"
+    },
+    {
+      "date": "2019-03-19",
+      "browser": "Safari",
+      "visits": "3693"
+    },
+    {
+      "date": "2019-03-19",
+      "browser": "Edge",
+      "visits": "1542"
+    },
+    {
+      "date": "2019-03-19",
+      "browser": "Firefox",
+      "visits": "733"
+    },
+    {
+      "date": "2019-03-19",
+      "browser": "Samsung Internet",
+      "visits": "238"
+    },
+    {
+      "date": "2019-03-19",
+      "browser": "Safari (in-app)",
+      "visits": "62"
+    },
+    {
+      "date": "2019-03-19",
+      "browser": "Android Webview",
+      "visits": "58"
+    },
+    {
+      "date": "2019-03-19",
+      "browser": "Amazon Silk",
+      "visits": "34"
+    },
+    {
+      "date": "2019-03-19",
+      "browser": "Opera",
+      "visits": "24"
+    },
+    {
+      "date": "2019-03-20",
+      "browser": "Chrome",
+      "visits": "6909"
+    },
+    {
+      "date": "2019-03-20",
+      "browser": "Internet Explorer",
+      "visits": "6606"
+    },
+    {
+      "date": "2019-03-20",
+      "browser": "Safari",
+      "visits": "3622"
+    },
+    {
+      "date": "2019-03-20",
+      "browser": "Edge",
+      "visits": "1550"
+    },
+    {
+      "date": "2019-03-20",
+      "browser": "Firefox",
+      "visits": "773"
+    },
+    {
+      "date": "2019-03-20",
+      "browser": "Samsung Internet",
+      "visits": "201"
+    },
+    {
+      "date": "2019-03-20",
+      "browser": "Safari (in-app)",
+      "visits": "79"
+    },
+    {
+      "date": "2019-03-20",
+      "browser": "Android Webview",
+      "visits": "48"
+    },
+    {
+      "date": "2019-03-20",
+      "browser": "Amazon Silk",
+      "visits": "45"
+    },
+    {
+      "date": "2019-03-20",
+      "browser": "Opera",
+      "visits": "21"
+    },
+    {
+      "date": "2019-03-20",
+      "browser": "'Mozilla",
+      "visits": "18"
+    },
+    {
+      "date": "2019-03-21",
+      "browser": "Chrome",
+      "visits": "6475"
+    },
+    {
+      "date": "2019-03-21",
+      "browser": "Internet Explorer",
+      "visits": "5944"
+    },
+    {
+      "date": "2019-03-21",
+      "browser": "Safari",
+      "visits": "3617"
+    },
+    {
+      "date": "2019-03-21",
+      "browser": "Edge",
+      "visits": "1476"
+    },
+    {
+      "date": "2019-03-21",
+      "browser": "Firefox",
+      "visits": "735"
+    },
+    {
+      "date": "2019-03-21",
+      "browser": "Samsung Internet",
+      "visits": "240"
+    },
+    {
+      "date": "2019-03-21",
+      "browser": "Safari (in-app)",
+      "visits": "114"
+    },
+    {
+      "date": "2019-03-21",
+      "browser": "Amazon Silk",
+      "visits": "39"
+    },
+    {
+      "date": "2019-03-21",
+      "browser": "Android Webview",
+      "visits": "36"
+    },
+    {
+      "date": "2019-03-21",
+      "browser": "Opera",
+      "visits": "16"
+    },
+    {
+      "date": "2019-03-22",
+      "browser": "Chrome",
+      "visits": "5728"
+    },
+    {
+      "date": "2019-03-22",
+      "browser": "Internet Explorer",
+      "visits": "5250"
+    },
+    {
+      "date": "2019-03-22",
+      "browser": "Safari",
+      "visits": "3142"
+    },
+    {
+      "date": "2019-03-22",
+      "browser": "Edge",
+      "visits": "1363"
+    },
+    {
+      "date": "2019-03-22",
+      "browser": "Firefox",
+      "visits": "660"
+    },
+    {
+      "date": "2019-03-22",
+      "browser": "Samsung Internet",
+      "visits": "247"
+    },
+    {
+      "date": "2019-03-22",
+      "browser": "Safari (in-app)",
+      "visits": "76"
+    },
+    {
+      "date": "2019-03-22",
+      "browser": "Amazon Silk",
+      "visits": "31"
+    },
+    {
+      "date": "2019-03-22",
+      "browser": "Android Webview",
+      "visits": "29"
+    },
+    {
+      "date": "2019-03-22",
+      "browser": "Opera",
+      "visits": "14"
+    },
+    {
+      "date": "2019-03-23",
+      "browser": "Chrome",
+      "visits": "3016"
+    },
+    {
+      "date": "2019-03-23",
+      "browser": "Safari",
+      "visits": "2544"
+    },
+    {
+      "date": "2019-03-23",
+      "browser": "Internet Explorer",
+      "visits": "942"
+    },
+    {
+      "date": "2019-03-23",
+      "browser": "Edge",
+      "visits": "740"
+    },
+    {
+      "date": "2019-03-23",
+      "browser": "Firefox",
+      "visits": "307"
+    },
+    {
+      "date": "2019-03-23",
+      "browser": "Samsung Internet",
+      "visits": "155"
+    },
+    {
+      "date": "2019-03-23",
+      "browser": "Safari (in-app)",
+      "visits": "54"
+    },
+    {
+      "date": "2019-03-23",
+      "browser": "Amazon Silk",
+      "visits": "33"
+    },
+    {
+      "date": "2019-03-23",
+      "browser": "Android Webview",
+      "visits": "28"
+    },
+    {
+      "date": "2019-03-24",
+      "browser": "Chrome",
+      "visits": "3017"
+    },
+    {
+      "date": "2019-03-24",
+      "browser": "Safari",
+      "visits": "2524"
+    },
+    {
+      "date": "2019-03-24",
+      "browser": "Internet Explorer",
+      "visits": "830"
+    },
+    {
+      "date": "2019-03-24",
+      "browser": "Edge",
+      "visits": "698"
+    },
+    {
+      "date": "2019-03-24",
+      "browser": "Firefox",
+      "visits": "270"
+    },
+    {
+      "date": "2019-03-24",
+      "browser": "Samsung Internet",
+      "visits": "163"
+    },
+    {
+      "date": "2019-03-24",
+      "browser": "Amazon Silk",
+      "visits": "30"
+    },
+    {
+      "date": "2019-03-24",
+      "browser": "Safari (in-app)",
+      "visits": "21"
+    },
+    {
+      "date": "2019-03-24",
+      "browser": "Android Webview",
+      "visits": "13"
+    },
+    {
+      "date": "2019-03-25",
+      "browser": "Chrome",
+      "visits": "6860"
+    },
+    {
+      "date": "2019-03-25",
+      "browser": "Internet Explorer",
+      "visits": "6398"
+    },
+    {
+      "date": "2019-03-25",
+      "browser": "Safari",
+      "visits": "3577"
+    },
+    {
+      "date": "2019-03-25",
+      "browser": "Edge",
+      "visits": "1735"
+    },
+    {
+      "date": "2019-03-25",
+      "browser": "Firefox",
+      "visits": "778"
+    },
+    {
+      "date": "2019-03-25",
+      "browser": "Samsung Internet",
+      "visits": "249"
+    },
+    {
+      "date": "2019-03-25",
+      "browser": "Amazon Silk",
+      "visits": "38"
+    },
+    {
+      "date": "2019-03-25",
+      "browser": "Safari (in-app)",
+      "visits": "34"
+    },
+    {
+      "date": "2019-03-25",
+      "browser": "Android Webview",
+      "visits": "23"
+    },
+    {
+      "date": "2019-03-25",
+      "browser": "Opera",
+      "visits": "15"
+    },
+    {
+      "date": "2019-03-26",
+      "browser": "Chrome",
+      "visits": "7040"
+    },
+    {
+      "date": "2019-03-26",
+      "browser": "Internet Explorer",
+      "visits": "6595"
+    },
+    {
+      "date": "2019-03-26",
+      "browser": "Safari",
+      "visits": "3669"
+    },
+    {
+      "date": "2019-03-26",
+      "browser": "Edge",
+      "visits": "1706"
+    },
+    {
+      "date": "2019-03-26",
+      "browser": "Firefox",
+      "visits": "836"
+    },
+    {
+      "date": "2019-03-26",
+      "browser": "Samsung Internet",
+      "visits": "214"
+    },
+    {
+      "date": "2019-03-26",
+      "browser": "Safari (in-app)",
+      "visits": "95"
+    },
+    {
+      "date": "2019-03-26",
+      "browser": "Android Webview",
+      "visits": "51"
+    },
+    {
+      "date": "2019-03-26",
+      "browser": "Amazon Silk",
+      "visits": "29"
+    },
+    {
+      "date": "2019-03-26",
+      "browser": "Opera",
+      "visits": "16"
+    },
+    {
+      "date": "2019-03-27",
+      "browser": "Chrome",
+      "visits": "6488"
+    },
+    {
+      "date": "2019-03-27",
+      "browser": "Internet Explorer",
+      "visits": "6333"
+    },
+    {
+      "date": "2019-03-27",
+      "browser": "Safari",
+      "visits": "3444"
+    },
+    {
+      "date": "2019-03-27",
+      "browser": "Edge",
+      "visits": "1697"
+    },
+    {
+      "date": "2019-03-27",
+      "browser": "Firefox",
+      "visits": "730"
+    },
+    {
+      "date": "2019-03-27",
+      "browser": "Samsung Internet",
+      "visits": "191"
+    },
+    {
+      "date": "2019-03-27",
+      "browser": "Safari (in-app)",
+      "visits": "68"
+    },
+    {
+      "date": "2019-03-27",
+      "browser": "Android Webview",
+      "visits": "46"
+    },
+    {
+      "date": "2019-03-27",
+      "browser": "Amazon Silk",
+      "visits": "41"
+    },
+    {
+      "date": "2019-03-27",
+      "browser": "Opera",
+      "visits": "14"
+    },
+    {
+      "date": "2019-03-28",
+      "browser": "Chrome",
+      "visits": "6389"
+    },
+    {
+      "date": "2019-03-28",
+      "browser": "Internet Explorer",
+      "visits": "6261"
+    },
+    {
+      "date": "2019-03-28",
+      "browser": "Safari",
+      "visits": "3434"
+    },
+    {
+      "date": "2019-03-28",
+      "browser": "Edge",
+      "visits": "1668"
+    },
+    {
+      "date": "2019-03-28",
+      "browser": "Firefox",
+      "visits": "752"
+    },
+    {
+      "date": "2019-03-28",
+      "browser": "Samsung Internet",
+      "visits": "213"
+    },
+    {
+      "date": "2019-03-28",
+      "browser": "Safari (in-app)",
+      "visits": "71"
+    },
+    {
+      "date": "2019-03-28",
+      "browser": "Amazon Silk",
+      "visits": "36"
+    },
+    {
+      "date": "2019-03-28",
+      "browser": "Android Webview",
+      "visits": "32"
+    },
+    {
+      "date": "2019-03-28",
+      "browser": "Opera",
+      "visits": "15"
+    },
+    {
+      "date": "2019-03-29",
+      "browser": "Chrome",
+      "visits": "5856"
+    },
+    {
+      "date": "2019-03-29",
+      "browser": "Internet Explorer",
+      "visits": "5537"
+    },
+    {
+      "date": "2019-03-29",
+      "browser": "Safari",
+      "visits": "3328"
+    },
+    {
+      "date": "2019-03-29",
+      "browser": "Edge",
+      "visits": "1520"
+    },
+    {
+      "date": "2019-03-29",
+      "browser": "Firefox",
+      "visits": "684"
+    },
+    {
+      "date": "2019-03-29",
+      "browser": "Samsung Internet",
+      "visits": "206"
+    },
+    {
+      "date": "2019-03-29",
+      "browser": "Safari (in-app)",
+      "visits": "90"
+    },
+    {
+      "date": "2019-03-29",
+      "browser": "Android Webview",
+      "visits": "45"
+    },
+    {
+      "date": "2019-03-29",
+      "browser": "Amazon Silk",
+      "visits": "36"
+    },
+    {
+      "date": "2019-03-29",
+      "browser": "Opera",
+      "visits": "19"
+    },
+    {
+      "date": "2019-03-30",
+      "browser": "Chrome",
+      "visits": "2731"
+    },
+    {
+      "date": "2019-03-30",
+      "browser": "Safari",
+      "visits": "2256"
+    },
+    {
+      "date": "2019-03-30",
+      "browser": "Internet Explorer",
+      "visits": "896"
+    },
+    {
+      "date": "2019-03-30",
+      "browser": "Edge",
+      "visits": "586"
+    },
+    {
+      "date": "2019-03-30",
+      "browser": "Firefox",
+      "visits": "283"
+    },
+    {
+      "date": "2019-03-30",
+      "browser": "Samsung Internet",
+      "visits": "129"
+    },
+    {
+      "date": "2019-03-30",
+      "browser": "Safari (in-app)",
+      "visits": "52"
+    },
+    {
+      "date": "2019-03-30",
+      "browser": "Amazon Silk",
+      "visits": "24"
+    },
+    {
+      "date": "2019-03-30",
+      "browser": "Android Webview",
+      "visits": "21"
+    },
+    {
+      "date": "2019-03-30",
+      "browser": "Opera",
+      "visits": "15"
+    },
+    {
+      "date": "2019-03-30",
+      "browser": "'Mozilla",
+      "visits": "12"
+    },
+    {
+      "date": "2019-03-31",
+      "browser": "Chrome",
+      "visits": "3383"
+    },
+    {
+      "date": "2019-03-31",
+      "browser": "Safari",
+      "visits": "2755"
+    },
+    {
+      "date": "2019-03-31",
+      "browser": "Internet Explorer",
+      "visits": "886"
+    },
+    {
+      "date": "2019-03-31",
+      "browser": "Edge",
+      "visits": "777"
+    },
+    {
+      "date": "2019-03-31",
+      "browser": "Firefox",
+      "visits": "358"
+    },
+    {
+      "date": "2019-03-31",
+      "browser": "Samsung Internet",
+      "visits": "150"
+    },
+    {
+      "date": "2019-03-31",
+      "browser": "Amazon Silk",
+      "visits": "32"
+    },
+    {
+      "date": "2019-03-31",
+      "browser": "Safari (in-app)",
+      "visits": "28"
+    },
+    {
+      "date": "2019-03-31",
+      "browser": "Android Webview",
+      "visits": "20"
+    },
+    {
+      "date": "2019-03-31",
+      "browser": "Opera",
+      "visits": "20"
+    },
+    {
+      "date": "2019-04-01",
+      "browser": "Chrome",
+      "visits": "7437"
+    },
+    {
+      "date": "2019-04-01",
+      "browser": "Internet Explorer",
+      "visits": "6445"
+    },
+    {
+      "date": "2019-04-01",
+      "browser": "Safari",
+      "visits": "3848"
+    },
+    {
+      "date": "2019-04-01",
+      "browser": "Edge",
+      "visits": "1821"
+    },
+    {
+      "date": "2019-04-01",
+      "browser": "Firefox",
+      "visits": "872"
+    },
+    {
+      "date": "2019-04-01",
+      "browser": "Samsung Internet",
+      "visits": "230"
+    },
+    {
+      "date": "2019-04-01",
+      "browser": "Amazon Silk",
+      "visits": "40"
+    },
+    {
+      "date": "2019-04-01",
+      "browser": "Safari (in-app)",
+      "visits": "39"
+    },
+    {
+      "date": "2019-04-01",
+      "browser": "Android Webview",
+      "visits": "32"
+    },
+    {
+      "date": "2019-04-01",
+      "browser": "Opera",
+      "visits": "21"
+    },
+    {
+      "date": "2019-04-02",
+      "browser": "Chrome",
+      "visits": "7662"
+    },
+    {
+      "date": "2019-04-02",
+      "browser": "Internet Explorer",
+      "visits": "6763"
+    },
+    {
+      "date": "2019-04-02",
+      "browser": "Safari",
+      "visits": "4200"
+    },
+    {
+      "date": "2019-04-02",
+      "browser": "Edge",
+      "visits": "1611"
+    },
+    {
+      "date": "2019-04-02",
+      "browser": "Firefox",
+      "visits": "825"
+    },
+    {
+      "date": "2019-04-02",
+      "browser": "Samsung Internet",
+      "visits": "220"
+    },
+    {
+      "date": "2019-04-02",
+      "browser": "Safari (in-app)",
+      "visits": "97"
+    },
+    {
+      "date": "2019-04-02",
+      "browser": "Amazon Silk",
+      "visits": "46"
+    },
+    {
+      "date": "2019-04-02",
+      "browser": "Android Webview",
+      "visits": "31"
+    },
+    {
+      "date": "2019-04-02",
+      "browser": "Opera",
+      "visits": "24"
+    },
+    {
+      "date": "2019-04-03",
+      "browser": "Chrome",
+      "visits": "7042"
+    },
+    {
+      "date": "2019-04-03",
+      "browser": "Internet Explorer",
+      "visits": "6497"
+    },
+    {
+      "date": "2019-04-03",
+      "browser": "Safari",
+      "visits": "3633"
+    },
+    {
+      "date": "2019-04-03",
+      "browser": "Edge",
+      "visits": "1599"
+    },
+    {
+      "date": "2019-04-03",
+      "browser": "Firefox",
+      "visits": "754"
+    },
+    {
+      "date": "2019-04-03",
+      "browser": "Samsung Internet",
+      "visits": "239"
+    },
+    {
+      "date": "2019-04-03",
+      "browser": "Safari (in-app)",
+      "visits": "73"
+    },
+    {
+      "date": "2019-04-03",
+      "browser": "Amazon Silk",
+      "visits": "41"
+    },
+    {
+      "date": "2019-04-03",
+      "browser": "Android Webview",
+      "visits": "29"
+    },
+    {
+      "date": "2019-04-03",
+      "browser": "Opera",
+      "visits": "17"
+    },
+    {
+      "date": "2019-04-04",
+      "browser": "Chrome",
+      "visits": "6859"
+    },
+    {
+      "date": "2019-04-04",
+      "browser": "Internet Explorer",
+      "visits": "6218"
+    },
+    {
+      "date": "2019-04-04",
+      "browser": "Safari",
+      "visits": "3630"
+    },
+    {
+      "date": "2019-04-04",
+      "browser": "Edge",
+      "visits": "1688"
+    },
+    {
+      "date": "2019-04-04",
+      "browser": "Firefox",
+      "visits": "755"
+    },
+    {
+      "date": "2019-04-04",
+      "browser": "Samsung Internet",
+      "visits": "229"
+    },
+    {
+      "date": "2019-04-04",
+      "browser": "Safari (in-app)",
+      "visits": "79"
+    },
+    {
+      "date": "2019-04-04",
+      "browser": "Android Webview",
+      "visits": "45"
+    },
+    {
+      "date": "2019-04-04",
+      "browser": "Amazon Silk",
+      "visits": "33"
+    },
+    {
+      "date": "2019-04-04",
+      "browser": "'Mozilla",
+      "visits": "22"
+    },
+    {
+      "date": "2019-04-04",
+      "browser": "Opera",
+      "visits": "18"
+    },
+    {
+      "date": "2019-04-05",
+      "browser": "Chrome",
+      "visits": "6120"
+    },
+    {
+      "date": "2019-04-05",
+      "browser": "Internet Explorer",
+      "visits": "5492"
+    },
+    {
+      "date": "2019-04-05",
+      "browser": "Safari",
+      "visits": "3318"
+    },
+    {
+      "date": "2019-04-05",
+      "browser": "Edge",
+      "visits": "1533"
+    },
+    {
+      "date": "2019-04-05",
+      "browser": "Firefox",
+      "visits": "666"
+    },
+    {
+      "date": "2019-04-05",
+      "browser": "Samsung Internet",
+      "visits": "203"
+    },
+    {
+      "date": "2019-04-05",
+      "browser": "Safari (in-app)",
+      "visits": "83"
+    },
+    {
+      "date": "2019-04-05",
+      "browser": "Android Webview",
+      "visits": "31"
+    },
+    {
+      "date": "2019-04-05",
+      "browser": "Amazon Silk",
+      "visits": "28"
+    },
+    {
+      "date": "2019-04-05",
+      "browser": "Opera",
+      "visits": "21"
+    },
+    {
+      "date": "2019-04-06",
+      "browser": "Chrome",
+      "visits": "3186"
+    },
+    {
+      "date": "2019-04-06",
+      "browser": "Safari",
+      "visits": "2533"
+    },
+    {
+      "date": "2019-04-06",
+      "browser": "Internet Explorer",
+      "visits": "992"
+    },
+    {
+      "date": "2019-04-06",
+      "browser": "Edge",
+      "visits": "686"
+    },
+    {
+      "date": "2019-04-06",
+      "browser": "Firefox",
+      "visits": "306"
+    },
+    {
+      "date": "2019-04-06",
+      "browser": "Samsung Internet",
+      "visits": "144"
+    },
+    {
+      "date": "2019-04-06",
+      "browser": "Safari (in-app)",
+      "visits": "42"
+    },
+    {
+      "date": "2019-04-06",
+      "browser": "Android Webview",
+      "visits": "25"
+    },
+    {
+      "date": "2019-04-06",
+      "browser": "Amazon Silk",
+      "visits": "22"
+    },
+    {
+      "date": "2019-04-06",
+      "browser": "Opera",
+      "visits": "21"
+    },
+    {
+      "date": "2019-04-07",
+      "browser": "Chrome",
+      "visits": "3288"
+    },
+    {
+      "date": "2019-04-07",
+      "browser": "Safari",
+      "visits": "2700"
+    },
+    {
+      "date": "2019-04-07",
+      "browser": "Internet Explorer",
+      "visits": "925"
+    },
+    {
+      "date": "2019-04-07",
+      "browser": "Edge",
+      "visits": "760"
+    },
+    {
+      "date": "2019-04-07",
+      "browser": "Firefox",
+      "visits": "320"
+    },
+    {
+      "date": "2019-04-07",
+      "browser": "Samsung Internet",
+      "visits": "170"
+    },
+    {
+      "date": "2019-04-07",
+      "browser": "Amazon Silk",
+      "visits": "30"
+    },
+    {
+      "date": "2019-04-07",
+      "browser": "Android Webview",
+      "visits": "23"
+    },
+    {
+      "date": "2019-04-08",
+      "browser": "Chrome",
+      "visits": "7364"
+    },
+    {
+      "date": "2019-04-08",
+      "browser": "Internet Explorer",
+      "visits": "6393"
+    },
+    {
+      "date": "2019-04-08",
+      "browser": "Safari",
+      "visits": "3920"
+    },
+    {
+      "date": "2019-04-08",
+      "browser": "Edge",
+      "visits": "1682"
+    },
+    {
+      "date": "2019-04-08",
+      "browser": "Firefox",
+      "visits": "855"
+    },
+    {
+      "date": "2019-04-08",
+      "browser": "Samsung Internet",
+      "visits": "258"
+    },
+    {
+      "date": "2019-04-08",
+      "browser": "Amazon Silk",
+      "visits": "33"
+    },
+    {
+      "date": "2019-04-08",
+      "browser": "Android Webview",
+      "visits": "31"
+    },
+    {
+      "date": "2019-04-08",
+      "browser": "Safari (in-app)",
+      "visits": "31"
+    },
+    {
+      "date": "2019-04-08",
+      "browser": "Opera",
+      "visits": "17"
+    },
+    {
+      "date": "2019-04-09",
+      "browser": "Chrome",
+      "visits": "7468"
+    },
+    {
+      "date": "2019-04-09",
+      "browser": "Internet Explorer",
+      "visits": "6656"
+    },
+    {
+      "date": "2019-04-09",
+      "browser": "Safari",
+      "visits": "3846"
+    },
+    {
+      "date": "2019-04-09",
+      "browser": "Edge",
+      "visits": "1656"
+    },
+    {
+      "date": "2019-04-09",
+      "browser": "Firefox",
+      "visits": "921"
+    },
+    {
+      "date": "2019-04-09",
+      "browser": "Samsung Internet",
+      "visits": "237"
+    },
+    {
+      "date": "2019-04-09",
+      "browser": "Safari (in-app)",
+      "visits": "87"
+    },
+    {
+      "date": "2019-04-09",
+      "browser": "Amazon Silk",
+      "visits": "36"
+    },
+    {
+      "date": "2019-04-09",
+      "browser": "Android Webview",
+      "visits": "35"
+    },
+    {
+      "date": "2019-04-09",
+      "browser": "Opera",
+      "visits": "11"
+    },
+    {
+      "date": "2019-04-10",
+      "browser": "Chrome",
+      "visits": "7460"
+    },
+    {
+      "date": "2019-04-10",
+      "browser": "Internet Explorer",
+      "visits": "6551"
+    },
+    {
+      "date": "2019-04-10",
+      "browser": "Safari",
+      "visits": "3715"
+    },
+    {
+      "date": "2019-04-10",
+      "browser": "Edge",
+      "visits": "1721"
+    },
+    {
+      "date": "2019-04-10",
+      "browser": "Firefox",
+      "visits": "836"
+    },
+    {
+      "date": "2019-04-10",
+      "browser": "Samsung Internet",
+      "visits": "222"
+    },
+    {
+      "date": "2019-04-10",
+      "browser": "Safari (in-app)",
+      "visits": "76"
+    },
+    {
+      "date": "2019-04-10",
+      "browser": "Android Webview",
+      "visits": "44"
+    },
+    {
+      "date": "2019-04-10",
+      "browser": "Amazon Silk",
+      "visits": "35"
+    },
+    {
+      "date": "2019-04-10",
+      "browser": "Opera",
+      "visits": "25"
+    },
+    {
+      "date": "2019-04-11",
+      "browser": "Chrome",
+      "visits": "7336"
+    },
+    {
+      "date": "2019-04-11",
+      "browser": "Internet Explorer",
+      "visits": "6496"
+    },
+    {
+      "date": "2019-04-11",
+      "browser": "Safari",
+      "visits": "3642"
+    },
+    {
+      "date": "2019-04-11",
+      "browser": "Edge",
+      "visits": "1611"
+    },
+    {
+      "date": "2019-04-11",
+      "browser": "Firefox",
+      "visits": "827"
+    },
+    {
+      "date": "2019-04-11",
+      "browser": "Samsung Internet",
+      "visits": "218"
+    },
+    {
+      "date": "2019-04-11",
+      "browser": "Safari (in-app)",
+      "visits": "96"
+    },
+    {
+      "date": "2019-04-11",
+      "browser": "Android Webview",
+      "visits": "45"
+    },
+    {
+      "date": "2019-04-11",
+      "browser": "Amazon Silk",
+      "visits": "32"
+    },
+    {
+      "date": "2019-04-11",
+      "browser": "Opera",
+      "visits": "17"
+    },
+    {
+      "date": "2019-04-12",
+      "browser": "Chrome",
+      "visits": "6889"
+    },
+    {
+      "date": "2019-04-12",
+      "browser": "Internet Explorer",
+      "visits": "5752"
+    },
+    {
+      "date": "2019-04-12",
+      "browser": "Safari",
+      "visits": "3437"
+    },
+    {
+      "date": "2019-04-12",
+      "browser": "Edge",
+      "visits": "1604"
+    },
+    {
+      "date": "2019-04-12",
+      "browser": "Firefox",
+      "visits": "795"
+    },
+    {
+      "date": "2019-04-12",
+      "browser": "Samsung Internet",
+      "visits": "184"
+    },
+    {
+      "date": "2019-04-12",
+      "browser": "Safari (in-app)",
+      "visits": "69"
+    },
+    {
+      "date": "2019-04-12",
+      "browser": "Android Webview",
+      "visits": "32"
+    },
+    {
+      "date": "2019-04-12",
+      "browser": "Amazon Silk",
+      "visits": "27"
+    },
+    {
+      "date": "2019-04-12",
+      "browser": "'Mozilla",
+      "visits": "22"
+    },
+    {
+      "date": "2019-04-12",
+      "browser": "Opera",
+      "visits": "13"
+    },
+    {
+      "date": "2019-04-13",
+      "browser": "Chrome",
+      "visits": "3558"
+    },
+    {
+      "date": "2019-04-13",
+      "browser": "Safari",
+      "visits": "2749"
+    },
+    {
+      "date": "2019-04-13",
+      "browser": "Internet Explorer",
+      "visits": "1147"
+    },
+    {
+      "date": "2019-04-13",
+      "browser": "Edge",
+      "visits": "832"
+    },
+    {
+      "date": "2019-04-13",
+      "browser": "Firefox",
+      "visits": "387"
+    },
+    {
+      "date": "2019-04-13",
+      "browser": "Samsung Internet",
+      "visits": "156"
+    },
+    {
+      "date": "2019-04-13",
+      "browser": "Safari (in-app)",
+      "visits": "51"
+    },
+    {
+      "date": "2019-04-13",
+      "browser": "Android Webview",
+      "visits": "38"
+    },
+    {
+      "date": "2019-04-13",
+      "browser": "Amazon Silk",
+      "visits": "36"
+    },
+    {
+      "date": "2019-04-13",
+      "browser": "Opera",
+      "visits": "15"
+    },
+    {
+      "date": "2019-04-14",
+      "browser": "Chrome",
+      "visits": "4486"
+    },
+    {
+      "date": "2019-04-14",
+      "browser": "Safari",
+      "visits": "3150"
+    },
+    {
+      "date": "2019-04-14",
+      "browser": "Internet Explorer",
+      "visits": "1154"
+    },
+    {
+      "date": "2019-04-14",
+      "browser": "Edge",
+      "visits": "957"
+    },
+    {
+      "date": "2019-04-14",
+      "browser": "Firefox",
+      "visits": "486"
+    },
+    {
+      "date": "2019-04-14",
+      "browser": "Samsung Internet",
+      "visits": "178"
+    },
+    {
+      "date": "2019-04-14",
+      "browser": "Amazon Silk",
+      "visits": "44"
+    },
+    {
+      "date": "2019-04-14",
+      "browser": "Opera",
+      "visits": "22"
+    },
+    {
+      "date": "2019-04-14",
+      "browser": "Android Webview",
+      "visits": "18"
+    },
+    {
+      "date": "2019-04-14",
+      "browser": "Safari (in-app)",
+      "visits": "16"
+    },
+    {
+      "date": "2019-04-15",
+      "browser": "Chrome",
+      "visits": "10222"
+    },
+    {
+      "date": "2019-04-15",
+      "browser": "Internet Explorer",
+      "visits": "6879"
+    },
+    {
+      "date": "2019-04-15",
+      "browser": "Safari",
+      "visits": "5178"
+    },
+    {
+      "date": "2019-04-15",
+      "browser": "Edge",
+      "visits": "2238"
+    },
+    {
+      "date": "2019-04-15",
+      "browser": "Firefox",
+      "visits": "1119"
+    },
+    {
+      "date": "2019-04-15",
+      "browser": "Samsung Internet",
+      "visits": "316"
+    },
+    {
+      "date": "2019-04-15",
+      "browser": "Amazon Silk",
+      "visits": "47"
+    },
+    {
+      "date": "2019-04-15",
+      "browser": "Safari (in-app)",
+      "visits": "44"
+    },
+    {
+      "date": "2019-04-15",
+      "browser": "Android Webview",
+      "visits": "35"
+    },
+    {
+      "date": "2019-04-15",
+      "browser": "Opera",
+      "visits": "24"
+    },
+    {
+      "date": "2019-04-16",
+      "browser": "Chrome",
+      "visits": "6464"
+    },
+    {
+      "date": "2019-04-16",
+      "browser": "Internet Explorer",
+      "visits": "6198"
+    },
+    {
+      "date": "2019-04-16",
+      "browser": "Safari",
+      "visits": "3539"
+    },
+    {
+      "date": "2019-04-16",
+      "browser": "Edge",
+      "visits": "1451"
+    },
+    {
+      "date": "2019-04-16",
+      "browser": "Firefox",
+      "visits": "720"
+    },
+    {
+      "date": "2019-04-16",
+      "browser": "Samsung Internet",
+      "visits": "252"
+    },
+    {
+      "date": "2019-04-16",
+      "browser": "Safari (in-app)",
+      "visits": "101"
+    },
+    {
+      "date": "2019-04-16",
+      "browser": "Amazon Silk",
+      "visits": "47"
+    },
+    {
+      "date": "2019-04-16",
+      "browser": "Android Webview",
+      "visits": "33"
+    },
+    {
+      "date": "2019-04-16",
+      "browser": "Opera",
+      "visits": "14"
+    },
+    {
+      "date": "2019-04-17",
+      "browser": "Chrome",
+      "visits": "5946"
+    },
+    {
+      "date": "2019-04-17",
+      "browser": "Internet Explorer",
+      "visits": "5786"
+    },
+    {
+      "date": "2019-04-17",
+      "browser": "Safari",
+      "visits": "3340"
+    },
+    {
+      "date": "2019-04-17",
+      "browser": "Edge",
+      "visits": "1364"
+    },
+    {
+      "date": "2019-04-17",
+      "browser": "Firefox",
+      "visits": "628"
+    },
+    {
+      "date": "2019-04-17",
+      "browser": "Samsung Internet",
+      "visits": "234"
+    },
+    {
+      "date": "2019-04-17",
+      "browser": "Safari (in-app)",
+      "visits": "86"
+    },
+    {
+      "date": "2019-04-17",
+      "browser": "Android Webview",
+      "visits": "31"
+    },
+    {
+      "date": "2019-04-17",
+      "browser": "Amazon Silk",
+      "visits": "24"
+    },
+    {
+      "date": "2019-04-17",
+      "browser": "Opera",
+      "visits": "16"
+    },
+    {
+      "date": "2019-04-18",
+      "browser": "Chrome",
+      "visits": "5701"
+    },
+    {
+      "date": "2019-04-18",
+      "browser": "Internet Explorer",
+      "visits": "5600"
+    },
+    {
+      "date": "2019-04-18",
+      "browser": "Safari",
+      "visits": "3162"
+    },
+    {
+      "date": "2019-04-18",
+      "browser": "Edge",
+      "visits": "1313"
+    },
+    {
+      "date": "2019-04-18",
+      "browser": "Firefox",
+      "visits": "622"
+    },
+    {
+      "date": "2019-04-18",
+      "browser": "Samsung Internet",
+      "visits": "199"
+    },
+    {
+      "date": "2019-04-18",
+      "browser": "Safari (in-app)",
+      "visits": "107"
+    },
+    {
+      "date": "2019-04-18",
+      "browser": "Android Webview",
+      "visits": "32"
+    },
+    {
+      "date": "2019-04-18",
+      "browser": "Amazon Silk",
+      "visits": "25"
+    },
+    {
+      "date": "2019-04-18",
+      "browser": "'Mozilla",
+      "visits": "16"
+    },
+    {
+      "date": "2019-04-18",
+      "browser": "Opera",
+      "visits": "11"
+    },
+    {
+      "date": "2019-04-19",
+      "browser": "Chrome",
+      "visits": "3797"
+    },
+    {
+      "date": "2019-04-19",
+      "browser": "Safari",
+      "visits": "2817"
+    },
+    {
+      "date": "2019-04-19",
+      "browser": "Internet Explorer",
+      "visits": "1422"
+    },
+    {
+      "date": "2019-04-19",
+      "browser": "Edge",
+      "visits": "710"
+    },
+    {
+      "date": "2019-04-19",
+      "browser": "Firefox",
+      "visits": "323"
+    },
+    {
+      "date": "2019-04-19",
+      "browser": "Samsung Internet",
+      "visits": "187"
+    },
+    {
+      "date": "2019-04-19",
+      "browser": "Amazon Silk",
+      "visits": "29"
+    },
+    {
+      "date": "2019-04-19",
+      "browser": "Safari (in-app)",
+      "visits": "29"
+    },
+    {
+      "date": "2019-04-19",
+      "browser": "Android Webview",
+      "visits": "21"
+    },
+    {
+      "date": "2019-04-19",
+      "browser": "'Mozilla",
+      "visits": "19"
+    },
+    {
+      "date": "2019-04-19",
+      "browser": "Opera",
+      "visits": "13"
+    },
+    {
+      "date": "2019-04-20",
+      "browser": "Safari",
+      "visits": "2380"
+    },
+    {
+      "date": "2019-04-20",
+      "browser": "Chrome",
+      "visits": "2340"
+    },
+    {
+      "date": "2019-04-20",
+      "browser": "Internet Explorer",
+      "visits": "753"
+    },
+    {
+      "date": "2019-04-20",
+      "browser": "Edge",
+      "visits": "534"
+    },
+    {
+      "date": "2019-04-20",
+      "browser": "Firefox",
+      "visits": "219"
+    },
+    {
+      "date": "2019-04-20",
+      "browser": "Samsung Internet",
+      "visits": "146"
+    },
+    {
+      "date": "2019-04-20",
+      "browser": "Safari (in-app)",
+      "visits": "65"
+    },
+    {
+      "date": "2019-04-20",
+      "browser": "Amazon Silk",
+      "visits": "26"
+    },
+    {
+      "date": "2019-04-20",
+      "browser": "Android Webview",
+      "visits": "17"
+    },
+    {
+      "date": "2019-04-20",
+      "browser": "Opera",
+      "visits": "12"
+    },
+    {
+      "date": "2019-04-21",
+      "browser": "Safari",
+      "visits": "2382"
+    },
+    {
+      "date": "2019-04-21",
+      "browser": "Chrome",
+      "visits": "2280"
+    },
+    {
+      "date": "2019-04-21",
+      "browser": "Internet Explorer",
+      "visits": "665"
+    },
+    {
+      "date": "2019-04-21",
+      "browser": "Edge",
+      "visits": "517"
+    },
+    {
+      "date": "2019-04-21",
+      "browser": "Firefox",
+      "visits": "178"
+    },
+    {
+      "date": "2019-04-21",
+      "browser": "Samsung Internet",
+      "visits": "152"
+    },
+    {
+      "date": "2019-04-21",
+      "browser": "Amazon Silk",
+      "visits": "34"
+    },
+    {
+      "date": "2019-04-21",
+      "browser": "Safari (in-app)",
+      "visits": "13"
+    },
+    {
+      "date": "2019-04-21",
+      "browser": "Opera",
+      "visits": "11"
+    },
+    {
+      "date": "2019-04-22",
+      "browser": "Chrome",
+      "visits": "7003"
+    },
+    {
+      "date": "2019-04-22",
+      "browser": "Internet Explorer",
+      "visits": "6217"
+    },
+    {
+      "date": "2019-04-22",
+      "browser": "Safari",
+      "visits": "4124"
+    },
+    {
+      "date": "2019-04-22",
+      "browser": "Edge",
+      "visits": "1519"
+    },
+    {
+      "date": "2019-04-22",
+      "browser": "Firefox",
+      "visits": "729"
+    },
+    {
+      "date": "2019-04-22",
+      "browser": "Samsung Internet",
+      "visits": "260"
+    },
+    {
+      "date": "2019-04-22",
+      "browser": "Safari (in-app)",
+      "visits": "44"
+    },
+    {
+      "date": "2019-04-22",
+      "browser": "Amazon Silk",
+      "visits": "36"
+    },
+    {
+      "date": "2019-04-22",
+      "browser": "Android Webview",
+      "visits": "14"
+    },
+    {
+      "date": "2019-04-23",
+      "browser": "Chrome",
+      "visits": "6916"
+    },
+    {
+      "date": "2019-04-23",
+      "browser": "Internet Explorer",
+      "visits": "6279"
+    },
+    {
+      "date": "2019-04-23",
+      "browser": "Safari",
+      "visits": "3588"
+    },
+    {
+      "date": "2019-04-23",
+      "browser": "Edge",
+      "visits": "1484"
+    },
+    {
+      "date": "2019-04-23",
+      "browser": "Firefox",
+      "visits": "676"
+    },
+    {
+      "date": "2019-04-23",
+      "browser": "Samsung Internet",
+      "visits": "253"
+    },
+    {
+      "date": "2019-04-23",
+      "browser": "Safari (in-app)",
+      "visits": "105"
+    },
+    {
+      "date": "2019-04-23",
+      "browser": "Android Webview",
+      "visits": "32"
+    },
+    {
+      "date": "2019-04-23",
+      "browser": "Amazon Silk",
+      "visits": "22"
+    },
+    {
+      "date": "2019-04-23",
+      "browser": "Opera",
+      "visits": "19"
+    },
+    {
+      "date": "2019-04-23",
+      "browser": "'Mozilla",
+      "visits": "16"
+    },
+    {
+      "date": "2019-04-24",
+      "browser": "Chrome",
+      "visits": "6640"
+    },
+    {
+      "date": "2019-04-24",
+      "browser": "Internet Explorer",
+      "visits": "6004"
+    },
+    {
+      "date": "2019-04-24",
+      "browser": "Safari",
+      "visits": "3556"
+    },
+    {
+      "date": "2019-04-24",
+      "browser": "Edge",
+      "visits": "1463"
+    },
+    {
+      "date": "2019-04-24",
+      "browser": "Firefox",
+      "visits": "700"
+    },
+    {
+      "date": "2019-04-24",
+      "browser": "Samsung Internet",
+      "visits": "237"
+    },
+    {
+      "date": "2019-04-24",
+      "browser": "Safari (in-app)",
+      "visits": "81"
+    },
+    {
+      "date": "2019-04-24",
+      "browser": "Android Webview",
+      "visits": "33"
+    },
+    {
+      "date": "2019-04-24",
+      "browser": "Amazon Silk",
+      "visits": "29"
+    },
+    {
+      "date": "2019-04-24",
+      "browser": "'Mozilla",
+      "visits": "19"
+    },
+    {
+      "date": "2019-04-24",
+      "browser": "Opera",
+      "visits": "14"
+    },
+    {
+      "date": "2019-04-25",
+      "browser": "Chrome",
+      "visits": "6103"
+    },
+    {
+      "date": "2019-04-25",
+      "browser": "Internet Explorer",
+      "visits": "6012"
+    },
+    {
+      "date": "2019-04-25",
+      "browser": "Safari",
+      "visits": "3277"
+    },
+    {
+      "date": "2019-04-25",
+      "browser": "Edge",
+      "visits": "1472"
+    },
+    {
+      "date": "2019-04-25",
+      "browser": "Firefox",
+      "visits": "608"
+    },
+    {
+      "date": "2019-04-25",
+      "browser": "Samsung Internet",
+      "visits": "193"
+    },
+    {
+      "date": "2019-04-25",
+      "browser": "Safari (in-app)",
+      "visits": "105"
+    },
+    {
+      "date": "2019-04-25",
+      "browser": "Android Webview",
+      "visits": "51"
+    },
+    {
+      "date": "2019-04-25",
+      "browser": "Amazon Silk",
+      "visits": "32"
+    },
+    {
+      "date": "2019-04-25",
+      "browser": "Opera",
+      "visits": "19"
+    },
+    {
+      "date": "2019-04-25",
+      "browser": "'Mozilla",
+      "visits": "12"
+    },
+    {
+      "date": "2019-04-26",
+      "browser": "Chrome",
+      "visits": "5575"
+    },
+    {
+      "date": "2019-04-26",
+      "browser": "Internet Explorer",
+      "visits": "5302"
+    },
+    {
+      "date": "2019-04-26",
+      "browser": "Safari",
+      "visits": "3043"
+    },
+    {
+      "date": "2019-04-26",
+      "browser": "Edge",
+      "visits": "1422"
+    },
+    {
+      "date": "2019-04-26",
+      "browser": "Firefox",
+      "visits": "600"
+    },
+    {
+      "date": "2019-04-26",
+      "browser": "Samsung Internet",
+      "visits": "201"
+    },
+    {
+      "date": "2019-04-26",
+      "browser": "Safari (in-app)",
+      "visits": "97"
+    },
+    {
+      "date": "2019-04-26",
+      "browser": "Amazon Silk",
+      "visits": "27"
+    },
+    {
+      "date": "2019-04-26",
+      "browser": "Android Webview",
+      "visits": "26"
+    },
+    {
+      "date": "2019-04-26",
+      "browser": "Opera",
+      "visits": "16"
+    },
+    {
+      "date": "2019-04-27",
+      "browser": "Chrome",
+      "visits": "2307"
+    },
+    {
+      "date": "2019-04-27",
+      "browser": "Safari",
+      "visits": "2193"
+    },
+    {
+      "date": "2019-04-27",
+      "browser": "Internet Explorer",
+      "visits": "789"
+    },
+    {
+      "date": "2019-04-27",
+      "browser": "Edge",
+      "visits": "561"
+    },
+    {
+      "date": "2019-04-27",
+      "browser": "Firefox",
+      "visits": "183"
+    },
+    {
+      "date": "2019-04-27",
+      "browser": "Samsung Internet",
+      "visits": "155"
+    },
+    {
+      "date": "2019-04-27",
+      "browser": "Safari (in-app)",
+      "visits": "52"
+    },
+    {
+      "date": "2019-04-27",
+      "browser": "Android Webview",
+      "visits": "19"
+    },
+    {
+      "date": "2019-04-27",
+      "browser": "Amazon Silk",
+      "visits": "15"
+    },
+    {
+      "date": "2019-04-28",
+      "browser": "Chrome",
+      "visits": "2452"
+    },
+    {
+      "date": "2019-04-28",
+      "browser": "Safari",
+      "visits": "2366"
+    },
+    {
+      "date": "2019-04-28",
+      "browser": "Internet Explorer",
+      "visits": "751"
+    },
+    {
+      "date": "2019-04-28",
+      "browser": "Edge",
+      "visits": "558"
+    },
+    {
+      "date": "2019-04-28",
+      "browser": "Firefox",
+      "visits": "187"
+    },
+    {
+      "date": "2019-04-28",
+      "browser": "Samsung Internet",
+      "visits": "133"
+    },
+    {
+      "date": "2019-04-28",
+      "browser": "Amazon Silk",
+      "visits": "22"
+    },
+    {
+      "date": "2019-04-28",
+      "browser": "Android Webview",
+      "visits": "22"
+    },
+    {
+      "date": "2019-04-28",
+      "browser": "Safari (in-app)",
+      "visits": "17"
+    },
+    {
+      "date": "2019-04-29",
+      "browser": "Chrome",
+      "visits": "6483"
+    },
+    {
+      "date": "2019-04-29",
+      "browser": "Internet Explorer",
+      "visits": "6075"
+    },
+    {
+      "date": "2019-04-29",
+      "browser": "Safari",
+      "visits": "3396"
+    },
+    {
+      "date": "2019-04-29",
+      "browser": "Edge",
+      "visits": "1570"
+    },
+    {
+      "date": "2019-04-29",
+      "browser": "Firefox",
+      "visits": "785"
+    },
+    {
+      "date": "2019-04-29",
+      "browser": "Samsung Internet",
+      "visits": "217"
+    },
+    {
+      "date": "2019-04-29",
+      "browser": "Amazon Silk",
+      "visits": "30"
+    },
+    {
+      "date": "2019-04-29",
+      "browser": "Android Webview",
+      "visits": "28"
+    },
+    {
+      "date": "2019-04-29",
+      "browser": "Safari (in-app)",
+      "visits": "26"
+    },
+    {
+      "date": "2019-04-29",
+      "browser": "Opera",
+      "visits": "14"
+    },
+    {
+      "date": "2019-04-30",
+      "browser": "Chrome",
+      "visits": "6766"
+    },
+    {
+      "date": "2019-04-30",
+      "browser": "Internet Explorer",
+      "visits": "6322"
+    },
+    {
+      "date": "2019-04-30",
+      "browser": "Safari",
+      "visits": "3637"
+    },
+    {
+      "date": "2019-04-30",
+      "browser": "Edge",
+      "visits": "1613"
+    },
+    {
+      "date": "2019-04-30",
+      "browser": "Firefox",
+      "visits": "714"
+    },
+    {
+      "date": "2019-04-30",
+      "browser": "Samsung Internet",
+      "visits": "219"
+    },
+    {
+      "date": "2019-04-30",
+      "browser": "Safari (in-app)",
+      "visits": "108"
+    },
+    {
+      "date": "2019-04-30",
+      "browser": "Amazon Silk",
+      "visits": "38"
+    },
+    {
+      "date": "2019-04-30",
+      "browser": "Android Webview",
+      "visits": "31"
+    },
+    {
+      "date": "2019-04-30",
+      "browser": "Opera",
+      "visits": "19"
+    },
+    {
+      "date": "2019-05-01",
+      "browser": "Chrome",
+      "visits": "6074"
+    },
+    {
+      "date": "2019-05-01",
+      "browser": "Internet Explorer",
+      "visits": "5879"
+    },
+    {
+      "date": "2019-05-01",
+      "browser": "Safari",
+      "visits": "3402"
+    },
+    {
+      "date": "2019-05-01",
+      "browser": "Edge",
+      "visits": "1430"
+    },
+    {
+      "date": "2019-05-01",
+      "browser": "Firefox",
+      "visits": "664"
+    },
+    {
+      "date": "2019-05-01",
+      "browser": "Samsung Internet",
+      "visits": "221"
+    },
+    {
+      "date": "2019-05-01",
+      "browser": "Safari (in-app)",
+      "visits": "85"
+    },
+    {
+      "date": "2019-05-01",
+      "browser": "Amazon Silk",
+      "visits": "34"
+    },
+    {
+      "date": "2019-05-01",
+      "browser": "Android Webview",
+      "visits": "34"
+    },
+    {
+      "date": "2019-05-01",
+      "browser": "Opera",
+      "visits": "16"
+    },
+    {
+      "date": "2019-05-02",
+      "browser": "Chrome",
+      "visits": "6013"
+    },
+    {
+      "date": "2019-05-02",
+      "browser": "Internet Explorer",
+      "visits": "5734"
+    },
+    {
+      "date": "2019-05-02",
+      "browser": "Safari",
+      "visits": "3271"
+    },
+    {
+      "date": "2019-05-02",
+      "browser": "Edge",
+      "visits": "1415"
+    },
+    {
+      "date": "2019-05-02",
+      "browser": "Firefox",
+      "visits": "636"
+    },
+    {
+      "date": "2019-05-02",
+      "browser": "Samsung Internet",
+      "visits": "192"
+    },
+    {
+      "date": "2019-05-02",
+      "browser": "Safari (in-app)",
+      "visits": "80"
+    },
+    {
+      "date": "2019-05-02",
+      "browser": "Android Webview",
+      "visits": "25"
+    },
+    {
+      "date": "2019-05-02",
+      "browser": "Amazon Silk",
+      "visits": "24"
+    },
+    {
+      "date": "2019-05-03",
+      "browser": "Chrome",
+      "visits": "5413"
+    },
+    {
+      "date": "2019-05-03",
+      "browser": "Internet Explorer",
+      "visits": "5398"
+    },
+    {
+      "date": "2019-05-03",
+      "browser": "Safari",
+      "visits": "3226"
+    },
+    {
+      "date": "2019-05-03",
+      "browser": "Edge",
+      "visits": "1341"
+    },
+    {
+      "date": "2019-05-03",
+      "browser": "Firefox",
+      "visits": "556"
+    },
+    {
+      "date": "2019-05-03",
+      "browser": "Samsung Internet",
+      "visits": "213"
+    },
+    {
+      "date": "2019-05-03",
+      "browser": "Safari (in-app)",
+      "visits": "148"
+    },
+    {
+      "date": "2019-05-03",
+      "browser": "Android Webview",
+      "visits": "58"
+    },
+    {
+      "date": "2019-05-03",
+      "browser": "Amazon Silk",
+      "visits": "29"
+    },
+    {
+      "date": "2019-05-03",
+      "browser": "Opera",
+      "visits": "14"
+    },
+    {
+      "date": "2019-05-04",
+      "browser": "Safari",
+      "visits": "2172"
+    },
+    {
+      "date": "2019-05-04",
+      "browser": "Chrome",
+      "visits": "2170"
+    },
+    {
+      "date": "2019-05-04",
+      "browser": "Internet Explorer",
+      "visits": "804"
+    },
+    {
+      "date": "2019-05-04",
+      "browser": "Edge",
+      "visits": "461"
+    },
+    {
+      "date": "2019-05-04",
+      "browser": "Firefox",
+      "visits": "184"
+    },
+    {
+      "date": "2019-05-04",
+      "browser": "Samsung Internet",
+      "visits": "130"
+    },
+    {
+      "date": "2019-05-04",
+      "browser": "Safari (in-app)",
+      "visits": "53"
+    },
+    {
+      "date": "2019-05-04",
+      "browser": "Amazon Silk",
+      "visits": "24"
+    },
+    {
+      "date": "2019-05-04",
+      "browser": "Android Webview",
+      "visits": "22"
+    },
+    {
+      "date": "2019-05-05",
+      "browser": "Chrome",
+      "visits": "2534"
+    },
+    {
+      "date": "2019-05-05",
+      "browser": "Safari",
+      "visits": "2360"
+    },
+    {
+      "date": "2019-05-05",
+      "browser": "Internet Explorer",
+      "visits": "708"
+    },
+    {
+      "date": "2019-05-05",
+      "browser": "Edge",
+      "visits": "616"
+    },
+    {
+      "date": "2019-05-05",
+      "browser": "Firefox",
+      "visits": "213"
+    },
+    {
+      "date": "2019-05-05",
+      "browser": "Samsung Internet",
+      "visits": "159"
+    },
+    {
+      "date": "2019-05-05",
+      "browser": "Android Webview",
+      "visits": "24"
+    },
+    {
+      "date": "2019-05-05",
+      "browser": "Amazon Silk",
+      "visits": "22"
+    },
+    {
+      "date": "2019-05-05",
+      "browser": "Safari (in-app)",
+      "visits": "22"
+    },
+    {
+      "date": "2019-05-05",
+      "browser": "Opera",
+      "visits": "11"
+    },
+    {
+      "date": "2019-05-06",
+      "browser": "Chrome",
+      "visits": "6137"
+    },
+    {
+      "date": "2019-05-06",
+      "browser": "Internet Explorer",
+      "visits": "5883"
+    },
+    {
+      "date": "2019-05-06",
+      "browser": "Safari",
+      "visits": "3351"
+    },
+    {
+      "date": "2019-05-06",
+      "browser": "Edge",
+      "visits": "1492"
+    },
+    {
+      "date": "2019-05-06",
+      "browser": "Firefox",
+      "visits": "638"
+    },
+    {
+      "date": "2019-05-06",
+      "browser": "Samsung Internet",
+      "visits": "212"
+    },
+    {
+      "date": "2019-05-06",
+      "browser": "Safari (in-app)",
+      "visits": "41"
+    },
+    {
+      "date": "2019-05-06",
+      "browser": "Amazon Silk",
+      "visits": "38"
+    },
+    {
+      "date": "2019-05-06",
+      "browser": "Android Webview",
+      "visits": "32"
+    },
+    {
+      "date": "2019-05-06",
+      "browser": "Opera",
+      "visits": "21"
+    },
+    {
+      "date": "2019-05-07",
+      "browser": "Chrome",
+      "visits": "6161"
+    },
+    {
+      "date": "2019-05-07",
+      "browser": "Internet Explorer",
+      "visits": "5895"
+    },
+    {
+      "date": "2019-05-07",
+      "browser": "Safari",
+      "visits": "3256"
+    },
+    {
+      "date": "2019-05-07",
+      "browser": "Edge",
+      "visits": "1449"
+    },
+    {
+      "date": "2019-05-07",
+      "browser": "Firefox",
+      "visits": "665"
+    },
+    {
+      "date": "2019-05-07",
+      "browser": "Samsung Internet",
+      "visits": "222"
+    },
+    {
+      "date": "2019-05-07",
+      "browser": "Safari (in-app)",
+      "visits": "71"
+    },
+    {
+      "date": "2019-05-07",
+      "browser": "Android Webview",
+      "visits": "35"
+    },
+    {
+      "date": "2019-05-07",
+      "browser": "Amazon Silk",
+      "visits": "30"
+    },
+    {
+      "date": "2019-05-07",
+      "browser": "Opera",
+      "visits": "20"
+    },
+    {
+      "date": "2019-05-08",
+      "browser": "Chrome",
+      "visits": "5682"
+    },
+    {
+      "date": "2019-05-08",
+      "browser": "Internet Explorer",
+      "visits": "5669"
+    },
+    {
+      "date": "2019-05-08",
+      "browser": "Safari",
+      "visits": "3091"
+    },
+    {
+      "date": "2019-05-08",
+      "browser": "Edge",
+      "visits": "1368"
+    },
+    {
+      "date": "2019-05-08",
+      "browser": "Firefox",
+      "visits": "645"
+    },
+    {
+      "date": "2019-05-08",
+      "browser": "Samsung Internet",
+      "visits": "206"
+    },
+    {
+      "date": "2019-05-08",
+      "browser": "Safari (in-app)",
+      "visits": "69"
+    },
+    {
+      "date": "2019-05-08",
+      "browser": "Amazon Silk",
+      "visits": "38"
+    },
+    {
+      "date": "2019-05-08",
+      "browser": "Android Webview",
+      "visits": "33"
+    },
+    {
+      "date": "2019-05-08",
+      "browser": "Opera",
+      "visits": "13"
+    },
+    {
+      "date": "2019-05-09",
+      "browser": "Internet Explorer",
+      "visits": "5645"
+    },
+    {
+      "date": "2019-05-09",
+      "browser": "Chrome",
+      "visits": "5635"
+    },
+    {
+      "date": "2019-05-09",
+      "browser": "Safari",
+      "visits": "3007"
+    },
+    {
+      "date": "2019-05-09",
+      "browser": "Edge",
+      "visits": "1508"
+    },
+    {
+      "date": "2019-05-09",
+      "browser": "Firefox",
+      "visits": "624"
+    },
+    {
+      "date": "2019-05-09",
+      "browser": "Safari (in-app)",
+      "visits": "206"
+    },
+    {
+      "date": "2019-05-09",
+      "browser": "Samsung Internet",
+      "visits": "193"
+    },
+    {
+      "date": "2019-05-09",
+      "browser": "Android Webview",
+      "visits": "84"
+    },
+    {
+      "date": "2019-05-09",
+      "browser": "Amazon Silk",
+      "visits": "28"
+    },
+    {
+      "date": "2019-05-09",
+      "browser": "Opera",
+      "visits": "12"
+    },
+    {
+      "date": "2019-05-10",
+      "browser": "Chrome",
+      "visits": "5151"
+    },
+    {
+      "date": "2019-05-10",
+      "browser": "Internet Explorer",
+      "visits": "5082"
+    },
+    {
+      "date": "2019-05-10",
+      "browser": "Safari",
+      "visits": "2821"
+    },
+    {
+      "date": "2019-05-10",
+      "browser": "Edge",
+      "visits": "1287"
+    },
+    {
+      "date": "2019-05-10",
+      "browser": "Firefox",
+      "visits": "549"
+    },
+    {
+      "date": "2019-05-10",
+      "browser": "Samsung Internet",
+      "visits": "194"
+    },
+    {
+      "date": "2019-05-10",
+      "browser": "Safari (in-app)",
+      "visits": "114"
+    },
+    {
+      "date": "2019-05-10",
+      "browser": "Android Webview",
+      "visits": "46"
+    },
+    {
+      "date": "2019-05-10",
+      "browser": "Amazon Silk",
+      "visits": "23"
+    },
+    {
+      "date": "2019-05-10",
+      "browser": "Opera",
+      "visits": "21"
+    },
+    {
+      "date": "2019-05-11",
+      "browser": "Chrome",
+      "visits": "2058"
+    },
+    {
+      "date": "2019-05-11",
+      "browser": "Safari",
+      "visits": "1925"
+    },
+    {
+      "date": "2019-05-11",
+      "browser": "Internet Explorer",
+      "visits": "726"
+    },
+    {
+      "date": "2019-05-11",
+      "browser": "Edge",
+      "visits": "423"
+    },
+    {
+      "date": "2019-05-11",
+      "browser": "Firefox",
+      "visits": "173"
+    },
+    {
+      "date": "2019-05-11",
+      "browser": "Samsung Internet",
+      "visits": "145"
+    },
+    {
+      "date": "2019-05-11",
+      "browser": "Safari (in-app)",
+      "visits": "60"
+    },
+    {
+      "date": "2019-05-11",
+      "browser": "Amazon Silk",
+      "visits": "20"
+    },
+    {
+      "date": "2019-05-11",
+      "browser": "Android Webview",
+      "visits": "18"
+    },
+    {
+      "date": "2019-05-12",
+      "browser": "Chrome",
+      "visits": "2275"
+    },
+    {
+      "date": "2019-05-12",
+      "browser": "Safari",
+      "visits": "2215"
+    },
+    {
+      "date": "2019-05-12",
+      "browser": "Internet Explorer",
+      "visits": "692"
+    },
+    {
+      "date": "2019-05-12",
+      "browser": "Edge",
+      "visits": "446"
+    },
+    {
+      "date": "2019-05-12",
+      "browser": "Firefox",
+      "visits": "157"
+    },
+    {
+      "date": "2019-05-12",
+      "browser": "Samsung Internet",
+      "visits": "116"
+    },
+    {
+      "date": "2019-05-12",
+      "browser": "Safari (in-app)",
+      "visits": "24"
+    },
+    {
+      "date": "2019-05-12",
+      "browser": "Android Webview",
+      "visits": "21"
+    },
+    {
+      "date": "2019-05-12",
+      "browser": "Amazon Silk",
+      "visits": "19"
+    },
+    {
+      "date": "2019-05-12",
+      "browser": "Opera",
+      "visits": "12"
+    },
+    {
+      "date": "2019-05-13",
+      "browser": "Chrome",
+      "visits": "6574"
+    },
+    {
+      "date": "2019-05-13",
+      "browser": "Internet Explorer",
+      "visits": "5910"
+    },
+    {
+      "date": "2019-05-13",
+      "browser": "Safari",
+      "visits": "3458"
+    },
+    {
+      "date": "2019-05-13",
+      "browser": "Edge",
+      "visits": "1659"
+    },
+    {
+      "date": "2019-05-13",
+      "browser": "Firefox",
+      "visits": "707"
+    },
+    {
+      "date": "2019-05-13",
+      "browser": "Samsung Internet",
+      "visits": "217"
+    },
+    {
+      "date": "2019-05-13",
+      "browser": "(not set)",
+      "visits": "52"
+    },
+    {
+      "date": "2019-05-13",
+      "browser": "Safari (in-app)",
+      "visits": "38"
+    },
+    {
+      "date": "2019-05-13",
+      "browser": "Amazon Silk",
+      "visits": "36"
+    },
+    {
+      "date": "2019-05-13",
+      "browser": "Android Webview",
+      "visits": "24"
+    },
+    {
+      "date": "2019-05-13",
+      "browser": "Opera",
+      "visits": "14"
+    },
+    {
+      "date": "2019-05-14",
+      "browser": "Chrome",
+      "visits": "6608"
+    },
+    {
+      "date": "2019-05-14",
+      "browser": "Internet Explorer",
+      "visits": "6233"
+    },
+    {
+      "date": "2019-05-14",
+      "browser": "Safari",
+      "visits": "3398"
+    },
+    {
+      "date": "2019-05-14",
+      "browser": "Edge",
+      "visits": "1751"
+    },
+    {
+      "date": "2019-05-14",
+      "browser": "Firefox",
+      "visits": "738"
+    },
+    {
+      "date": "2019-05-14",
+      "browser": "Samsung Internet",
+      "visits": "224"
+    },
+    {
+      "date": "2019-05-14",
+      "browser": "Safari (in-app)",
+      "visits": "76"
+    },
+    {
+      "date": "2019-05-14",
+      "browser": "Android Webview",
+      "visits": "31"
+    },
+    {
+      "date": "2019-05-14",
+      "browser": "Amazon Silk",
+      "visits": "29"
+    },
+    {
+      "date": "2019-05-14",
+      "browser": "(not set)",
+      "visits": "25"
+    },
+    {
+      "date": "2019-05-14",
+      "browser": "Opera",
+      "visits": "18"
+    },
+    {
+      "date": "2019-05-15",
+      "browser": "Chrome",
+      "visits": "6895"
+    },
+    {
+      "date": "2019-05-15",
+      "browser": "Internet Explorer",
+      "visits": "6107"
+    },
+    {
+      "date": "2019-05-15",
+      "browser": "Safari",
+      "visits": "4198"
+    },
+    {
+      "date": "2019-05-15",
+      "browser": "Edge",
+      "visits": "1549"
+    },
+    {
+      "date": "2019-05-15",
+      "browser": "Firefox",
+      "visits": "711"
+    },
+    {
+      "date": "2019-05-15",
+      "browser": "Samsung Internet",
+      "visits": "276"
+    },
+    {
+      "date": "2019-05-15",
+      "browser": "Safari (in-app)",
+      "visits": "71"
+    },
+    {
+      "date": "2019-05-15",
+      "browser": "Android Webview",
+      "visits": "42"
+    },
+    {
+      "date": "2019-05-15",
+      "browser": "Amazon Silk",
+      "visits": "30"
+    },
+    {
+      "date": "2019-05-15",
+      "browser": "Opera",
+      "visits": "14"
+    },
+    {
+      "date": "2019-05-16",
+      "browser": "Chrome",
+      "visits": "5943"
+    },
+    {
+      "date": "2019-05-16",
+      "browser": "Internet Explorer",
+      "visits": "5730"
+    },
+    {
+      "date": "2019-05-16",
+      "browser": "Safari",
+      "visits": "3527"
+    },
+    {
+      "date": "2019-05-16",
+      "browser": "Edge",
+      "visits": "1564"
+    },
+    {
+      "date": "2019-05-16",
+      "browser": "Firefox",
+      "visits": "637"
+    },
+    {
+      "date": "2019-05-16",
+      "browser": "Samsung Internet",
+      "visits": "205"
+    },
+    {
+      "date": "2019-05-16",
+      "browser": "Safari (in-app)",
+      "visits": "120"
+    },
+    {
+      "date": "2019-05-16",
+      "browser": "Amazon Silk",
+      "visits": "33"
+    },
+    {
+      "date": "2019-05-16",
+      "browser": "Android Webview",
+      "visits": "31"
+    },
+    {
+      "date": "2019-05-16",
+      "browser": "'Mozilla",
+      "visits": "20"
+    },
+    {
+      "date": "2019-05-16",
+      "browser": "Opera",
+      "visits": "14"
+    },
+    {
+      "date": "2019-05-17",
+      "browser": "Chrome",
+      "visits": "5285"
+    },
+    {
+      "date": "2019-05-17",
+      "browser": "Internet Explorer",
+      "visits": "5012"
+    },
+    {
+      "date": "2019-05-17",
+      "browser": "Safari",
+      "visits": "3050"
+    },
+    {
+      "date": "2019-05-17",
+      "browser": "Edge",
+      "visits": "1326"
+    },
+    {
+      "date": "2019-05-17",
+      "browser": "Firefox",
+      "visits": "601"
+    },
+    {
+      "date": "2019-05-17",
+      "browser": "Samsung Internet",
+      "visits": "171"
+    },
+    {
+      "date": "2019-05-17",
+      "browser": "Safari (in-app)",
+      "visits": "52"
+    },
+    {
+      "date": "2019-05-17",
+      "browser": "Android Webview",
+      "visits": "48"
+    },
+    {
+      "date": "2019-05-17",
+      "browser": "Opera",
+      "visits": "21"
+    },
+    {
+      "date": "2019-05-17",
+      "browser": "Amazon Silk",
+      "visits": "19"
+    },
+    {
+      "date": "2019-05-18",
+      "browser": "Safari",
+      "visits": "2077"
+    },
+    {
+      "date": "2019-05-18",
+      "browser": "Chrome",
+      "visits": "2053"
+    },
+    {
+      "date": "2019-05-18",
+      "browser": "Internet Explorer",
+      "visits": "691"
+    },
+    {
+      "date": "2019-05-18",
+      "browser": "Edge",
+      "visits": "351"
+    },
+    {
+      "date": "2019-05-18",
+      "browser": "Firefox",
+      "visits": "139"
+    },
+    {
+      "date": "2019-05-18",
+      "browser": "Samsung Internet",
+      "visits": "121"
+    },
+    {
+      "date": "2019-05-18",
+      "browser": "Safari (in-app)",
+      "visits": "51"
+    },
+    {
+      "date": "2019-05-18",
+      "browser": "Android Webview",
+      "visits": "28"
+    },
+    {
+      "date": "2019-05-18",
+      "browser": "Amazon Silk",
+      "visits": "17"
+    },
+    {
+      "date": "2019-05-18",
+      "browser": "'Mozilla",
+      "visits": "16"
+    },
+    {
+      "date": "2019-05-19",
+      "browser": "Safari",
+      "visits": "2404"
+    },
+    {
+      "date": "2019-05-19",
+      "browser": "Chrome",
+      "visits": "2225"
+    },
+    {
+      "date": "2019-05-19",
+      "browser": "Internet Explorer",
+      "visits": "643"
+    },
+    {
+      "date": "2019-05-19",
+      "browser": "Edge",
+      "visits": "489"
+    },
+    {
+      "date": "2019-05-19",
+      "browser": "Firefox",
+      "visits": "182"
+    },
+    {
+      "date": "2019-05-19",
+      "browser": "Samsung Internet",
+      "visits": "140"
+    },
+    {
+      "date": "2019-05-19",
+      "browser": "Android Webview",
+      "visits": "48"
+    },
+    {
+      "date": "2019-05-19",
+      "browser": "Amazon Silk",
+      "visits": "20"
+    },
+    {
+      "date": "2019-05-19",
+      "browser": "Safari (in-app)",
+      "visits": "15"
+    },
+    {
+      "date": "2019-05-20",
+      "browser": "Chrome",
+      "visits": "6325"
+    },
+    {
+      "date": "2019-05-20",
+      "browser": "Internet Explorer",
+      "visits": "5606"
+    },
+    {
+      "date": "2019-05-20",
+      "browser": "Safari",
+      "visits": "3398"
+    },
+    {
+      "date": "2019-05-20",
+      "browser": "Edge",
+      "visits": "1512"
+    },
+    {
+      "date": "2019-05-20",
+      "browser": "Firefox",
+      "visits": "640"
+    },
+    {
+      "date": "2019-05-20",
+      "browser": "Samsung Internet",
+      "visits": "198"
+    },
+    {
+      "date": "2019-05-20",
+      "browser": "Safari (in-app)",
+      "visits": "44"
+    },
+    {
+      "date": "2019-05-20",
+      "browser": "Android Webview",
+      "visits": "39"
+    },
+    {
+      "date": "2019-05-20",
+      "browser": "Amazon Silk",
+      "visits": "36"
+    },
+    {
+      "date": "2019-05-20",
+      "browser": "Opera",
+      "visits": "17"
+    },
+    {
+      "date": "2019-05-21",
+      "browser": "Chrome",
+      "visits": "5967"
+    },
+    {
+      "date": "2019-05-21",
+      "browser": "Internet Explorer",
+      "visits": "5941"
+    },
+    {
+      "date": "2019-05-21",
+      "browser": "Safari",
+      "visits": "3364"
+    },
+    {
+      "date": "2019-05-21",
+      "browser": "Edge",
+      "visits": "1563"
+    },
+    {
+      "date": "2019-05-21",
+      "browser": "Firefox",
+      "visits": "622"
+    },
+    {
+      "date": "2019-05-21",
+      "browser": "Samsung Internet",
+      "visits": "214"
+    },
+    {
+      "date": "2019-05-21",
+      "browser": "Safari (in-app)",
+      "visits": "78"
+    },
+    {
+      "date": "2019-05-21",
+      "browser": "Android Webview",
+      "visits": "57"
+    },
+    {
+      "date": "2019-05-21",
+      "browser": "Amazon Silk",
+      "visits": "34"
+    },
+    {
+      "date": "2019-05-21",
+      "browser": "'Mozilla",
+      "visits": "24"
+    },
+    {
+      "date": "2019-05-21",
+      "browser": "Opera",
+      "visits": "15"
+    },
+    {
+      "date": "2019-05-22",
+      "browser": "Internet Explorer",
+      "visits": "5824"
+    },
+    {
+      "date": "2019-05-22",
+      "browser": "Chrome",
+      "visits": "5741"
+    },
+    {
+      "date": "2019-05-22",
+      "browser": "Safari",
+      "visits": "3228"
+    },
+    {
+      "date": "2019-05-22",
+      "browser": "Edge",
+      "visits": "1531"
+    },
+    {
+      "date": "2019-05-22",
+      "browser": "Firefox",
+      "visits": "583"
+    },
+    {
+      "date": "2019-05-22",
+      "browser": "Samsung Internet",
+      "visits": "208"
+    },
+    {
+      "date": "2019-05-22",
+      "browser": "Safari (in-app)",
+      "visits": "71"
+    },
+    {
+      "date": "2019-05-22",
+      "browser": "Android Webview",
+      "visits": "58"
+    },
+    {
+      "date": "2019-05-22",
+      "browser": "Amazon Silk",
+      "visits": "24"
+    },
+    {
+      "date": "2019-05-22",
+      "browser": "Opera",
+      "visits": "15"
+    },
+    {
+      "date": "2019-05-23",
+      "browser": "Chrome",
+      "visits": "5740"
+    },
+    {
+      "date": "2019-05-23",
+      "browser": "Internet Explorer",
+      "visits": "5616"
+    },
+    {
+      "date": "2019-05-23",
+      "browser": "Safari",
+      "visits": "3229"
+    },
+    {
+      "date": "2019-05-23",
+      "browser": "Edge",
+      "visits": "1641"
+    },
+    {
+      "date": "2019-05-23",
+      "browser": "Firefox",
+      "visits": "592"
+    },
+    {
+      "date": "2019-05-23",
+      "browser": "Samsung Internet",
+      "visits": "175"
+    },
+    {
+      "date": "2019-05-23",
+      "browser": "Safari (in-app)",
+      "visits": "81"
+    },
+    {
+      "date": "2019-05-23",
+      "browser": "Android Webview",
+      "visits": "59"
+    },
+    {
+      "date": "2019-05-23",
+      "browser": "Amazon Silk",
+      "visits": "34"
+    },
+    {
+      "date": "2019-05-24",
+      "browser": "Chrome",
+      "visits": "4607"
+    },
+    {
+      "date": "2019-05-24",
+      "browser": "Internet Explorer",
+      "visits": "4568"
+    },
+    {
+      "date": "2019-05-24",
+      "browser": "Safari",
+      "visits": "2893"
+    },
+    {
+      "date": "2019-05-24",
+      "browser": "Edge",
+      "visits": "1307"
+    },
+    {
+      "date": "2019-05-24",
+      "browser": "Firefox",
+      "visits": "503"
+    },
+    {
+      "date": "2019-05-24",
+      "browser": "Samsung Internet",
+      "visits": "172"
+    },
+    {
+      "date": "2019-05-24",
+      "browser": "Android Webview",
+      "visits": "63"
+    },
+    {
+      "date": "2019-05-24",
+      "browser": "Safari (in-app)",
+      "visits": "63"
+    },
+    {
+      "date": "2019-05-24",
+      "browser": "Amazon Silk",
+      "visits": "25"
+    },
+    {
+      "date": "2019-05-25",
+      "browser": "Safari",
+      "visits": "1952"
+    },
+    {
+      "date": "2019-05-25",
+      "browser": "Chrome",
+      "visits": "1887"
+    },
+    {
+      "date": "2019-05-25",
+      "browser": "Internet Explorer",
+      "visits": "644"
+    },
+    {
+      "date": "2019-05-25",
+      "browser": "Edge",
+      "visits": "508"
+    },
+    {
+      "date": "2019-05-25",
+      "browser": "Firefox",
+      "visits": "125"
+    },
+    {
+      "date": "2019-05-25",
+      "browser": "Samsung Internet",
+      "visits": "104"
+    },
+    {
+      "date": "2019-05-25",
+      "browser": "Android Webview",
+      "visits": "32"
+    },
+    {
+      "date": "2019-05-25",
+      "browser": "Amazon Silk",
+      "visits": "29"
+    },
+    {
+      "date": "2019-05-25",
+      "browser": "Safari (in-app)",
+      "visits": "19"
+    },
+    {
+      "date": "2019-05-26",
+      "browser": "Safari",
+      "visits": "2035"
+    },
+    {
+      "date": "2019-05-26",
+      "browser": "Chrome",
+      "visits": "1882"
+    },
+    {
+      "date": "2019-05-26",
+      "browser": "Internet Explorer",
+      "visits": "638"
+    },
+    {
+      "date": "2019-05-26",
+      "browser": "Edge",
+      "visits": "452"
+    },
+    {
+      "date": "2019-05-26",
+      "browser": "Firefox",
+      "visits": "127"
+    },
+    {
+      "date": "2019-05-26",
+      "browser": "Samsung Internet",
+      "visits": "100"
+    },
+    {
+      "date": "2019-05-26",
+      "browser": "Android Webview",
+      "visits": "27"
+    },
+    {
+      "date": "2019-05-26",
+      "browser": "Amazon Silk",
+      "visits": "21"
+    },
+    {
+      "date": "2019-05-26",
+      "browser": "Safari (in-app)",
+      "visits": "14"
+    },
+    {
+      "date": "2019-05-27",
+      "browser": "Safari",
+      "visits": "2737"
+    },
+    {
+      "date": "2019-05-27",
+      "browser": "Chrome",
+      "visits": "2418"
+    },
+    {
+      "date": "2019-05-27",
+      "browser": "Internet Explorer",
+      "visits": "860"
+    },
+    {
+      "date": "2019-05-27",
+      "browser": "Edge",
+      "visits": "470"
+    },
+    {
+      "date": "2019-05-27",
+      "browser": "Firefox",
+      "visits": "206"
+    },
+    {
+      "date": "2019-05-27",
+      "browser": "Samsung Internet",
+      "visits": "147"
+    },
+    {
+      "date": "2019-05-27",
+      "browser": "Android Webview",
+      "visits": "49"
+    },
+    {
+      "date": "2019-05-27",
+      "browser": "Amazon Silk",
+      "visits": "23"
+    },
+    {
+      "date": "2019-05-27",
+      "browser": "Safari (in-app)",
+      "visits": "21"
+    },
+    {
+      "date": "2019-05-27",
+      "browser": "'Mozilla",
+      "visits": "16"
+    },
+    {
+      "date": "2019-05-28",
+      "browser": "Chrome",
+      "visits": "6419"
+    },
+    {
+      "date": "2019-05-28",
+      "browser": "Internet Explorer",
+      "visits": "5925"
+    },
+    {
+      "date": "2019-05-28",
+      "browser": "Safari",
+      "visits": "3884"
+    },
+    {
+      "date": "2019-05-28",
+      "browser": "Edge",
+      "visits": "1716"
+    },
+    {
+      "date": "2019-05-28",
+      "browser": "Firefox",
+      "visits": "699"
+    },
+    {
+      "date": "2019-05-28",
+      "browser": "Samsung Internet",
+      "visits": "239"
+    },
+    {
+      "date": "2019-05-28",
+      "browser": "Safari (in-app)",
+      "visits": "91"
+    },
+    {
+      "date": "2019-05-28",
+      "browser": "Android Webview",
+      "visits": "59"
+    },
+    {
+      "date": "2019-05-28",
+      "browser": "Amazon Silk",
+      "visits": "34"
+    },
+    {
+      "date": "2019-05-28",
+      "browser": "Opera",
+      "visits": "22"
+    },
+    {
+      "date": "2019-05-29",
+      "browser": "Chrome",
+      "visits": "6140"
+    },
+    {
+      "date": "2019-05-29",
+      "browser": "Internet Explorer",
+      "visits": "5288"
+    },
+    {
+      "date": "2019-05-29",
+      "browser": "Safari",
+      "visits": "3584"
+    },
+    {
+      "date": "2019-05-29",
+      "browser": "Edge",
+      "visits": "1551"
+    },
+    {
+      "date": "2019-05-29",
+      "browser": "Firefox",
+      "visits": "648"
+    },
+    {
+      "date": "2019-05-29",
+      "browser": "Samsung Internet",
+      "visits": "228"
+    },
+    {
+      "date": "2019-05-29",
+      "browser": "Safari (in-app)",
+      "visits": "87"
+    },
+    {
+      "date": "2019-05-29",
+      "browser": "Android Webview",
+      "visits": "58"
+    },
+    {
+      "date": "2019-05-29",
+      "browser": "Amazon Silk",
+      "visits": "28"
+    },
+    {
+      "date": "2019-05-30",
+      "browser": "Chrome",
+      "visits": "6154"
+    },
+    {
+      "date": "2019-05-30",
+      "browser": "Internet Explorer",
+      "visits": "5899"
+    },
+    {
+      "date": "2019-05-30",
+      "browser": "Safari",
+      "visits": "3500"
+    },
+    {
+      "date": "2019-05-30",
+      "browser": "Edge",
+      "visits": "1663"
+    },
+    {
+      "date": "2019-05-30",
+      "browser": "Firefox",
+      "visits": "621"
+    },
+    {
+      "date": "2019-05-30",
+      "browser": "Samsung Internet",
+      "visits": "210"
+    },
+    {
+      "date": "2019-05-30",
+      "browser": "Safari (in-app)",
+      "visits": "70"
+    },
+    {
+      "date": "2019-05-30",
+      "browser": "Android Webview",
+      "visits": "67"
+    },
+    {
+      "date": "2019-05-30",
+      "browser": "Amazon Silk",
+      "visits": "31"
+    },
+    {
+      "date": "2019-05-30",
+      "browser": "Opera",
+      "visits": "29"
+    },
+    {
+      "date": "2019-05-30",
+      "browser": "'Mozilla",
+      "visits": "16"
+    },
+    {
+      "date": "2019-05-31",
+      "browser": "Chrome",
+      "visits": "5299"
+    },
+    {
+      "date": "2019-05-31",
+      "browser": "Internet Explorer",
+      "visits": "5108"
+    },
+    {
+      "date": "2019-05-31",
+      "browser": "Safari",
+      "visits": "3268"
+    },
+    {
+      "date": "2019-05-31",
+      "browser": "Edge",
+      "visits": "1574"
+    },
+    {
+      "date": "2019-05-31",
+      "browser": "Firefox",
+      "visits": "622"
+    },
+    {
+      "date": "2019-05-31",
+      "browser": "Samsung Internet",
+      "visits": "181"
+    },
+    {
+      "date": "2019-05-31",
+      "browser": "Android Webview",
+      "visits": "76"
+    },
+    {
+      "date": "2019-05-31",
+      "browser": "Safari (in-app)",
+      "visits": "66"
+    },
+    {
+      "date": "2019-05-31",
+      "browser": "Amazon Silk",
+      "visits": "38"
+    },
+    {
+      "date": "2019-06-01",
+      "browser": "Safari",
+      "visits": "2640"
+    },
+    {
+      "date": "2019-06-01",
+      "browser": "Chrome",
+      "visits": "2426"
+    },
+    {
+      "date": "2019-06-01",
+      "browser": "Internet Explorer",
+      "visits": "852"
+    },
+    {
+      "date": "2019-06-01",
+      "browser": "Edge",
+      "visits": "461"
+    },
+    {
+      "date": "2019-06-01",
+      "browser": "Firefox",
+      "visits": "189"
+    },
+    {
+      "date": "2019-06-01",
+      "browser": "Samsung Internet",
+      "visits": "129"
+    },
+    {
+      "date": "2019-06-01",
+      "browser": "Safari (in-app)",
+      "visits": "54"
+    },
+    {
+      "date": "2019-06-01",
+      "browser": "Android Webview",
+      "visits": "51"
+    },
+    {
+      "date": "2019-06-01",
+      "browser": "Amazon Silk",
+      "visits": "34"
+    },
+    {
+      "date": "2019-06-01",
+      "browser": "Opera",
+      "visits": "13"
+    },
+    {
+      "date": "2019-06-02",
+      "browser": "Safari",
+      "visits": "3019"
+    },
+    {
+      "date": "2019-06-02",
+      "browser": "Chrome",
+      "visits": "2765"
+    },
+    {
+      "date": "2019-06-02",
+      "browser": "Internet Explorer",
+      "visits": "797"
+    },
+    {
+      "date": "2019-06-02",
+      "browser": "Edge",
+      "visits": "501"
+    },
+    {
+      "date": "2019-06-02",
+      "browser": "Firefox",
+      "visits": "215"
+    },
+    {
+      "date": "2019-06-02",
+      "browser": "Samsung Internet",
+      "visits": "162"
+    },
+    {
+      "date": "2019-06-02",
+      "browser": "Amazon Silk",
+      "visits": "37"
+    },
+    {
+      "date": "2019-06-02",
+      "browser": "Android Webview",
+      "visits": "25"
+    },
+    {
+      "date": "2019-06-03",
+      "browser": "Chrome",
+      "visits": "7022"
+    },
+    {
+      "date": "2019-06-03",
+      "browser": "Internet Explorer",
+      "visits": "6398"
+    },
+    {
+      "date": "2019-06-03",
+      "browser": "Safari",
+      "visits": "4218"
+    },
+    {
+      "date": "2019-06-03",
+      "browser": "Edge",
+      "visits": "1744"
+    },
+    {
+      "date": "2019-06-03",
+      "browser": "Firefox",
+      "visits": "725"
+    },
+    {
+      "date": "2019-06-03",
+      "browser": "Samsung Internet",
+      "visits": "240"
+    },
+    {
+      "date": "2019-06-03",
+      "browser": "Safari (in-app)",
+      "visits": "102"
+    },
+    {
+      "date": "2019-06-03",
+      "browser": "Android Webview",
+      "visits": "72"
+    },
+    {
+      "date": "2019-06-03",
+      "browser": "Amazon Silk",
+      "visits": "31"
+    },
+    {
+      "date": "2019-06-03",
+      "browser": "Opera",
+      "visits": "14"
+    },
+    {
+      "date": "2019-06-04",
+      "browser": "Chrome",
+      "visits": "6243"
+    },
+    {
+      "date": "2019-06-04",
+      "browser": "Internet Explorer",
+      "visits": "5966"
+    },
+    {
+      "date": "2019-06-04",
+      "browser": "Safari",
+      "visits": "3833"
+    },
+    {
+      "date": "2019-06-04",
+      "browser": "Edge",
+      "visits": "1647"
+    },
+    {
+      "date": "2019-06-04",
+      "browser": "Firefox",
+      "visits": "721"
+    },
+    {
+      "date": "2019-06-04",
+      "browser": "Samsung Internet",
+      "visits": "266"
+    },
+    {
+      "date": "2019-06-04",
+      "browser": "Safari (in-app)",
+      "visits": "108"
+    },
+    {
+      "date": "2019-06-04",
+      "browser": "Android Webview",
+      "visits": "55"
+    },
+    {
+      "date": "2019-06-04",
+      "browser": "Amazon Silk",
+      "visits": "36"
+    },
+    {
+      "date": "2019-06-04",
+      "browser": "Opera",
+      "visits": "13"
+    },
+    {
+      "date": "2019-06-05",
+      "browser": "Chrome",
+      "visits": "6116"
+    },
+    {
+      "date": "2019-06-05",
+      "browser": "Internet Explorer",
+      "visits": "6050"
+    },
+    {
+      "date": "2019-06-05",
+      "browser": "Safari",
+      "visits": "3787"
+    },
+    {
+      "date": "2019-06-05",
+      "browser": "Edge",
+      "visits": "1650"
+    },
+    {
+      "date": "2019-06-05",
+      "browser": "Firefox",
+      "visits": "596"
+    },
+    {
+      "date": "2019-06-05",
+      "browser": "Samsung Internet",
+      "visits": "221"
+    },
+    {
+      "date": "2019-06-05",
+      "browser": "Safari (in-app)",
+      "visits": "80"
+    },
+    {
+      "date": "2019-06-05",
+      "browser": "Android Webview",
+      "visits": "63"
+    },
+    {
+      "date": "2019-06-05",
+      "browser": "Amazon Silk",
+      "visits": "31"
+    },
+    {
+      "date": "2019-06-05",
+      "browser": "Opera",
+      "visits": "20"
+    },
+    {
+      "date": "2019-06-05",
+      "browser": "'Mozilla",
+      "visits": "13"
+    },
+    {
+      "date": "2019-06-06",
+      "browser": "Chrome",
+      "visits": "5884"
+    },
+    {
+      "date": "2019-06-06",
+      "browser": "Internet Explorer",
+      "visits": "5833"
+    },
+    {
+      "date": "2019-06-06",
+      "browser": "Safari",
+      "visits": "3486"
+    },
+    {
+      "date": "2019-06-06",
+      "browser": "Edge",
+      "visits": "1659"
+    },
+    {
+      "date": "2019-06-06",
+      "browser": "Firefox",
+      "visits": "625"
+    },
+    {
+      "date": "2019-06-06",
+      "browser": "Samsung Internet",
+      "visits": "226"
+    },
+    {
+      "date": "2019-06-06",
+      "browser": "Safari (in-app)",
+      "visits": "113"
+    },
+    {
+      "date": "2019-06-06",
+      "browser": "Android Webview",
+      "visits": "66"
+    },
+    {
+      "date": "2019-06-06",
+      "browser": "Amazon Silk",
+      "visits": "32"
+    },
+    {
+      "date": "2019-06-06",
+      "browser": "Opera",
+      "visits": "18"
+    },
+    {
+      "date": "2019-06-06",
+      "browser": "'Mozilla",
+      "visits": "13"
+    },
+    {
+      "date": "2019-06-07",
+      "browser": "Chrome",
+      "visits": "5070"
+    },
+    {
+      "date": "2019-06-07",
+      "browser": "Internet Explorer",
+      "visits": "4828"
+    },
+    {
+      "date": "2019-06-07",
+      "browser": "Safari",
+      "visits": "2921"
+    },
+    {
+      "date": "2019-06-07",
+      "browser": "Edge",
+      "visits": "1425"
+    },
+    {
+      "date": "2019-06-07",
+      "browser": "Firefox",
+      "visits": "551"
+    },
+    {
+      "date": "2019-06-07",
+      "browser": "Samsung Internet",
+      "visits": "161"
+    },
+    {
+      "date": "2019-06-07",
+      "browser": "Safari (in-app)",
+      "visits": "76"
+    },
+    {
+      "date": "2019-06-07",
+      "browser": "Android Webview",
+      "visits": "62"
+    },
+    {
+      "date": "2019-06-07",
+      "browser": "Amazon Silk",
+      "visits": "21"
+    },
+    {
+      "date": "2019-06-08",
+      "browser": "Safari",
+      "visits": "2229"
+    },
+    {
+      "date": "2019-06-08",
+      "browser": "Chrome",
+      "visits": "2063"
+    },
+    {
+      "date": "2019-06-08",
+      "browser": "Internet Explorer",
+      "visits": "685"
+    },
+    {
+      "date": "2019-06-08",
+      "browser": "Edge",
+      "visits": "533"
+    },
+    {
+      "date": "2019-06-08",
+      "browser": "Firefox",
+      "visits": "147"
+    },
+    {
+      "date": "2019-06-08",
+      "browser": "Samsung Internet",
+      "visits": "134"
+    },
+    {
+      "date": "2019-06-08",
+      "browser": "Android Webview",
+      "visits": "50"
+    },
+    {
+      "date": "2019-06-08",
+      "browser": "Safari (in-app)",
+      "visits": "50"
+    },
+    {
+      "date": "2019-06-08",
+      "browser": "Amazon Silk",
+      "visits": "24"
+    },
+    {
+      "date": "2019-06-09",
+      "browser": "Safari",
+      "visits": "2340"
+    },
+    {
+      "date": "2019-06-09",
+      "browser": "Chrome",
+      "visits": "2318"
+    },
+    {
+      "date": "2019-06-09",
+      "browser": "Internet Explorer",
+      "visits": "634"
+    },
+    {
+      "date": "2019-06-09",
+      "browser": "Edge",
+      "visits": "510"
+    },
+    {
+      "date": "2019-06-09",
+      "browser": "Firefox",
+      "visits": "201"
+    },
+    {
+      "date": "2019-06-09",
+      "browser": "Samsung Internet",
+      "visits": "128"
+    },
+    {
+      "date": "2019-06-09",
+      "browser": "Android Webview",
+      "visits": "27"
+    },
+    {
+      "date": "2019-06-09",
+      "browser": "Safari (in-app)",
+      "visits": "27"
+    },
+    {
+      "date": "2019-06-09",
+      "browser": "Amazon Silk",
+      "visits": "17"
+    },
+    {
+      "date": "2019-06-10",
+      "browser": "Chrome",
+      "visits": "6118"
+    },
+    {
+      "date": "2019-06-10",
+      "browser": "Internet Explorer",
+      "visits": "5470"
+    },
+    {
+      "date": "2019-06-10",
+      "browser": "Safari",
+      "visits": "3390"
+    },
+    {
+      "date": "2019-06-10",
+      "browser": "Edge",
+      "visits": "1949"
+    },
+    {
+      "date": "2019-06-10",
+      "browser": "Firefox",
+      "visits": "705"
+    },
+    {
+      "date": "2019-06-10",
+      "browser": "Samsung Internet",
+      "visits": "218"
+    },
+    {
+      "date": "2019-06-10",
+      "browser": "Safari (in-app)",
+      "visits": "50"
+    },
+    {
+      "date": "2019-06-10",
+      "browser": "Android Webview",
+      "visits": "45"
+    },
+    {
+      "date": "2019-06-10",
+      "browser": "Amazon Silk",
+      "visits": "34"
+    },
+    {
+      "date": "2019-06-10",
+      "browser": "Opera",
+      "visits": "19"
+    }
+  ],
+  "totals": {
+    "visits": 1348567,
+    "browser": {
+      "Chrome": 473001,
+      "Internet Explorer": 393568,
+      "Safari": 286548,
+      "Edge": 114102,
+      "Firefox": 50214,
+      "Samsung Internet": 17729,
+      "Android Webview": 3409,
+      "Amazon Silk": 2768,
+      "Safari (in-app)": 5718,
+      "Opera": 1118,
+      "'Mozilla": 315,
+      "(not set)": 77
+    }
+  },
+  "taken_at": "2019-06-11T22:30:04.388Z"
 }

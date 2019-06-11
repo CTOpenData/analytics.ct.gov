@@ -1,0 +1,6421 @@
+{
+  "name": "windows-browsers",
+  "query": {
+    "start-date": "90daysAgo",
+    "end-date": "yesterday",
+    "dimensions": "ga:date,ga:browser,ga:operatingSystemVersion",
+    "metrics": [
+      "ga:sessions"
+    ],
+    "sort": [
+      "ga:date",
+      "-ga:sessions"
+    ],
+    "filters": "ga:sessions>10;ga:operatingSystem==Windows",
+    "start-index": 1,
+    "max-results": 10000,
+    "samplingLevel": "HIGHER_PRECISION"
+  },
+  "meta": {
+    "name": "Windows-browser combinations",
+    "description": "90 days of visits broken down by Windows versions and browser for all sites. (>100 sessions)"
+  },
+  "data": [
+    {
+      "date": "2019-03-13",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "4905"
+    },
+    {
+      "date": "2019-03-13",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "2846"
+    },
+    {
+      "date": "2019-03-13",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "1749"
+    },
+    {
+      "date": "2019-03-13",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "1618"
+    },
+    {
+      "date": "2019-03-13",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "1598"
+    },
+    {
+      "date": "2019-03-13",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "354"
+    },
+    {
+      "date": "2019-03-13",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "304"
+    },
+    {
+      "date": "2019-03-13",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "225"
+    },
+    {
+      "date": "2019-03-13",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "192"
+    },
+    {
+      "date": "2019-03-13",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "26"
+    },
+    {
+      "date": "2019-03-13",
+      "browser": "Chrome",
+      "os_version": "Vista",
+      "visits": "16"
+    },
+    {
+      "date": "2019-03-13",
+      "browser": "Chrome",
+      "os_version": "XP",
+      "visits": "15"
+    },
+    {
+      "date": "2019-03-13",
+      "browser": "Chrome",
+      "os_version": "8",
+      "visits": "14"
+    },
+    {
+      "date": "2019-03-13",
+      "browser": "Firefox",
+      "os_version": "XP",
+      "visits": "14"
+    },
+    {
+      "date": "2019-03-14",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "4894"
+    },
+    {
+      "date": "2019-03-14",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "2735"
+    },
+    {
+      "date": "2019-03-14",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "1772"
+    },
+    {
+      "date": "2019-03-14",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "1650"
+    },
+    {
+      "date": "2019-03-14",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "1643"
+    },
+    {
+      "date": "2019-03-14",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "331"
+    },
+    {
+      "date": "2019-03-14",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "282"
+    },
+    {
+      "date": "2019-03-14",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "221"
+    },
+    {
+      "date": "2019-03-14",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "171"
+    },
+    {
+      "date": "2019-03-14",
+      "browser": "Firefox",
+      "os_version": "XP",
+      "visits": "42"
+    },
+    {
+      "date": "2019-03-14",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "24"
+    },
+    {
+      "date": "2019-03-14",
+      "browser": "Chrome",
+      "os_version": "XP",
+      "visits": "18"
+    },
+    {
+      "date": "2019-03-14",
+      "browser": "Chrome",
+      "os_version": "8",
+      "visits": "16"
+    },
+    {
+      "date": "2019-03-14",
+      "browser": "Chrome",
+      "os_version": "Vista",
+      "visits": "12"
+    },
+    {
+      "date": "2019-03-15",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "4376"
+    },
+    {
+      "date": "2019-03-15",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "2600"
+    },
+    {
+      "date": "2019-03-15",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "1628"
+    },
+    {
+      "date": "2019-03-15",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "1617"
+    },
+    {
+      "date": "2019-03-15",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "1443"
+    },
+    {
+      "date": "2019-03-15",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "279"
+    },
+    {
+      "date": "2019-03-15",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "277"
+    },
+    {
+      "date": "2019-03-15",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "200"
+    },
+    {
+      "date": "2019-03-15",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "133"
+    },
+    {
+      "date": "2019-03-15",
+      "browser": "Chrome",
+      "os_version": "XP",
+      "visits": "23"
+    },
+    {
+      "date": "2019-03-15",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "23"
+    },
+    {
+      "date": "2019-03-15",
+      "browser": "Chrome",
+      "os_version": "8",
+      "visits": "16"
+    },
+    {
+      "date": "2019-03-15",
+      "browser": "Firefox",
+      "os_version": "XP",
+      "visits": "15"
+    },
+    {
+      "date": "2019-03-16",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "983"
+    },
+    {
+      "date": "2019-03-16",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "800"
+    },
+    {
+      "date": "2019-03-16",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "710"
+    },
+    {
+      "date": "2019-03-16",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "367"
+    },
+    {
+      "date": "2019-03-16",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "208"
+    },
+    {
+      "date": "2019-03-16",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "129"
+    },
+    {
+      "date": "2019-03-16",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "71"
+    },
+    {
+      "date": "2019-03-16",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "55"
+    },
+    {
+      "date": "2019-03-16",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "34"
+    },
+    {
+      "date": "2019-03-16",
+      "browser": "Firefox",
+      "os_version": "XP",
+      "visits": "16"
+    },
+    {
+      "date": "2019-03-16",
+      "browser": "Chrome",
+      "os_version": "Vista",
+      "visits": "11"
+    },
+    {
+      "date": "2019-03-17",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "1052"
+    },
+    {
+      "date": "2019-03-17",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "798"
+    },
+    {
+      "date": "2019-03-17",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "639"
+    },
+    {
+      "date": "2019-03-17",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "378"
+    },
+    {
+      "date": "2019-03-17",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "196"
+    },
+    {
+      "date": "2019-03-17",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "116"
+    },
+    {
+      "date": "2019-03-17",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "61"
+    },
+    {
+      "date": "2019-03-17",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "50"
+    },
+    {
+      "date": "2019-03-17",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "41"
+    },
+    {
+      "date": "2019-03-17",
+      "browser": "Chrome",
+      "os_version": "Vista",
+      "visits": "14"
+    },
+    {
+      "date": "2019-03-17",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "12"
+    },
+    {
+      "date": "2019-03-18",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "4782"
+    },
+    {
+      "date": "2019-03-18",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "2799"
+    },
+    {
+      "date": "2019-03-18",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "1782"
+    },
+    {
+      "date": "2019-03-18",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "1651"
+    },
+    {
+      "date": "2019-03-18",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "1519"
+    },
+    {
+      "date": "2019-03-18",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "332"
+    },
+    {
+      "date": "2019-03-18",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "315"
+    },
+    {
+      "date": "2019-03-18",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "204"
+    },
+    {
+      "date": "2019-03-18",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "163"
+    },
+    {
+      "date": "2019-03-18",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "35"
+    },
+    {
+      "date": "2019-03-18",
+      "browser": "Chrome",
+      "os_version": "Vista",
+      "visits": "20"
+    },
+    {
+      "date": "2019-03-18",
+      "browser": "Firefox",
+      "os_version": "XP",
+      "visits": "14"
+    },
+    {
+      "date": "2019-03-18",
+      "browser": "Chrome",
+      "os_version": "XP",
+      "visits": "13"
+    },
+    {
+      "date": "2019-03-19",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "4887"
+    },
+    {
+      "date": "2019-03-19",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "2705"
+    },
+    {
+      "date": "2019-03-19",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "1813"
+    },
+    {
+      "date": "2019-03-19",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "1566"
+    },
+    {
+      "date": "2019-03-19",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "1541"
+    },
+    {
+      "date": "2019-03-19",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "343"
+    },
+    {
+      "date": "2019-03-19",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "249"
+    },
+    {
+      "date": "2019-03-19",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "236"
+    },
+    {
+      "date": "2019-03-19",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "177"
+    },
+    {
+      "date": "2019-03-19",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "22"
+    },
+    {
+      "date": "2019-03-19",
+      "browser": "Chrome",
+      "os_version": "8",
+      "visits": "15"
+    },
+    {
+      "date": "2019-03-19",
+      "browser": "Chrome",
+      "os_version": "Vista",
+      "visits": "15"
+    },
+    {
+      "date": "2019-03-19",
+      "browser": "Chrome",
+      "os_version": "XP",
+      "visits": "12"
+    },
+    {
+      "date": "2019-03-19",
+      "browser": "Opera",
+      "os_version": "10",
+      "visits": "12"
+    },
+    {
+      "date": "2019-03-19",
+      "browser": "Firefox",
+      "os_version": "XP",
+      "visits": "11"
+    },
+    {
+      "date": "2019-03-20",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "4810"
+    },
+    {
+      "date": "2019-03-20",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "2704"
+    },
+    {
+      "date": "2019-03-20",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "1669"
+    },
+    {
+      "date": "2019-03-20",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "1585"
+    },
+    {
+      "date": "2019-03-20",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "1550"
+    },
+    {
+      "date": "2019-03-20",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "332"
+    },
+    {
+      "date": "2019-03-20",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "268"
+    },
+    {
+      "date": "2019-03-20",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "204"
+    },
+    {
+      "date": "2019-03-20",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "169"
+    },
+    {
+      "date": "2019-03-20",
+      "browser": "Chrome",
+      "os_version": "XP",
+      "visits": "51"
+    },
+    {
+      "date": "2019-03-20",
+      "browser": "Firefox",
+      "os_version": "XP",
+      "visits": "28"
+    },
+    {
+      "date": "2019-03-20",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "20"
+    },
+    {
+      "date": "2019-03-20",
+      "browser": "Chrome",
+      "os_version": "Vista",
+      "visits": "14"
+    },
+    {
+      "date": "2019-03-20",
+      "browser": "Opera",
+      "os_version": "10",
+      "visits": "12"
+    },
+    {
+      "date": "2019-03-20",
+      "browser": "Chrome",
+      "os_version": "8",
+      "visits": "11"
+    },
+    {
+      "date": "2019-03-21",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "4350"
+    },
+    {
+      "date": "2019-03-21",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "2472"
+    },
+    {
+      "date": "2019-03-21",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "1575"
+    },
+    {
+      "date": "2019-03-21",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "1474"
+    },
+    {
+      "date": "2019-03-21",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "1397"
+    },
+    {
+      "date": "2019-03-21",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "291"
+    },
+    {
+      "date": "2019-03-21",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "269"
+    },
+    {
+      "date": "2019-03-21",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "196"
+    },
+    {
+      "date": "2019-03-21",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "166"
+    },
+    {
+      "date": "2019-03-21",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "33"
+    },
+    {
+      "date": "2019-03-21",
+      "browser": "Firefox",
+      "os_version": "XP",
+      "visits": "15"
+    },
+    {
+      "date": "2019-03-21",
+      "browser": "Chrome",
+      "os_version": "XP",
+      "visits": "12"
+    },
+    {
+      "date": "2019-03-22",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "3818"
+    },
+    {
+      "date": "2019-03-22",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "2153"
+    },
+    {
+      "date": "2019-03-22",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "1381"
+    },
+    {
+      "date": "2019-03-22",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "1360"
+    },
+    {
+      "date": "2019-03-22",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "1241"
+    },
+    {
+      "date": "2019-03-22",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "271"
+    },
+    {
+      "date": "2019-03-22",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "257"
+    },
+    {
+      "date": "2019-03-22",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "185"
+    },
+    {
+      "date": "2019-03-22",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "159"
+    },
+    {
+      "date": "2019-03-22",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "20"
+    },
+    {
+      "date": "2019-03-22",
+      "browser": "Chrome",
+      "os_version": "Vista",
+      "visits": "14"
+    },
+    {
+      "date": "2019-03-22",
+      "browser": "Chrome",
+      "os_version": "XP",
+      "visits": "11"
+    },
+    {
+      "date": "2019-03-23",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "1018"
+    },
+    {
+      "date": "2019-03-23",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "740"
+    },
+    {
+      "date": "2019-03-23",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "705"
+    },
+    {
+      "date": "2019-03-23",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "392"
+    },
+    {
+      "date": "2019-03-23",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "207"
+    },
+    {
+      "date": "2019-03-23",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "149"
+    },
+    {
+      "date": "2019-03-23",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "70"
+    },
+    {
+      "date": "2019-03-23",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "68"
+    },
+    {
+      "date": "2019-03-23",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "25"
+    },
+    {
+      "date": "2019-03-23",
+      "browser": "Chrome",
+      "os_version": "Vista",
+      "visits": "15"
+    },
+    {
+      "date": "2019-03-23",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "12"
+    },
+    {
+      "date": "2019-03-24",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "1110"
+    },
+    {
+      "date": "2019-03-24",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "697"
+    },
+    {
+      "date": "2019-03-24",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "622"
+    },
+    {
+      "date": "2019-03-24",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "360"
+    },
+    {
+      "date": "2019-03-24",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "184"
+    },
+    {
+      "date": "2019-03-24",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "132"
+    },
+    {
+      "date": "2019-03-24",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "75"
+    },
+    {
+      "date": "2019-03-24",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "53"
+    },
+    {
+      "date": "2019-03-24",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "24"
+    },
+    {
+      "date": "2019-03-24",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "12"
+    },
+    {
+      "date": "2019-03-25",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "4563"
+    },
+    {
+      "date": "2019-03-25",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "2792"
+    },
+    {
+      "date": "2019-03-25",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "1735"
+    },
+    {
+      "date": "2019-03-25",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "1637"
+    },
+    {
+      "date": "2019-03-25",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "1616"
+    },
+    {
+      "date": "2019-03-25",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "323"
+    },
+    {
+      "date": "2019-03-25",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "291"
+    },
+    {
+      "date": "2019-03-25",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "214"
+    },
+    {
+      "date": "2019-03-25",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "153"
+    },
+    {
+      "date": "2019-03-25",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "27"
+    },
+    {
+      "date": "2019-03-25",
+      "browser": "Chrome",
+      "os_version": "Vista",
+      "visits": "18"
+    },
+    {
+      "date": "2019-03-25",
+      "browser": "Chrome",
+      "os_version": "XP",
+      "visits": "18"
+    },
+    {
+      "date": "2019-03-25",
+      "browser": "Chrome",
+      "os_version": "8",
+      "visits": "12"
+    },
+    {
+      "date": "2019-03-26",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "4656"
+    },
+    {
+      "date": "2019-03-26",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "2819"
+    },
+    {
+      "date": "2019-03-26",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "1749"
+    },
+    {
+      "date": "2019-03-26",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "1704"
+    },
+    {
+      "date": "2019-03-26",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "1701"
+    },
+    {
+      "date": "2019-03-26",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "391"
+    },
+    {
+      "date": "2019-03-26",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "312"
+    },
+    {
+      "date": "2019-03-26",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "233"
+    },
+    {
+      "date": "2019-03-26",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "175"
+    },
+    {
+      "date": "2019-03-26",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "23"
+    },
+    {
+      "date": "2019-03-26",
+      "browser": "Chrome",
+      "os_version": "XP",
+      "visits": "17"
+    },
+    {
+      "date": "2019-03-26",
+      "browser": "Chrome",
+      "os_version": "Vista",
+      "visits": "16"
+    },
+    {
+      "date": "2019-03-27",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "4452"
+    },
+    {
+      "date": "2019-03-27",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "2559"
+    },
+    {
+      "date": "2019-03-27",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "1697"
+    },
+    {
+      "date": "2019-03-27",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "1661"
+    },
+    {
+      "date": "2019-03-27",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "1644"
+    },
+    {
+      "date": "2019-03-27",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "314"
+    },
+    {
+      "date": "2019-03-27",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "284"
+    },
+    {
+      "date": "2019-03-27",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "217"
+    },
+    {
+      "date": "2019-03-27",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "163"
+    },
+    {
+      "date": "2019-03-27",
+      "browser": "Chrome",
+      "os_version": "Vista",
+      "visits": "22"
+    },
+    {
+      "date": "2019-03-27",
+      "browser": "Chrome",
+      "os_version": "XP",
+      "visits": "18"
+    },
+    {
+      "date": "2019-03-27",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "16"
+    },
+    {
+      "date": "2019-03-27",
+      "browser": "Firefox",
+      "os_version": "Vista",
+      "visits": "13"
+    },
+    {
+      "date": "2019-03-28",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "4437"
+    },
+    {
+      "date": "2019-03-28",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "2457"
+    },
+    {
+      "date": "2019-03-28",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "1664"
+    },
+    {
+      "date": "2019-03-28",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "1631"
+    },
+    {
+      "date": "2019-03-28",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "1628"
+    },
+    {
+      "date": "2019-03-28",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "308"
+    },
+    {
+      "date": "2019-03-28",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "293"
+    },
+    {
+      "date": "2019-03-28",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "195"
+    },
+    {
+      "date": "2019-03-28",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "164"
+    },
+    {
+      "date": "2019-03-28",
+      "browser": "Chrome",
+      "os_version": "Vista",
+      "visits": "27"
+    },
+    {
+      "date": "2019-03-28",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "27"
+    },
+    {
+      "date": "2019-03-28",
+      "browser": "Chrome",
+      "os_version": "XP",
+      "visits": "11"
+    },
+    {
+      "date": "2019-03-29",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "3973"
+    },
+    {
+      "date": "2019-03-29",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "2283"
+    },
+    {
+      "date": "2019-03-29",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "1516"
+    },
+    {
+      "date": "2019-03-29",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "1405"
+    },
+    {
+      "date": "2019-03-29",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "1369"
+    },
+    {
+      "date": "2019-03-29",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "285"
+    },
+    {
+      "date": "2019-03-29",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "251"
+    },
+    {
+      "date": "2019-03-29",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "166"
+    },
+    {
+      "date": "2019-03-29",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "159"
+    },
+    {
+      "date": "2019-03-29",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "24"
+    },
+    {
+      "date": "2019-03-29",
+      "browser": "Chrome",
+      "os_version": "XP",
+      "visits": "17"
+    },
+    {
+      "date": "2019-03-29",
+      "browser": "Chrome",
+      "os_version": "Vista",
+      "visits": "12"
+    },
+    {
+      "date": "2019-03-30",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "908"
+    },
+    {
+      "date": "2019-03-30",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "668"
+    },
+    {
+      "date": "2019-03-30",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "584"
+    },
+    {
+      "date": "2019-03-30",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "389"
+    },
+    {
+      "date": "2019-03-30",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "183"
+    },
+    {
+      "date": "2019-03-30",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "123"
+    },
+    {
+      "date": "2019-03-30",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "67"
+    },
+    {
+      "date": "2019-03-30",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "62"
+    },
+    {
+      "date": "2019-03-30",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "43"
+    },
+    {
+      "date": "2019-03-30",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "21"
+    },
+    {
+      "date": "2019-03-30",
+      "browser": "Chrome",
+      "os_version": "Vista",
+      "visits": "11"
+    },
+    {
+      "date": "2019-03-31",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "1309"
+    },
+    {
+      "date": "2019-03-31",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "775"
+    },
+    {
+      "date": "2019-03-31",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "659"
+    },
+    {
+      "date": "2019-03-31",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "403"
+    },
+    {
+      "date": "2019-03-31",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "173"
+    },
+    {
+      "date": "2019-03-31",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "153"
+    },
+    {
+      "date": "2019-03-31",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "87"
+    },
+    {
+      "date": "2019-03-31",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "86"
+    },
+    {
+      "date": "2019-03-31",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "54"
+    },
+    {
+      "date": "2019-03-31",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "27"
+    },
+    {
+      "date": "2019-03-31",
+      "browser": "Chrome",
+      "os_version": "Vista",
+      "visits": "17"
+    },
+    {
+      "date": "2019-04-01",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "4650"
+    },
+    {
+      "date": "2019-04-01",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "2983"
+    },
+    {
+      "date": "2019-04-01",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "1819"
+    },
+    {
+      "date": "2019-04-01",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "1755"
+    },
+    {
+      "date": "2019-04-01",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "1595"
+    },
+    {
+      "date": "2019-04-01",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "375"
+    },
+    {
+      "date": "2019-04-01",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "322"
+    },
+    {
+      "date": "2019-04-01",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "196"
+    },
+    {
+      "date": "2019-04-01",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "187"
+    },
+    {
+      "date": "2019-04-01",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "36"
+    },
+    {
+      "date": "2019-04-01",
+      "browser": "Chrome",
+      "os_version": "Vista",
+      "visits": "27"
+    },
+    {
+      "date": "2019-04-01",
+      "browser": "Chrome",
+      "os_version": "XP",
+      "visits": "15"
+    },
+    {
+      "date": "2019-04-01",
+      "browser": "Chrome",
+      "os_version": "8",
+      "visits": "14"
+    },
+    {
+      "date": "2019-04-01",
+      "browser": "Firefox",
+      "os_version": "XP",
+      "visits": "12"
+    },
+    {
+      "date": "2019-04-02",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "4770"
+    },
+    {
+      "date": "2019-04-02",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "2946"
+    },
+    {
+      "date": "2019-04-02",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "1907"
+    },
+    {
+      "date": "2019-04-02",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "1746"
+    },
+    {
+      "date": "2019-04-02",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "1607"
+    },
+    {
+      "date": "2019-04-02",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "368"
+    },
+    {
+      "date": "2019-04-02",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "300"
+    },
+    {
+      "date": "2019-04-02",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "244"
+    },
+    {
+      "date": "2019-04-02",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "180"
+    },
+    {
+      "date": "2019-04-02",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "29"
+    },
+    {
+      "date": "2019-04-02",
+      "browser": "Chrome",
+      "os_version": "Vista",
+      "visits": "26"
+    },
+    {
+      "date": "2019-04-02",
+      "browser": "Chrome",
+      "os_version": "8",
+      "visits": "16"
+    },
+    {
+      "date": "2019-04-02",
+      "browser": "Chrome",
+      "os_version": "XP",
+      "visits": "14"
+    },
+    {
+      "date": "2019-04-02",
+      "browser": "Opera",
+      "os_version": "10",
+      "visits": "14"
+    },
+    {
+      "date": "2019-04-03",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "4603"
+    },
+    {
+      "date": "2019-04-03",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "2721"
+    },
+    {
+      "date": "2019-04-03",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "1687"
+    },
+    {
+      "date": "2019-04-03",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "1670"
+    },
+    {
+      "date": "2019-04-03",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "1595"
+    },
+    {
+      "date": "2019-04-03",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "316"
+    },
+    {
+      "date": "2019-04-03",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "275"
+    },
+    {
+      "date": "2019-04-03",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "221"
+    },
+    {
+      "date": "2019-04-03",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "196"
+    },
+    {
+      "date": "2019-04-03",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "24"
+    },
+    {
+      "date": "2019-04-03",
+      "browser": "Chrome",
+      "os_version": "Vista",
+      "visits": "21"
+    },
+    {
+      "date": "2019-04-03",
+      "browser": "Chrome",
+      "os_version": "XP",
+      "visits": "20"
+    },
+    {
+      "date": "2019-04-04",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "4365"
+    },
+    {
+      "date": "2019-04-04",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "2778"
+    },
+    {
+      "date": "2019-04-04",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "1684"
+    },
+    {
+      "date": "2019-04-04",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "1623"
+    },
+    {
+      "date": "2019-04-04",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "1597"
+    },
+    {
+      "date": "2019-04-04",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "353"
+    },
+    {
+      "date": "2019-04-04",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "251"
+    },
+    {
+      "date": "2019-04-04",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "229"
+    },
+    {
+      "date": "2019-04-04",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "171"
+    },
+    {
+      "date": "2019-04-04",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "27"
+    },
+    {
+      "date": "2019-04-04",
+      "browser": "Chrome",
+      "os_version": "8",
+      "visits": "17"
+    },
+    {
+      "date": "2019-04-04",
+      "browser": "Chrome",
+      "os_version": "Vista",
+      "visits": "17"
+    },
+    {
+      "date": "2019-04-04",
+      "browser": "Chrome",
+      "os_version": "XP",
+      "visits": "13"
+    },
+    {
+      "date": "2019-04-04",
+      "browser": "Firefox",
+      "os_version": "8",
+      "visits": "11"
+    },
+    {
+      "date": "2019-04-05",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "3969"
+    },
+    {
+      "date": "2019-04-05",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "2473"
+    },
+    {
+      "date": "2019-04-05",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "1530"
+    },
+    {
+      "date": "2019-04-05",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "1426"
+    },
+    {
+      "date": "2019-04-05",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "1352"
+    },
+    {
+      "date": "2019-04-05",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "307"
+    },
+    {
+      "date": "2019-04-05",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "239"
+    },
+    {
+      "date": "2019-04-05",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "170"
+    },
+    {
+      "date": "2019-04-05",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "164"
+    },
+    {
+      "date": "2019-04-05",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "25"
+    },
+    {
+      "date": "2019-04-05",
+      "browser": "Chrome",
+      "os_version": "Vista",
+      "visits": "18"
+    },
+    {
+      "date": "2019-04-05",
+      "browser": "Chrome",
+      "os_version": "8",
+      "visits": "13"
+    },
+    {
+      "date": "2019-04-05",
+      "browser": "Chrome",
+      "os_version": "XP",
+      "visits": "12"
+    },
+    {
+      "date": "2019-04-05",
+      "browser": "Opera",
+      "os_version": "7",
+      "visits": "11"
+    },
+    {
+      "date": "2019-04-06",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "1206"
+    },
+    {
+      "date": "2019-04-06",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "751"
+    },
+    {
+      "date": "2019-04-06",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "686"
+    },
+    {
+      "date": "2019-04-06",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "429"
+    },
+    {
+      "date": "2019-04-06",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "199"
+    },
+    {
+      "date": "2019-04-06",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "153"
+    },
+    {
+      "date": "2019-04-06",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "78"
+    },
+    {
+      "date": "2019-04-06",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "62"
+    },
+    {
+      "date": "2019-04-06",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "42"
+    },
+    {
+      "date": "2019-04-06",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "15"
+    },
+    {
+      "date": "2019-04-06",
+      "browser": "Chrome",
+      "os_version": "Vista",
+      "visits": "13"
+    },
+    {
+      "date": "2019-04-07",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "1247"
+    },
+    {
+      "date": "2019-04-07",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "760"
+    },
+    {
+      "date": "2019-04-07",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "684"
+    },
+    {
+      "date": "2019-04-07",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "389"
+    },
+    {
+      "date": "2019-04-07",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "201"
+    },
+    {
+      "date": "2019-04-07",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "158"
+    },
+    {
+      "date": "2019-04-07",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "82"
+    },
+    {
+      "date": "2019-04-07",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "72"
+    },
+    {
+      "date": "2019-04-07",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "36"
+    },
+    {
+      "date": "2019-04-07",
+      "browser": "Chrome",
+      "os_version": "Vista",
+      "visits": "15"
+    },
+    {
+      "date": "2019-04-07",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "14"
+    },
+    {
+      "date": "2019-04-08",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "4554"
+    },
+    {
+      "date": "2019-04-08",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "3075"
+    },
+    {
+      "date": "2019-04-08",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "1726"
+    },
+    {
+      "date": "2019-04-08",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "1681"
+    },
+    {
+      "date": "2019-04-08",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "1614"
+    },
+    {
+      "date": "2019-04-08",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "367"
+    },
+    {
+      "date": "2019-04-08",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "315"
+    },
+    {
+      "date": "2019-04-08",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "222"
+    },
+    {
+      "date": "2019-04-08",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "192"
+    },
+    {
+      "date": "2019-04-08",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "29"
+    },
+    {
+      "date": "2019-04-08",
+      "browser": "Chrome",
+      "os_version": "XP",
+      "visits": "25"
+    },
+    {
+      "date": "2019-04-08",
+      "browser": "Chrome",
+      "os_version": "Vista",
+      "visits": "22"
+    },
+    {
+      "date": "2019-04-08",
+      "browser": "Chrome",
+      "os_version": "8",
+      "visits": "11"
+    },
+    {
+      "date": "2019-04-09",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "4629"
+    },
+    {
+      "date": "2019-04-09",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "3078"
+    },
+    {
+      "date": "2019-04-09",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "1789"
+    },
+    {
+      "date": "2019-04-09",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "1778"
+    },
+    {
+      "date": "2019-04-09",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "1655"
+    },
+    {
+      "date": "2019-04-09",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "411"
+    },
+    {
+      "date": "2019-04-09",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "322"
+    },
+    {
+      "date": "2019-04-09",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "233"
+    },
+    {
+      "date": "2019-04-09",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "201"
+    },
+    {
+      "date": "2019-04-09",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "35"
+    },
+    {
+      "date": "2019-04-09",
+      "browser": "Chrome",
+      "os_version": "Vista",
+      "visits": "23"
+    },
+    {
+      "date": "2019-04-09",
+      "browser": "Chrome",
+      "os_version": "XP",
+      "visits": "22"
+    },
+    {
+      "date": "2019-04-09",
+      "browser": "Chrome",
+      "os_version": "8",
+      "visits": "11"
+    },
+    {
+      "date": "2019-04-10",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "4589"
+    },
+    {
+      "date": "2019-04-10",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "3073"
+    },
+    {
+      "date": "2019-04-10",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "1774"
+    },
+    {
+      "date": "2019-04-10",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "1751"
+    },
+    {
+      "date": "2019-04-10",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "1720"
+    },
+    {
+      "date": "2019-04-10",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "355"
+    },
+    {
+      "date": "2019-04-10",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "319"
+    },
+    {
+      "date": "2019-04-10",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "213"
+    },
+    {
+      "date": "2019-04-10",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "208"
+    },
+    {
+      "date": "2019-04-10",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "30"
+    },
+    {
+      "date": "2019-04-10",
+      "browser": "Chrome",
+      "os_version": "XP",
+      "visits": "22"
+    },
+    {
+      "date": "2019-04-10",
+      "browser": "Chrome",
+      "os_version": "Vista",
+      "visits": "17"
+    },
+    {
+      "date": "2019-04-11",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "4620"
+    },
+    {
+      "date": "2019-04-11",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "3026"
+    },
+    {
+      "date": "2019-04-11",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "1748"
+    },
+    {
+      "date": "2019-04-11",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "1658"
+    },
+    {
+      "date": "2019-04-11",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "1610"
+    },
+    {
+      "date": "2019-04-11",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "375"
+    },
+    {
+      "date": "2019-04-11",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "278"
+    },
+    {
+      "date": "2019-04-11",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "213"
+    },
+    {
+      "date": "2019-04-11",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "180"
+    },
+    {
+      "date": "2019-04-11",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "30"
+    },
+    {
+      "date": "2019-04-11",
+      "browser": "Chrome",
+      "os_version": "Vista",
+      "visits": "20"
+    },
+    {
+      "date": "2019-04-11",
+      "browser": "Chrome",
+      "os_version": "XP",
+      "visits": "17"
+    },
+    {
+      "date": "2019-04-12",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "4025"
+    },
+    {
+      "date": "2019-04-12",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "2847"
+    },
+    {
+      "date": "2019-04-12",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "1603"
+    },
+    {
+      "date": "2019-04-12",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "1594"
+    },
+    {
+      "date": "2019-04-12",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "1542"
+    },
+    {
+      "date": "2019-04-12",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "348"
+    },
+    {
+      "date": "2019-04-12",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "268"
+    },
+    {
+      "date": "2019-04-12",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "184"
+    },
+    {
+      "date": "2019-04-12",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "163"
+    },
+    {
+      "date": "2019-04-12",
+      "browser": "Chrome",
+      "os_version": "XP",
+      "visits": "23"
+    },
+    {
+      "date": "2019-04-12",
+      "browser": "Chrome",
+      "os_version": "Vista",
+      "visits": "21"
+    },
+    {
+      "date": "2019-04-12",
+      "browser": "Firefox",
+      "os_version": "XP",
+      "visits": "20"
+    },
+    {
+      "date": "2019-04-12",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "19"
+    },
+    {
+      "date": "2019-04-13",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "1354"
+    },
+    {
+      "date": "2019-04-13",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "830"
+    },
+    {
+      "date": "2019-04-13",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "818"
+    },
+    {
+      "date": "2019-04-13",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "507"
+    },
+    {
+      "date": "2019-04-13",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "268"
+    },
+    {
+      "date": "2019-04-13",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "195"
+    },
+    {
+      "date": "2019-04-13",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "122"
+    },
+    {
+      "date": "2019-04-13",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "84"
+    },
+    {
+      "date": "2019-04-13",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "57"
+    },
+    {
+      "date": "2019-04-13",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "17"
+    },
+    {
+      "date": "2019-04-13",
+      "browser": "Chrome",
+      "os_version": "Vista",
+      "visits": "16"
+    },
+    {
+      "date": "2019-04-13",
+      "browser": "Chrome",
+      "os_version": "XP",
+      "visits": "13"
+    },
+    {
+      "date": "2019-04-13",
+      "browser": "Firefox",
+      "os_version": "Vista",
+      "visits": "11"
+    },
+    {
+      "date": "2019-04-14",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "1819"
+    },
+    {
+      "date": "2019-04-14",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "957"
+    },
+    {
+      "date": "2019-04-14",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "749"
+    },
+    {
+      "date": "2019-04-14",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "595"
+    },
+    {
+      "date": "2019-04-14",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "324"
+    },
+    {
+      "date": "2019-04-14",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "212"
+    },
+    {
+      "date": "2019-04-14",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "125"
+    },
+    {
+      "date": "2019-04-14",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "115"
+    },
+    {
+      "date": "2019-04-14",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "77"
+    },
+    {
+      "date": "2019-04-14",
+      "browser": "Chrome",
+      "os_version": "Vista",
+      "visits": "22"
+    },
+    {
+      "date": "2019-04-14",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "21"
+    },
+    {
+      "date": "2019-04-14",
+      "browser": "Chrome",
+      "os_version": "XP",
+      "visits": "16"
+    },
+    {
+      "date": "2019-04-14",
+      "browser": "Firefox",
+      "os_version": "XP",
+      "visits": "11"
+    },
+    {
+      "date": "2019-04-15",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "4566"
+    },
+    {
+      "date": "2019-04-15",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "4472"
+    },
+    {
+      "date": "2019-04-15",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "2237"
+    },
+    {
+      "date": "2019-04-15",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "2221"
+    },
+    {
+      "date": "2019-04-15",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "2037"
+    },
+    {
+      "date": "2019-04-15",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "496"
+    },
+    {
+      "date": "2019-04-15",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "370"
+    },
+    {
+      "date": "2019-04-15",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "278"
+    },
+    {
+      "date": "2019-04-15",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "273"
+    },
+    {
+      "date": "2019-04-15",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "40"
+    },
+    {
+      "date": "2019-04-15",
+      "browser": "Chrome",
+      "os_version": "Vista",
+      "visits": "31"
+    },
+    {
+      "date": "2019-04-15",
+      "browser": "Chrome",
+      "os_version": "XP",
+      "visits": "28"
+    },
+    {
+      "date": "2019-04-15",
+      "browser": "Chrome",
+      "os_version": "8",
+      "visits": "22"
+    },
+    {
+      "date": "2019-04-15",
+      "browser": "Firefox",
+      "os_version": "XP",
+      "visits": "20"
+    },
+    {
+      "date": "2019-04-15",
+      "browser": "Firefox",
+      "os_version": "Vista",
+      "visits": "14"
+    },
+    {
+      "date": "2019-04-16",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "4366"
+    },
+    {
+      "date": "2019-04-16",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "2589"
+    },
+    {
+      "date": "2019-04-16",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "1639"
+    },
+    {
+      "date": "2019-04-16",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "1502"
+    },
+    {
+      "date": "2019-04-16",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "1448"
+    },
+    {
+      "date": "2019-04-16",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "320"
+    },
+    {
+      "date": "2019-04-16",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "263"
+    },
+    {
+      "date": "2019-04-16",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "187"
+    },
+    {
+      "date": "2019-04-16",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "152"
+    },
+    {
+      "date": "2019-04-16",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "19"
+    },
+    {
+      "date": "2019-04-16",
+      "browser": "Chrome",
+      "os_version": "8",
+      "visits": "16"
+    },
+    {
+      "date": "2019-04-16",
+      "browser": "Chrome",
+      "os_version": "Vista",
+      "visits": "13"
+    },
+    {
+      "date": "2019-04-17",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "4183"
+    },
+    {
+      "date": "2019-04-17",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "2376"
+    },
+    {
+      "date": "2019-04-17",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "1420"
+    },
+    {
+      "date": "2019-04-17",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "1396"
+    },
+    {
+      "date": "2019-04-17",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "1362"
+    },
+    {
+      "date": "2019-04-17",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "260"
+    },
+    {
+      "date": "2019-04-17",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "235"
+    },
+    {
+      "date": "2019-04-17",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "180"
+    },
+    {
+      "date": "2019-04-17",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "161"
+    },
+    {
+      "date": "2019-04-17",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "17"
+    },
+    {
+      "date": "2019-04-17",
+      "browser": "Chrome",
+      "os_version": "XP",
+      "visits": "12"
+    },
+    {
+      "date": "2019-04-18",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "4040"
+    },
+    {
+      "date": "2019-04-18",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "2227"
+    },
+    {
+      "date": "2019-04-18",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "1365"
+    },
+    {
+      "date": "2019-04-18",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "1323"
+    },
+    {
+      "date": "2019-04-18",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "1311"
+    },
+    {
+      "date": "2019-04-18",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "288"
+    },
+    {
+      "date": "2019-04-18",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "215"
+    },
+    {
+      "date": "2019-04-18",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "188"
+    },
+    {
+      "date": "2019-04-18",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "152"
+    },
+    {
+      "date": "2019-04-18",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "23"
+    },
+    {
+      "date": "2019-04-18",
+      "browser": "Chrome",
+      "os_version": "XP",
+      "visits": "12"
+    },
+    {
+      "date": "2019-04-18",
+      "browser": "Chrome",
+      "os_version": "Vista",
+      "visits": "11"
+    },
+    {
+      "date": "2019-04-19",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "1399"
+    },
+    {
+      "date": "2019-04-19",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "965"
+    },
+    {
+      "date": "2019-04-19",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "706"
+    },
+    {
+      "date": "2019-04-19",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "643"
+    },
+    {
+      "date": "2019-04-19",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "408"
+    },
+    {
+      "date": "2019-04-19",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "138"
+    },
+    {
+      "date": "2019-04-19",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "101"
+    },
+    {
+      "date": "2019-04-19",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "94"
+    },
+    {
+      "date": "2019-04-19",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "45"
+    },
+    {
+      "date": "2019-04-19",
+      "browser": "Chrome",
+      "os_version": "Vista",
+      "visits": "15"
+    },
+    {
+      "date": "2019-04-19",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "11"
+    },
+    {
+      "date": "2019-04-20",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "743"
+    },
+    {
+      "date": "2019-04-20",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "621"
+    },
+    {
+      "date": "2019-04-20",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "533"
+    },
+    {
+      "date": "2019-04-20",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "258"
+    },
+    {
+      "date": "2019-04-20",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "109"
+    },
+    {
+      "date": "2019-04-20",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "87"
+    },
+    {
+      "date": "2019-04-20",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "57"
+    },
+    {
+      "date": "2019-04-20",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "27"
+    },
+    {
+      "date": "2019-04-20",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "20"
+    },
+    {
+      "date": "2019-04-21",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "712"
+    },
+    {
+      "date": "2019-04-21",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "523"
+    },
+    {
+      "date": "2019-04-21",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "516"
+    },
+    {
+      "date": "2019-04-21",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "190"
+    },
+    {
+      "date": "2019-04-21",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "125"
+    },
+    {
+      "date": "2019-04-21",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "71"
+    },
+    {
+      "date": "2019-04-21",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "50"
+    },
+    {
+      "date": "2019-04-21",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "46"
+    },
+    {
+      "date": "2019-04-21",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "16"
+    },
+    {
+      "date": "2019-04-22",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "4334"
+    },
+    {
+      "date": "2019-04-22",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "2664"
+    },
+    {
+      "date": "2019-04-22",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "1679"
+    },
+    {
+      "date": "2019-04-22",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "1658"
+    },
+    {
+      "date": "2019-04-22",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "1518"
+    },
+    {
+      "date": "2019-04-22",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "326"
+    },
+    {
+      "date": "2019-04-22",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "271"
+    },
+    {
+      "date": "2019-04-22",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "203"
+    },
+    {
+      "date": "2019-04-22",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "182"
+    },
+    {
+      "date": "2019-04-22",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "26"
+    },
+    {
+      "date": "2019-04-22",
+      "browser": "Chrome",
+      "os_version": "Vista",
+      "visits": "17"
+    },
+    {
+      "date": "2019-04-22",
+      "browser": "Chrome",
+      "os_version": "XP",
+      "visits": "12"
+    },
+    {
+      "date": "2019-04-22",
+      "browser": "Firefox",
+      "os_version": "XP",
+      "visits": "11"
+    },
+    {
+      "date": "2019-04-23",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "4362"
+    },
+    {
+      "date": "2019-04-23",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "2762"
+    },
+    {
+      "date": "2019-04-23",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "1694"
+    },
+    {
+      "date": "2019-04-23",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "1583"
+    },
+    {
+      "date": "2019-04-23",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "1484"
+    },
+    {
+      "date": "2019-04-23",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "272"
+    },
+    {
+      "date": "2019-04-23",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "252"
+    },
+    {
+      "date": "2019-04-23",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "221"
+    },
+    {
+      "date": "2019-04-23",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "159"
+    },
+    {
+      "date": "2019-04-23",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "21"
+    },
+    {
+      "date": "2019-04-23",
+      "browser": "Chrome",
+      "os_version": "Vista",
+      "visits": "15"
+    },
+    {
+      "date": "2019-04-23",
+      "browser": "Chrome",
+      "os_version": "XP",
+      "visits": "13"
+    },
+    {
+      "date": "2019-04-23",
+      "browser": "Chrome",
+      "os_version": "8",
+      "visits": "11"
+    },
+    {
+      "date": "2019-04-24",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "4158"
+    },
+    {
+      "date": "2019-04-24",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "2680"
+    },
+    {
+      "date": "2019-04-24",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "1643"
+    },
+    {
+      "date": "2019-04-24",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "1565"
+    },
+    {
+      "date": "2019-04-24",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "1461"
+    },
+    {
+      "date": "2019-04-24",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "282"
+    },
+    {
+      "date": "2019-04-24",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "280"
+    },
+    {
+      "date": "2019-04-24",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "201"
+    },
+    {
+      "date": "2019-04-24",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "180"
+    },
+    {
+      "date": "2019-04-24",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "15"
+    },
+    {
+      "date": "2019-04-24",
+      "browser": "Chrome",
+      "os_version": "XP",
+      "visits": "12"
+    },
+    {
+      "date": "2019-04-24",
+      "browser": "Firefox",
+      "os_version": "XP",
+      "visits": "11"
+    },
+    {
+      "date": "2019-04-25",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "4265"
+    },
+    {
+      "date": "2019-04-25",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "2430"
+    },
+    {
+      "date": "2019-04-25",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "1563"
+    },
+    {
+      "date": "2019-04-25",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "1471"
+    },
+    {
+      "date": "2019-04-25",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "1441"
+    },
+    {
+      "date": "2019-04-25",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "244"
+    },
+    {
+      "date": "2019-04-25",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "233"
+    },
+    {
+      "date": "2019-04-25",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "183"
+    },
+    {
+      "date": "2019-04-25",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "164"
+    },
+    {
+      "date": "2019-04-25",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "28"
+    },
+    {
+      "date": "2019-04-25",
+      "browser": "Chrome",
+      "os_version": "XP",
+      "visits": "12"
+    },
+    {
+      "date": "2019-04-26",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "3755"
+    },
+    {
+      "date": "2019-04-26",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "2218"
+    },
+    {
+      "date": "2019-04-26",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "1416"
+    },
+    {
+      "date": "2019-04-26",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "1372"
+    },
+    {
+      "date": "2019-04-26",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "1242"
+    },
+    {
+      "date": "2019-04-26",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "238"
+    },
+    {
+      "date": "2019-04-26",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "235"
+    },
+    {
+      "date": "2019-04-26",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "174"
+    },
+    {
+      "date": "2019-04-26",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "146"
+    },
+    {
+      "date": "2019-04-26",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "20"
+    },
+    {
+      "date": "2019-04-26",
+      "browser": "Chrome",
+      "os_version": "XP",
+      "visits": "14"
+    },
+    {
+      "date": "2019-04-26",
+      "browser": "Chrome",
+      "os_version": "Vista",
+      "visits": "12"
+    },
+    {
+      "date": "2019-04-27",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "754"
+    },
+    {
+      "date": "2019-04-27",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "637"
+    },
+    {
+      "date": "2019-04-27",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "561"
+    },
+    {
+      "date": "2019-04-27",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "265"
+    },
+    {
+      "date": "2019-04-27",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "123"
+    },
+    {
+      "date": "2019-04-27",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "66"
+    },
+    {
+      "date": "2019-04-27",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "56"
+    },
+    {
+      "date": "2019-04-27",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "39"
+    },
+    {
+      "date": "2019-04-27",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "27"
+    },
+    {
+      "date": "2019-04-27",
+      "browser": "Chrome",
+      "os_version": "Vista",
+      "visits": "13"
+    },
+    {
+      "date": "2019-04-28",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "827"
+    },
+    {
+      "date": "2019-04-28",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "578"
+    },
+    {
+      "date": "2019-04-28",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "556"
+    },
+    {
+      "date": "2019-04-28",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "254"
+    },
+    {
+      "date": "2019-04-28",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "139"
+    },
+    {
+      "date": "2019-04-28",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "75"
+    },
+    {
+      "date": "2019-04-28",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "68"
+    },
+    {
+      "date": "2019-04-28",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "42"
+    },
+    {
+      "date": "2019-04-28",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "33"
+    },
+    {
+      "date": "2019-04-29",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "4258"
+    },
+    {
+      "date": "2019-04-29",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "2587"
+    },
+    {
+      "date": "2019-04-29",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "1605"
+    },
+    {
+      "date": "2019-04-29",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "1569"
+    },
+    {
+      "date": "2019-04-29",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "1508"
+    },
+    {
+      "date": "2019-04-29",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "311"
+    },
+    {
+      "date": "2019-04-29",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "303"
+    },
+    {
+      "date": "2019-04-29",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "209"
+    },
+    {
+      "date": "2019-04-29",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "180"
+    },
+    {
+      "date": "2019-04-29",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "29"
+    },
+    {
+      "date": "2019-04-29",
+      "browser": "Chrome",
+      "os_version": "XP",
+      "visits": "19"
+    },
+    {
+      "date": "2019-04-29",
+      "browser": "Chrome",
+      "os_version": "Vista",
+      "visits": "18"
+    },
+    {
+      "date": "2019-04-29",
+      "browser": "Firefox",
+      "os_version": "XP",
+      "visits": "13"
+    },
+    {
+      "date": "2019-04-30",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "4415"
+    },
+    {
+      "date": "2019-04-30",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "2664"
+    },
+    {
+      "date": "2019-04-30",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "1696"
+    },
+    {
+      "date": "2019-04-30",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "1637"
+    },
+    {
+      "date": "2019-04-30",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "1613"
+    },
+    {
+      "date": "2019-04-30",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "313"
+    },
+    {
+      "date": "2019-04-30",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "264"
+    },
+    {
+      "date": "2019-04-30",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "209"
+    },
+    {
+      "date": "2019-04-30",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "152"
+    },
+    {
+      "date": "2019-04-30",
+      "browser": "Chrome",
+      "os_version": "Vista",
+      "visits": "20"
+    },
+    {
+      "date": "2019-04-30",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "18"
+    },
+    {
+      "date": "2019-04-30",
+      "browser": "Chrome",
+      "os_version": "8",
+      "visits": "14"
+    },
+    {
+      "date": "2019-05-01",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "4201"
+    },
+    {
+      "date": "2019-05-01",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "2353"
+    },
+    {
+      "date": "2019-05-01",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "1465"
+    },
+    {
+      "date": "2019-05-01",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "1433"
+    },
+    {
+      "date": "2019-05-01",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "1428"
+    },
+    {
+      "date": "2019-05-01",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "277"
+    },
+    {
+      "date": "2019-05-01",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "275"
+    },
+    {
+      "date": "2019-05-01",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "210"
+    },
+    {
+      "date": "2019-05-01",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "131"
+    },
+    {
+      "date": "2019-05-01",
+      "browser": "Chrome",
+      "os_version": "XP",
+      "visits": "16"
+    },
+    {
+      "date": "2019-05-01",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "12"
+    },
+    {
+      "date": "2019-05-01",
+      "browser": "Firefox",
+      "os_version": "XP",
+      "visits": "12"
+    },
+    {
+      "date": "2019-05-02",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "4066"
+    },
+    {
+      "date": "2019-05-02",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "2284"
+    },
+    {
+      "date": "2019-05-02",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "1477"
+    },
+    {
+      "date": "2019-05-02",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "1470"
+    },
+    {
+      "date": "2019-05-02",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "1414"
+    },
+    {
+      "date": "2019-05-02",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "266"
+    },
+    {
+      "date": "2019-05-02",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "240"
+    },
+    {
+      "date": "2019-05-02",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "188"
+    },
+    {
+      "date": "2019-05-02",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "126"
+    },
+    {
+      "date": "2019-05-02",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "21"
+    },
+    {
+      "date": "2019-05-02",
+      "browser": "Chrome",
+      "os_version": "XP",
+      "visits": "17"
+    },
+    {
+      "date": "2019-05-02",
+      "browser": "Chrome",
+      "os_version": "Vista",
+      "visits": "14"
+    },
+    {
+      "date": "2019-05-02",
+      "browser": "Firefox",
+      "os_version": "Vista",
+      "visits": "11"
+    },
+    {
+      "date": "2019-05-03",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "3847"
+    },
+    {
+      "date": "2019-05-03",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "2016"
+    },
+    {
+      "date": "2019-05-03",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "1383"
+    },
+    {
+      "date": "2019-05-03",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "1339"
+    },
+    {
+      "date": "2019-05-03",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "1310"
+    },
+    {
+      "date": "2019-05-03",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "235"
+    },
+    {
+      "date": "2019-05-03",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "222"
+    },
+    {
+      "date": "2019-05-03",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "167"
+    },
+    {
+      "date": "2019-05-03",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "121"
+    },
+    {
+      "date": "2019-05-03",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "18"
+    },
+    {
+      "date": "2019-05-04",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "654"
+    },
+    {
+      "date": "2019-05-04",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "605"
+    },
+    {
+      "date": "2019-05-04",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "458"
+    },
+    {
+      "date": "2019-05-04",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "268"
+    },
+    {
+      "date": "2019-05-04",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "124"
+    },
+    {
+      "date": "2019-05-04",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "83"
+    },
+    {
+      "date": "2019-05-04",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "50"
+    },
+    {
+      "date": "2019-05-04",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "33"
+    },
+    {
+      "date": "2019-05-04",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "25"
+    },
+    {
+      "date": "2019-05-05",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "776"
+    },
+    {
+      "date": "2019-05-05",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "615"
+    },
+    {
+      "date": "2019-05-05",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "546"
+    },
+    {
+      "date": "2019-05-05",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "277"
+    },
+    {
+      "date": "2019-05-05",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "134"
+    },
+    {
+      "date": "2019-05-05",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "102"
+    },
+    {
+      "date": "2019-05-05",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "69"
+    },
+    {
+      "date": "2019-05-05",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "41"
+    },
+    {
+      "date": "2019-05-05",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "27"
+    },
+    {
+      "date": "2019-05-05",
+      "browser": "Chrome",
+      "os_version": "Vista",
+      "visits": "11"
+    },
+    {
+      "date": "2019-05-06",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "4067"
+    },
+    {
+      "date": "2019-05-06",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "2472"
+    },
+    {
+      "date": "2019-05-06",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "1623"
+    },
+    {
+      "date": "2019-05-06",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "1491"
+    },
+    {
+      "date": "2019-05-06",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "1437"
+    },
+    {
+      "date": "2019-05-06",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "260"
+    },
+    {
+      "date": "2019-05-06",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "258"
+    },
+    {
+      "date": "2019-05-06",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "191"
+    },
+    {
+      "date": "2019-05-06",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "142"
+    },
+    {
+      "date": "2019-05-06",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "15"
+    },
+    {
+      "date": "2019-05-06",
+      "browser": "Chrome",
+      "os_version": "XP",
+      "visits": "13"
+    },
+    {
+      "date": "2019-05-07",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "4126"
+    },
+    {
+      "date": "2019-05-07",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "2442"
+    },
+    {
+      "date": "2019-05-07",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "1563"
+    },
+    {
+      "date": "2019-05-07",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "1510"
+    },
+    {
+      "date": "2019-05-07",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "1449"
+    },
+    {
+      "date": "2019-05-07",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "307"
+    },
+    {
+      "date": "2019-05-07",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "249"
+    },
+    {
+      "date": "2019-05-07",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "200"
+    },
+    {
+      "date": "2019-05-07",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "157"
+    },
+    {
+      "date": "2019-05-07",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "23"
+    },
+    {
+      "date": "2019-05-07",
+      "browser": "Chrome",
+      "os_version": "XP",
+      "visits": "15"
+    },
+    {
+      "date": "2019-05-07",
+      "browser": "Chrome",
+      "os_version": "Vista",
+      "visits": "12"
+    },
+    {
+      "date": "2019-05-08",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "3923"
+    },
+    {
+      "date": "2019-05-08",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "2212"
+    },
+    {
+      "date": "2019-05-08",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "1573"
+    },
+    {
+      "date": "2019-05-08",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "1371"
+    },
+    {
+      "date": "2019-05-08",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "1367"
+    },
+    {
+      "date": "2019-05-08",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "256"
+    },
+    {
+      "date": "2019-05-08",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "250"
+    },
+    {
+      "date": "2019-05-08",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "171"
+    },
+    {
+      "date": "2019-05-08",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "116"
+    },
+    {
+      "date": "2019-05-08",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "21"
+    },
+    {
+      "date": "2019-05-08",
+      "browser": "Chrome",
+      "os_version": "XP",
+      "visits": "13"
+    },
+    {
+      "date": "2019-05-08",
+      "browser": "Firefox",
+      "os_version": "XP",
+      "visits": "11"
+    },
+    {
+      "date": "2019-05-09",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "3950"
+    },
+    {
+      "date": "2019-05-09",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "2219"
+    },
+    {
+      "date": "2019-05-09",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "1530"
+    },
+    {
+      "date": "2019-05-09",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "1508"
+    },
+    {
+      "date": "2019-05-09",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "1380"
+    },
+    {
+      "date": "2019-05-09",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "273"
+    },
+    {
+      "date": "2019-05-09",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "237"
+    },
+    {
+      "date": "2019-05-09",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "165"
+    },
+    {
+      "date": "2019-05-09",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "136"
+    },
+    {
+      "date": "2019-05-09",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "22"
+    },
+    {
+      "date": "2019-05-09",
+      "browser": "Chrome",
+      "os_version": "XP",
+      "visits": "11"
+    },
+    {
+      "date": "2019-05-10",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "3512"
+    },
+    {
+      "date": "2019-05-10",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "1955"
+    },
+    {
+      "date": "2019-05-10",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "1393"
+    },
+    {
+      "date": "2019-05-10",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "1287"
+    },
+    {
+      "date": "2019-05-10",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "1222"
+    },
+    {
+      "date": "2019-05-10",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "241"
+    },
+    {
+      "date": "2019-05-10",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "190"
+    },
+    {
+      "date": "2019-05-10",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "173"
+    },
+    {
+      "date": "2019-05-10",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "135"
+    },
+    {
+      "date": "2019-05-10",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "22"
+    },
+    {
+      "date": "2019-05-10",
+      "browser": "Chrome",
+      "os_version": "XP",
+      "visits": "13"
+    },
+    {
+      "date": "2019-05-10",
+      "browser": "Chrome",
+      "os_version": "Vista",
+      "visits": "12"
+    },
+    {
+      "date": "2019-05-10",
+      "browser": "Firefox",
+      "os_version": "XP",
+      "visits": "12"
+    },
+    {
+      "date": "2019-05-11",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "643"
+    },
+    {
+      "date": "2019-05-11",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "586"
+    },
+    {
+      "date": "2019-05-11",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "423"
+    },
+    {
+      "date": "2019-05-11",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "245"
+    },
+    {
+      "date": "2019-05-11",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "118"
+    },
+    {
+      "date": "2019-05-11",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "82"
+    },
+    {
+      "date": "2019-05-11",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "47"
+    },
+    {
+      "date": "2019-05-11",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "33"
+    },
+    {
+      "date": "2019-05-11",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "22"
+    },
+    {
+      "date": "2019-05-12",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "764"
+    },
+    {
+      "date": "2019-05-12",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "539"
+    },
+    {
+      "date": "2019-05-12",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "446"
+    },
+    {
+      "date": "2019-05-12",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "230"
+    },
+    {
+      "date": "2019-05-12",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "126"
+    },
+    {
+      "date": "2019-05-12",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "75"
+    },
+    {
+      "date": "2019-05-12",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "34"
+    },
+    {
+      "date": "2019-05-12",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "32"
+    },
+    {
+      "date": "2019-05-12",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "26"
+    },
+    {
+      "date": "2019-05-13",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "4012"
+    },
+    {
+      "date": "2019-05-13",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "2725"
+    },
+    {
+      "date": "2019-05-13",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "1718"
+    },
+    {
+      "date": "2019-05-13",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "1657"
+    },
+    {
+      "date": "2019-05-13",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "1540"
+    },
+    {
+      "date": "2019-05-13",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "296"
+    },
+    {
+      "date": "2019-05-13",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "266"
+    },
+    {
+      "date": "2019-05-13",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "179"
+    },
+    {
+      "date": "2019-05-13",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "158"
+    },
+    {
+      "date": "2019-05-13",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "24"
+    },
+    {
+      "date": "2019-05-13",
+      "browser": "Firefox",
+      "os_version": "XP",
+      "visits": "14"
+    },
+    {
+      "date": "2019-05-13",
+      "browser": "Chrome",
+      "os_version": "8",
+      "visits": "11"
+    },
+    {
+      "date": "2019-05-13",
+      "browser": "Chrome",
+      "os_version": "Vista",
+      "visits": "11"
+    },
+    {
+      "date": "2019-05-13",
+      "browser": "Chrome",
+      "os_version": "XP",
+      "visits": "11"
+    },
+    {
+      "date": "2019-05-14",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "4240"
+    },
+    {
+      "date": "2019-05-14",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "2702"
+    },
+    {
+      "date": "2019-05-14",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "1783"
+    },
+    {
+      "date": "2019-05-14",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "1749"
+    },
+    {
+      "date": "2019-05-14",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "1555"
+    },
+    {
+      "date": "2019-05-14",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "312"
+    },
+    {
+      "date": "2019-05-14",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "260"
+    },
+    {
+      "date": "2019-05-14",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "206"
+    },
+    {
+      "date": "2019-05-14",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "155"
+    },
+    {
+      "date": "2019-05-14",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "19"
+    },
+    {
+      "date": "2019-05-14",
+      "browser": "Chrome",
+      "os_version": "Vista",
+      "visits": "11"
+    },
+    {
+      "date": "2019-05-14",
+      "browser": "Chrome",
+      "os_version": "XP",
+      "visits": "11"
+    },
+    {
+      "date": "2019-05-15",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "4173"
+    },
+    {
+      "date": "2019-05-15",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "2608"
+    },
+    {
+      "date": "2019-05-15",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "1750"
+    },
+    {
+      "date": "2019-05-15",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "1571"
+    },
+    {
+      "date": "2019-05-15",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "1548"
+    },
+    {
+      "date": "2019-05-15",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "314"
+    },
+    {
+      "date": "2019-05-15",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "266"
+    },
+    {
+      "date": "2019-05-15",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "181"
+    },
+    {
+      "date": "2019-05-15",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "150"
+    },
+    {
+      "date": "2019-05-15",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "23"
+    },
+    {
+      "date": "2019-05-15",
+      "browser": "Chrome",
+      "os_version": "XP",
+      "visits": "13"
+    },
+    {
+      "date": "2019-05-15",
+      "browser": "Chrome",
+      "os_version": "Vista",
+      "visits": "12"
+    },
+    {
+      "date": "2019-05-16",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "3965"
+    },
+    {
+      "date": "2019-05-16",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "2281"
+    },
+    {
+      "date": "2019-05-16",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "1578"
+    },
+    {
+      "date": "2019-05-16",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "1563"
+    },
+    {
+      "date": "2019-05-16",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "1334"
+    },
+    {
+      "date": "2019-05-16",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "260"
+    },
+    {
+      "date": "2019-05-16",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "247"
+    },
+    {
+      "date": "2019-05-16",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "185"
+    },
+    {
+      "date": "2019-05-16",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "121"
+    },
+    {
+      "date": "2019-05-16",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "24"
+    },
+    {
+      "date": "2019-05-16",
+      "browser": "Chrome",
+      "os_version": "Vista",
+      "visits": "13"
+    },
+    {
+      "date": "2019-05-16",
+      "browser": "Firefox",
+      "os_version": "XP",
+      "visits": "11"
+    },
+    {
+      "date": "2019-05-17",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "3474"
+    },
+    {
+      "date": "2019-05-17",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "2092"
+    },
+    {
+      "date": "2019-05-17",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "1370"
+    },
+    {
+      "date": "2019-05-17",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "1325"
+    },
+    {
+      "date": "2019-05-17",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "1193"
+    },
+    {
+      "date": "2019-05-17",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "271"
+    },
+    {
+      "date": "2019-05-17",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "206"
+    },
+    {
+      "date": "2019-05-17",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "167"
+    },
+    {
+      "date": "2019-05-17",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "97"
+    },
+    {
+      "date": "2019-05-17",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "25"
+    },
+    {
+      "date": "2019-05-17",
+      "browser": "Chrome",
+      "os_version": "XP",
+      "visits": "13"
+    },
+    {
+      "date": "2019-05-18",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "614"
+    },
+    {
+      "date": "2019-05-18",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "568"
+    },
+    {
+      "date": "2019-05-18",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "349"
+    },
+    {
+      "date": "2019-05-18",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "233"
+    },
+    {
+      "date": "2019-05-18",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "100"
+    },
+    {
+      "date": "2019-05-18",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "55"
+    },
+    {
+      "date": "2019-05-18",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "38"
+    },
+    {
+      "date": "2019-05-18",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "36"
+    },
+    {
+      "date": "2019-05-18",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "22"
+    },
+    {
+      "date": "2019-05-19",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "679"
+    },
+    {
+      "date": "2019-05-19",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "509"
+    },
+    {
+      "date": "2019-05-19",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "485"
+    },
+    {
+      "date": "2019-05-19",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "211"
+    },
+    {
+      "date": "2019-05-19",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "112"
+    },
+    {
+      "date": "2019-05-19",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "76"
+    },
+    {
+      "date": "2019-05-19",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "46"
+    },
+    {
+      "date": "2019-05-19",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "38"
+    },
+    {
+      "date": "2019-05-19",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "21"
+    },
+    {
+      "date": "2019-05-19",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "13"
+    },
+    {
+      "date": "2019-05-20",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "3871"
+    },
+    {
+      "date": "2019-05-20",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "2480"
+    },
+    {
+      "date": "2019-05-20",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "1546"
+    },
+    {
+      "date": "2019-05-20",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "1512"
+    },
+    {
+      "date": "2019-05-20",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "1379"
+    },
+    {
+      "date": "2019-05-20",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "282"
+    },
+    {
+      "date": "2019-05-20",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "225"
+    },
+    {
+      "date": "2019-05-20",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "186"
+    },
+    {
+      "date": "2019-05-20",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "142"
+    },
+    {
+      "date": "2019-05-20",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "25"
+    },
+    {
+      "date": "2019-05-20",
+      "browser": "Firefox",
+      "os_version": "XP",
+      "visits": "12"
+    },
+    {
+      "date": "2019-05-20",
+      "browser": "Chrome",
+      "os_version": "XP",
+      "visits": "11"
+    },
+    {
+      "date": "2019-05-21",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "4082"
+    },
+    {
+      "date": "2019-05-21",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "2311"
+    },
+    {
+      "date": "2019-05-21",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "1636"
+    },
+    {
+      "date": "2019-05-21",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "1562"
+    },
+    {
+      "date": "2019-05-21",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "1476"
+    },
+    {
+      "date": "2019-05-21",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "281"
+    },
+    {
+      "date": "2019-05-21",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "220"
+    },
+    {
+      "date": "2019-05-21",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "215"
+    },
+    {
+      "date": "2019-05-21",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "129"
+    },
+    {
+      "date": "2019-05-21",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "17"
+    },
+    {
+      "date": "2019-05-21",
+      "browser": "Firefox",
+      "os_version": "XP",
+      "visits": "11"
+    },
+    {
+      "date": "2019-05-22",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "4051"
+    },
+    {
+      "date": "2019-05-22",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "2245"
+    },
+    {
+      "date": "2019-05-22",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "1595"
+    },
+    {
+      "date": "2019-05-22",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "1528"
+    },
+    {
+      "date": "2019-05-22",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "1304"
+    },
+    {
+      "date": "2019-05-22",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "253"
+    },
+    {
+      "date": "2019-05-22",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "238"
+    },
+    {
+      "date": "2019-05-22",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "171"
+    },
+    {
+      "date": "2019-05-22",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "150"
+    },
+    {
+      "date": "2019-05-22",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "18"
+    },
+    {
+      "date": "2019-05-22",
+      "browser": "Chrome",
+      "os_version": "8",
+      "visits": "13"
+    },
+    {
+      "date": "2019-05-22",
+      "browser": "Chrome",
+      "os_version": "Vista",
+      "visits": "12"
+    },
+    {
+      "date": "2019-05-23",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "3935"
+    },
+    {
+      "date": "2019-05-23",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "2333"
+    },
+    {
+      "date": "2019-05-23",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "1638"
+    },
+    {
+      "date": "2019-05-23",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "1492"
+    },
+    {
+      "date": "2019-05-23",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "1332"
+    },
+    {
+      "date": "2019-05-23",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "288"
+    },
+    {
+      "date": "2019-05-23",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "206"
+    },
+    {
+      "date": "2019-05-23",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "185"
+    },
+    {
+      "date": "2019-05-23",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "125"
+    },
+    {
+      "date": "2019-05-23",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "20"
+    },
+    {
+      "date": "2019-05-23",
+      "browser": "Chrome",
+      "os_version": "XP",
+      "visits": "11"
+    },
+    {
+      "date": "2019-05-24",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "3187"
+    },
+    {
+      "date": "2019-05-24",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "1785"
+    },
+    {
+      "date": "2019-05-24",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "1306"
+    },
+    {
+      "date": "2019-05-24",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "1232"
+    },
+    {
+      "date": "2019-05-24",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "1044"
+    },
+    {
+      "date": "2019-05-24",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "227"
+    },
+    {
+      "date": "2019-05-24",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "195"
+    },
+    {
+      "date": "2019-05-24",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "146"
+    },
+    {
+      "date": "2019-05-24",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "115"
+    },
+    {
+      "date": "2019-05-24",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "14"
+    },
+    {
+      "date": "2019-05-25",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "539"
+    },
+    {
+      "date": "2019-05-25",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "521"
+    },
+    {
+      "date": "2019-05-25",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "508"
+    },
+    {
+      "date": "2019-05-25",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "192"
+    },
+    {
+      "date": "2019-05-25",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "98"
+    },
+    {
+      "date": "2019-05-25",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "50"
+    },
+    {
+      "date": "2019-05-25",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "37"
+    },
+    {
+      "date": "2019-05-25",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "29"
+    },
+    {
+      "date": "2019-05-25",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "25"
+    },
+    {
+      "date": "2019-05-26",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "585"
+    },
+    {
+      "date": "2019-05-26",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "504"
+    },
+    {
+      "date": "2019-05-26",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "450"
+    },
+    {
+      "date": "2019-05-26",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "173"
+    },
+    {
+      "date": "2019-05-26",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "113"
+    },
+    {
+      "date": "2019-05-26",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "52"
+    },
+    {
+      "date": "2019-05-26",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "31"
+    },
+    {
+      "date": "2019-05-26",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "22"
+    },
+    {
+      "date": "2019-05-26",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "20"
+    },
+    {
+      "date": "2019-05-27",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "703"
+    },
+    {
+      "date": "2019-05-27",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "693"
+    },
+    {
+      "date": "2019-05-27",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "470"
+    },
+    {
+      "date": "2019-05-27",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "259"
+    },
+    {
+      "date": "2019-05-27",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "135"
+    },
+    {
+      "date": "2019-05-27",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "76"
+    },
+    {
+      "date": "2019-05-27",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "51"
+    },
+    {
+      "date": "2019-05-27",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "46"
+    },
+    {
+      "date": "2019-05-27",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "21"
+    },
+    {
+      "date": "2019-05-27",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "12"
+    },
+    {
+      "date": "2019-05-28",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "4042"
+    },
+    {
+      "date": "2019-05-28",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "2593"
+    },
+    {
+      "date": "2019-05-28",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "1715"
+    },
+    {
+      "date": "2019-05-28",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "1684"
+    },
+    {
+      "date": "2019-05-28",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "1465"
+    },
+    {
+      "date": "2019-05-28",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "316"
+    },
+    {
+      "date": "2019-05-28",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "255"
+    },
+    {
+      "date": "2019-05-28",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "196"
+    },
+    {
+      "date": "2019-05-28",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "144"
+    },
+    {
+      "date": "2019-05-28",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "23"
+    },
+    {
+      "date": "2019-05-28",
+      "browser": "Chrome",
+      "os_version": "Vista",
+      "visits": "14"
+    },
+    {
+      "date": "2019-05-28",
+      "browser": "Chrome",
+      "os_version": "8",
+      "visits": "11"
+    },
+    {
+      "date": "2019-05-28",
+      "browser": "Firefox",
+      "os_version": "XP",
+      "visits": "11"
+    },
+    {
+      "date": "2019-05-29",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "3619"
+    },
+    {
+      "date": "2019-05-29",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "2440"
+    },
+    {
+      "date": "2019-05-29",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "1549"
+    },
+    {
+      "date": "2019-05-29",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "1485"
+    },
+    {
+      "date": "2019-05-29",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "1404"
+    },
+    {
+      "date": "2019-05-29",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "294"
+    },
+    {
+      "date": "2019-05-29",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "232"
+    },
+    {
+      "date": "2019-05-29",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "177"
+    },
+    {
+      "date": "2019-05-29",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "151"
+    },
+    {
+      "date": "2019-05-29",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "21"
+    },
+    {
+      "date": "2019-05-29",
+      "browser": "Chrome",
+      "os_version": "XP",
+      "visits": "20"
+    },
+    {
+      "date": "2019-05-29",
+      "browser": "Firefox",
+      "os_version": "XP",
+      "visits": "12"
+    },
+    {
+      "date": "2019-05-30",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "4121"
+    },
+    {
+      "date": "2019-05-30",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "2515"
+    },
+    {
+      "date": "2019-05-30",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "1659"
+    },
+    {
+      "date": "2019-05-30",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "1583"
+    },
+    {
+      "date": "2019-05-30",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "1392"
+    },
+    {
+      "date": "2019-05-30",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "283"
+    },
+    {
+      "date": "2019-05-30",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "227"
+    },
+    {
+      "date": "2019-05-30",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "187"
+    },
+    {
+      "date": "2019-05-30",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "128"
+    },
+    {
+      "date": "2019-05-30",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "24"
+    },
+    {
+      "date": "2019-05-30",
+      "browser": "Opera",
+      "os_version": "10",
+      "visits": "14"
+    },
+    {
+      "date": "2019-05-30",
+      "browser": "Chrome",
+      "os_version": "XP",
+      "visits": "12"
+    },
+    {
+      "date": "2019-05-30",
+      "browser": "Chrome",
+      "os_version": "8",
+      "visits": "11"
+    },
+    {
+      "date": "2019-05-31",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "3602"
+    },
+    {
+      "date": "2019-05-31",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "2131"
+    },
+    {
+      "date": "2019-05-31",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "1571"
+    },
+    {
+      "date": "2019-05-31",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "1329"
+    },
+    {
+      "date": "2019-05-31",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "1176"
+    },
+    {
+      "date": "2019-05-31",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "276"
+    },
+    {
+      "date": "2019-05-31",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "225"
+    },
+    {
+      "date": "2019-05-31",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "172"
+    },
+    {
+      "date": "2019-05-31",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "107"
+    },
+    {
+      "date": "2019-05-31",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "22"
+    },
+    {
+      "date": "2019-05-31",
+      "browser": "Chrome",
+      "os_version": "Vista",
+      "visits": "15"
+    },
+    {
+      "date": "2019-06-01",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "698"
+    },
+    {
+      "date": "2019-06-01",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "687"
+    },
+    {
+      "date": "2019-06-01",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "461"
+    },
+    {
+      "date": "2019-06-01",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "281"
+    },
+    {
+      "date": "2019-06-01",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "133"
+    },
+    {
+      "date": "2019-06-01",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "76"
+    },
+    {
+      "date": "2019-06-01",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "50"
+    },
+    {
+      "date": "2019-06-01",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "33"
+    },
+    {
+      "date": "2019-06-01",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "20"
+    },
+    {
+      "date": "2019-06-02",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "796"
+    },
+    {
+      "date": "2019-06-02",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "617"
+    },
+    {
+      "date": "2019-06-02",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "501"
+    },
+    {
+      "date": "2019-06-02",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "220"
+    },
+    {
+      "date": "2019-06-02",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "158"
+    },
+    {
+      "date": "2019-06-02",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "90"
+    },
+    {
+      "date": "2019-06-02",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "50"
+    },
+    {
+      "date": "2019-06-02",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "40"
+    },
+    {
+      "date": "2019-06-02",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "19"
+    },
+    {
+      "date": "2019-06-03",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "4373"
+    },
+    {
+      "date": "2019-06-03",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "2757"
+    },
+    {
+      "date": "2019-06-03",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "1805"
+    },
+    {
+      "date": "2019-06-03",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "1744"
+    },
+    {
+      "date": "2019-06-03",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "1582"
+    },
+    {
+      "date": "2019-06-03",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "299"
+    },
+    {
+      "date": "2019-06-03",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "276"
+    },
+    {
+      "date": "2019-06-03",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "215"
+    },
+    {
+      "date": "2019-06-03",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "144"
+    },
+    {
+      "date": "2019-06-03",
+      "browser": "Chrome",
+      "os_version": "XP",
+      "visits": "16"
+    },
+    {
+      "date": "2019-06-03",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "16"
+    },
+    {
+      "date": "2019-06-03",
+      "browser": "Chrome",
+      "os_version": "Vista",
+      "visits": "13"
+    },
+    {
+      "date": "2019-06-03",
+      "browser": "Firefox",
+      "os_version": "XP",
+      "visits": "13"
+    },
+    {
+      "date": "2019-06-04",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "4072"
+    },
+    {
+      "date": "2019-06-04",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "2540"
+    },
+    {
+      "date": "2019-06-04",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "1665"
+    },
+    {
+      "date": "2019-06-04",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "1647"
+    },
+    {
+      "date": "2019-06-04",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "1355"
+    },
+    {
+      "date": "2019-06-04",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "299"
+    },
+    {
+      "date": "2019-06-04",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "260"
+    },
+    {
+      "date": "2019-06-04",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "226"
+    },
+    {
+      "date": "2019-06-04",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "142"
+    },
+    {
+      "date": "2019-06-04",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "22"
+    },
+    {
+      "date": "2019-06-04",
+      "browser": "Firefox",
+      "os_version": "XP",
+      "visits": "18"
+    },
+    {
+      "date": "2019-06-04",
+      "browser": "Chrome",
+      "os_version": "XP",
+      "visits": "15"
+    },
+    {
+      "date": "2019-06-05",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "4135"
+    },
+    {
+      "date": "2019-06-05",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "2476"
+    },
+    {
+      "date": "2019-06-05",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "1723"
+    },
+    {
+      "date": "2019-06-05",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "1649"
+    },
+    {
+      "date": "2019-06-05",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "1396"
+    },
+    {
+      "date": "2019-06-05",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "272"
+    },
+    {
+      "date": "2019-06-05",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "206"
+    },
+    {
+      "date": "2019-06-05",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "192"
+    },
+    {
+      "date": "2019-06-05",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "135"
+    },
+    {
+      "date": "2019-06-05",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "20"
+    },
+    {
+      "date": "2019-06-05",
+      "browser": "Opera",
+      "os_version": "10",
+      "visits": "14"
+    },
+    {
+      "date": "2019-06-05",
+      "browser": "Firefox",
+      "os_version": "XP",
+      "visits": "13"
+    },
+    {
+      "date": "2019-06-05",
+      "browser": "Chrome",
+      "os_version": "Vista",
+      "visits": "12"
+    },
+    {
+      "date": "2019-06-05",
+      "browser": "Chrome",
+      "os_version": "XP",
+      "visits": "11"
+    },
+    {
+      "date": "2019-06-06",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "4000"
+    },
+    {
+      "date": "2019-06-06",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "2361"
+    },
+    {
+      "date": "2019-06-06",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "1659"
+    },
+    {
+      "date": "2019-06-06",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "1645"
+    },
+    {
+      "date": "2019-06-06",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "1307"
+    },
+    {
+      "date": "2019-06-06",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "276"
+    },
+    {
+      "date": "2019-06-06",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "232"
+    },
+    {
+      "date": "2019-06-06",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "188"
+    },
+    {
+      "date": "2019-06-06",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "149"
+    },
+    {
+      "date": "2019-06-06",
+      "browser": "Chrome",
+      "os_version": "XP",
+      "visits": "18"
+    },
+    {
+      "date": "2019-06-06",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "15"
+    },
+    {
+      "date": "2019-06-06",
+      "browser": "Chrome",
+      "os_version": "8",
+      "visits": "11"
+    },
+    {
+      "date": "2019-06-06",
+      "browser": "Chrome",
+      "os_version": "Vista",
+      "visits": "11"
+    },
+    {
+      "date": "2019-06-07",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "3351"
+    },
+    {
+      "date": "2019-06-07",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "1969"
+    },
+    {
+      "date": "2019-06-07",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "1425"
+    },
+    {
+      "date": "2019-06-07",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "1321"
+    },
+    {
+      "date": "2019-06-07",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "1038"
+    },
+    {
+      "date": "2019-06-07",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "238"
+    },
+    {
+      "date": "2019-06-07",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "210"
+    },
+    {
+      "date": "2019-06-07",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "153"
+    },
+    {
+      "date": "2019-06-07",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "126"
+    },
+    {
+      "date": "2019-06-07",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "18"
+    },
+    {
+      "date": "2019-06-07",
+      "browser": "Chrome",
+      "os_version": "XP",
+      "visits": "13"
+    },
+    {
+      "date": "2019-06-07",
+      "browser": "Firefox",
+      "os_version": "XP",
+      "visits": "13"
+    },
+    {
+      "date": "2019-06-08",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "638"
+    },
+    {
+      "date": "2019-06-08",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "547"
+    },
+    {
+      "date": "2019-06-08",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "533"
+    },
+    {
+      "date": "2019-06-08",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "219"
+    },
+    {
+      "date": "2019-06-08",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "117"
+    },
+    {
+      "date": "2019-06-08",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "62"
+    },
+    {
+      "date": "2019-06-08",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "34"
+    },
+    {
+      "date": "2019-06-08",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "33"
+    },
+    {
+      "date": "2019-06-08",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "18"
+    },
+    {
+      "date": "2019-06-08",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "12"
+    },
+    {
+      "date": "2019-06-09",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "734"
+    },
+    {
+      "date": "2019-06-09",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "508"
+    },
+    {
+      "date": "2019-06-09",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "503"
+    },
+    {
+      "date": "2019-06-09",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "219"
+    },
+    {
+      "date": "2019-06-09",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "115"
+    },
+    {
+      "date": "2019-06-09",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "84"
+    },
+    {
+      "date": "2019-06-09",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "48"
+    },
+    {
+      "date": "2019-06-09",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "36"
+    },
+    {
+      "date": "2019-06-09",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "13"
+    },
+    {
+      "date": "2019-06-10",
+      "browser": "Internet Explorer",
+      "os_version": "7",
+      "visits": "3660"
+    },
+    {
+      "date": "2019-06-10",
+      "browser": "Chrome",
+      "os_version": "10",
+      "visits": "2561"
+    },
+    {
+      "date": "2019-06-10",
+      "browser": "Edge",
+      "os_version": "10",
+      "visits": "1949"
+    },
+    {
+      "date": "2019-06-10",
+      "browser": "Internet Explorer",
+      "os_version": "10",
+      "visits": "1633"
+    },
+    {
+      "date": "2019-06-10",
+      "browser": "Chrome",
+      "os_version": "7",
+      "visits": "1360"
+    },
+    {
+      "date": "2019-06-10",
+      "browser": "Firefox",
+      "os_version": "10",
+      "visits": "316"
+    },
+    {
+      "date": "2019-06-10",
+      "browser": "Firefox",
+      "os_version": "7",
+      "visits": "243"
+    },
+    {
+      "date": "2019-06-10",
+      "browser": "Internet Explorer",
+      "os_version": "8.1",
+      "visits": "176"
+    },
+    {
+      "date": "2019-06-10",
+      "browser": "Chrome",
+      "os_version": "8.1",
+      "visits": "132"
+    },
+    {
+      "date": "2019-06-10",
+      "browser": "Firefox",
+      "os_version": "8.1",
+      "visits": "20"
+    },
+    {
+      "date": "2019-06-10",
+      "browser": "Chrome",
+      "os_version": "XP",
+      "visits": "17"
+    },
+    {
+      "date": "2019-06-10",
+      "browser": "Chrome",
+      "os_version": "Vista",
+      "visits": "11"
+    }
+  ],
+  "totals": {
+    "visits": 848483,
+    "by_windows": {
+      "7": {
+        "Internet Explorer": 277860,
+        "Chrome": 102649,
+        "Firefox": 17575,
+        "Opera": 11
+      },
+      "8": {
+        "Chrome": 286,
+        "Firefox": 11
+      },
+      "10": {
+        "Chrome": 183645,
+        "Edge": 113976,
+        "Internet Explorer": 102405,
+        "Firefox": 21757,
+        "Opera": 66
+      },
+      "8.1": {
+        "Internet Explorer": 13063,
+        "Chrome": 11338,
+        "Firefox": 1623
+      },
+      "Vista": {
+        "Chrome": 881,
+        "Firefox": 49
+      },
+      "XP": {
+        "Chrome": 872,
+        "Firefox": 416
+      }
+    },
+    "by_browsers": {
+      "Internet Explorer": {
+        "7": 277860,
+        "10": 102405,
+        "8.1": 13063
+      },
+      "Chrome": {
+        "7": 102649,
+        "8": 286,
+        "10": 183645,
+        "8.1": 11338,
+        "Vista": 881,
+        "XP": 872
+      },
+      "Edge": {
+        "10": 113976
+      },
+      "Firefox": {
+        "7": 17575,
+        "8": 11,
+        "10": 21757,
+        "8.1": 1623,
+        "XP": 416,
+        "Vista": 49
+      },
+      "Opera": {
+        "7": 11,
+        "10": 66
+      }
+    }
+  },
+  "taken_at": "2019-06-11T22:30:07.658Z"
+}

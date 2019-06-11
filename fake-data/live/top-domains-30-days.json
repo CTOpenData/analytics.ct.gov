@@ -1,107 +1,177 @@
 {
-    "name": "top-domains-30-days",
-    "query": {
-        "start-date": "30daysAgo",
-        "end-date": "yesterday",
-        "dimensions": "ga:hostname",
-        "metrics": [
-            "ga:sessions"
-        ],
-        "sort": [
-            "-ga:sessions"
-        ],
-        "start-index": 1,
-        "max-results": 20,
-        "samplingLevel": "HIGHER_PRECISION"
-    },
-    "meta": {
-        "name": "Top Domains (30 Days)",
-        "description": "Last 30 days' top 20 domains, measured by visits, for all sites."
-    },
-    "data": [
-        {
-            "domain": "forecast.weather.gov",
-            "visits": "51709314"
-        },
-        {
-            "domain": "nlm.nih.gov",
-            "visits": "50851796"
-        },
-        {
-            "domain": "cdc.gov",
-            "visits": "23608396"
-        },
-        {
-            "domain": "irs.gov",
-            "visits": "19682967"
-        },
-        {
-            "domain": "weather.gov",
-            "visits": "14492067"
-        },
-        {
-            "domain": "usajobs.gov",
-            "visits": "13421658"
-        },
-        {
-            "domain": "travel.state.gov",
-            "visits": "10033366"
-        },
-        {
-            "domain": "nasa.gov",
-            "visits": "8897118"
-        },
-        {
-            "domain": "uscis.gov",
-            "visits": "8694551"
-        },
-        {
-            "domain": "nps.gov",
-            "visits": "8416951"
-        },
-        {
-            "domain": "ssa.gov",
-            "visits": "7077482"
-        },
-        {
-            "domain": "socialsecurity.gov",
-            "visits": "7049185"
-        },
-        {
-            "domain": "fda.gov",
-            "visits": "6764205"
-        },
-        {
-            "domain": "opm.gov",
-            "visits": "6125040"
-        },
-        {
-            "domain": "ceac.state.gov",
-            "visits": "5444007"
-        },
-        {
-            "domain": "bls.gov",
-            "visits": "5234116"
-        },
-        {
-            "domain": "whitehouse.gov",
-            "visits": "4980363"
-        },
-        {
-            "domain": "noaa.gov",
-            "visits": "4919869"
-        },
-        {
-            "domain": "earthquake.usgs.gov",
-            "visits": "4287814"
-        },
-        {
-            "domain": "egov.uscis.gov",
-            "visits": "4116727"
-        }
+  "name": "top-domains-30-days",
+  "query": {
+    "start-date": "30daysAgo",
+    "end-date": "yesterday",
+    "dimensions": "ga:hostname",
+    "metrics": [
+      "ga:sessions",
+      "ga:pageviews",
+      "ga:users",
+      "ga:pageviewsPerSession",
+      "ga:avgSessionDuration",
+      "ga:exits"
     ],
-    "totals": {
-        "visits": 265806992
+    "sort": [
+      "-ga:sessions"
+    ],
+    "start-index": 1,
+    "max-results": 20,
+    "samplingLevel": "HIGHER_PRECISION"
+  },
+  "meta": {
+    "name": "Top Domains (30 Days)",
+    "description": "Last 30 days' top 20 domains, measured by visits, for all sites."
+  },
+  "data": [
+    {
+      "domain": "portal.ct.gov",
+      "visits": "417264",
+      "pageviews": "783803",
+      "users": "254630",
+      "pageviews_per_session": "1.878434276621036",
+      "avg_session_duration": "158.4696642892749",
+      "exits": "413754"
     },
-    "taken_at": "2015-12-06T08:10:09.347Z"
+    {
+      "domain": "authoring.ct.gov",
+      "visits": "610",
+      "pageviews": "1196",
+      "users": "410",
+      "pageviews_per_session": "1.960655737704918",
+      "avg_session_duration": "237.13606557377048",
+      "exits": "609"
+    },
+    {
+      "domain": "portal.ct.gov.googleweblight.com",
+      "visits": "32",
+      "pageviews": "124",
+      "users": "29",
+      "pageviews_per_session": "3.875",
+      "avg_session_duration": "122.65625",
+      "exits": "32"
+    },
+    {
+      "domain": "www.portal.ct.gov",
+      "visits": "16",
+      "pageviews": "19",
+      "users": "1",
+      "pageviews_per_session": "1.1875",
+      "avg_session_duration": "126.4375",
+      "exits": "15"
+    },
+    {
+      "domain": "www.world-check.com",
+      "visits": "16",
+      "pageviews": "21",
+      "users": "16",
+      "pageviews_per_session": "1.3125",
+      "avg_session_duration": "99.375",
+      "exits": "16"
+    },
+    {
+      "domain": "translate.googleusercontent.com",
+      "visits": "9",
+      "pageviews": "17",
+      "users": "9",
+      "pageviews_per_session": "1.8888888888888888",
+      "avg_session_duration": "28.22222222222222",
+      "exits": "9"
+    },
+    {
+      "domain": "web.archive.org",
+      "visits": "9",
+      "pageviews": "36",
+      "users": "9",
+      "pageviews_per_session": "4.0",
+      "avg_session_duration": "48.22222222222222",
+      "exits": "9"
+    },
+    {
+      "domain": "rms-world-check-one.thomsonreuters.com",
+      "visits": "7",
+      "pageviews": "8",
+      "users": "5",
+      "pageviews_per_session": "1.1428571428571428",
+      "avg_session_duration": "201.42857142857142",
+      "exits": "6"
+    },
+    {
+      "domain": "webcache.googleusercontent.com",
+      "visits": "5",
+      "pageviews": "11",
+      "users": "5",
+      "pageviews_per_session": "2.2",
+      "avg_session_duration": "209.6",
+      "exits": "5"
+    },
+    {
+      "domain": "ct-prd-cms02c.ad.cdc.nicusa.com",
+      "visits": "4",
+      "pageviews": "39",
+      "users": "3",
+      "pageviews_per_session": "9.75",
+      "avg_session_duration": "1138.0",
+      "exits": "4"
+    },
+    {
+      "domain": "readmodel.m.sogou.com",
+      "visits": "4",
+      "pageviews": "4",
+      "users": "4",
+      "pageviews_per_session": "1.0",
+      "avg_session_duration": "0.0",
+      "exits": "4"
+    },
+    {
+      "domain": "sitecore",
+      "visits": "3",
+      "pageviews": "4",
+      "users": "3",
+      "pageviews_per_session": "1.3333333333333333",
+      "avg_session_duration": "7.0",
+      "exits": "3"
+    },
+    {
+      "domain": "www.ct.gov",
+      "visits": "3",
+      "pageviews": "8",
+      "users": "8",
+      "pageviews_per_session": "2.6666666666666665",
+      "avg_session_duration": "50.333333333333336",
+      "exits": "4"
+    },
+    {
+      "domain": "evogov.s3.amazonaws.com",
+      "visits": "1",
+      "pageviews": "1",
+      "users": "1",
+      "pageviews_per_session": "1.0",
+      "avg_session_duration": "0.0",
+      "exits": "1"
+    },
+    {
+      "domain": "test.ct.egov.com",
+      "visits": "1",
+      "pageviews": "1",
+      "users": "1",
+      "pageviews_per_session": "1.0",
+      "avg_session_duration": "0.0",
+      "exits": "1"
+    },
+    {
+      "domain": "webarchive.sbs-services.com",
+      "visits": "1",
+      "pageviews": "1",
+      "users": "1",
+      "pageviews_per_session": "1.0",
+      "avg_session_duration": "0.0",
+      "exits": "1"
+    }
+  ],
+  "totals": {
+    "users": 255135,
+    "visits": 417985
+  },
+  "taken_at": "2019-06-11T22:30:14.157Z"
 }

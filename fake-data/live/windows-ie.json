@@ -1,0 +1,3499 @@
+{
+  "name": "windows-ie",
+  "query": {
+    "start-date": "90daysAgo",
+    "end-date": "yesterday",
+    "dimensions": "ga:date,ga:browserVersion,ga:operatingSystemVersion",
+    "metrics": [
+      "ga:sessions"
+    ],
+    "sort": [
+      "ga:date",
+      "-ga:sessions"
+    ],
+    "filters": "ga:sessions>10;ga:browser==Internet Explorer;ga:operatingSystem==Windows",
+    "start-index": 1,
+    "max-results": 10000,
+    "samplingLevel": "HIGHER_PRECISION"
+  },
+  "meta": {
+    "name": "IE on Windows",
+    "description": "90 days of visits from IE on Windows broken down by IE and Windows versions for all sites. (>100 sessions)"
+  },
+  "data": [
+    {
+      "date": "2019-03-13",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "4335"
+    },
+    {
+      "date": "2019-03-13",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "1276"
+    },
+    {
+      "date": "2019-03-13",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "519"
+    },
+    {
+      "date": "2019-03-13",
+      "browser_version": "7.0",
+      "os_version": "10",
+      "visits": "322"
+    },
+    {
+      "date": "2019-03-13",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "143"
+    },
+    {
+      "date": "2019-03-13",
+      "browser_version": "7.0",
+      "os_version": "8.1",
+      "visits": "82"
+    },
+    {
+      "date": "2019-03-13",
+      "browser_version": "10.0",
+      "os_version": "7",
+      "visits": "29"
+    },
+    {
+      "date": "2019-03-13",
+      "browser_version": "9.0",
+      "os_version": "7",
+      "visits": "17"
+    },
+    {
+      "date": "2019-03-14",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "4288"
+    },
+    {
+      "date": "2019-03-14",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "1309"
+    },
+    {
+      "date": "2019-03-14",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "552"
+    },
+    {
+      "date": "2019-03-14",
+      "browser_version": "7.0",
+      "os_version": "10",
+      "visits": "340"
+    },
+    {
+      "date": "2019-03-14",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "142"
+    },
+    {
+      "date": "2019-03-14",
+      "browser_version": "7.0",
+      "os_version": "8.1",
+      "visits": "79"
+    },
+    {
+      "date": "2019-03-14",
+      "browser_version": "10.0",
+      "os_version": "7",
+      "visits": "28"
+    },
+    {
+      "date": "2019-03-14",
+      "browser_version": "9.0",
+      "os_version": "7",
+      "visits": "20"
+    },
+    {
+      "date": "2019-03-15",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "3875"
+    },
+    {
+      "date": "2019-03-15",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "1174"
+    },
+    {
+      "date": "2019-03-15",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "463"
+    },
+    {
+      "date": "2019-03-15",
+      "browser_version": "7.0",
+      "os_version": "10",
+      "visits": "267"
+    },
+    {
+      "date": "2019-03-15",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "133"
+    },
+    {
+      "date": "2019-03-15",
+      "browser_version": "7.0",
+      "os_version": "8.1",
+      "visits": "67"
+    },
+    {
+      "date": "2019-03-15",
+      "browser_version": "10.0",
+      "os_version": "7",
+      "visits": "17"
+    },
+    {
+      "date": "2019-03-15",
+      "browser_version": "9.0",
+      "os_version": "7",
+      "visits": "17"
+    },
+    {
+      "date": "2019-03-16",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "665"
+    },
+    {
+      "date": "2019-03-16",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "202"
+    },
+    {
+      "date": "2019-03-16",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "32"
+    },
+    {
+      "date": "2019-03-16",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "30"
+    },
+    {
+      "date": "2019-03-16",
+      "browser_version": "9.0",
+      "os_version": "7",
+      "visits": "14"
+    },
+    {
+      "date": "2019-03-17",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "604"
+    },
+    {
+      "date": "2019-03-17",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "185"
+    },
+    {
+      "date": "2019-03-17",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "41"
+    },
+    {
+      "date": "2019-03-17",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "22"
+    },
+    {
+      "date": "2019-03-17",
+      "browser_version": "9.0",
+      "os_version": "7",
+      "visits": "13"
+    },
+    {
+      "date": "2019-03-18",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "4191"
+    },
+    {
+      "date": "2019-03-18",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "1312"
+    },
+    {
+      "date": "2019-03-18",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "533"
+    },
+    {
+      "date": "2019-03-18",
+      "browser_version": "7.0",
+      "os_version": "10",
+      "visits": "334"
+    },
+    {
+      "date": "2019-03-18",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "142"
+    },
+    {
+      "date": "2019-03-18",
+      "browser_version": "7.0",
+      "os_version": "8.1",
+      "visits": "62"
+    },
+    {
+      "date": "2019-03-18",
+      "browser_version": "10.0",
+      "os_version": "7",
+      "visits": "27"
+    },
+    {
+      "date": "2019-03-18",
+      "browser_version": "9.0",
+      "os_version": "7",
+      "visits": "27"
+    },
+    {
+      "date": "2019-03-19",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "4330"
+    },
+    {
+      "date": "2019-03-19",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "1241"
+    },
+    {
+      "date": "2019-03-19",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "499"
+    },
+    {
+      "date": "2019-03-19",
+      "browser_version": "7.0",
+      "os_version": "10",
+      "visits": "324"
+    },
+    {
+      "date": "2019-03-19",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "165"
+    },
+    {
+      "date": "2019-03-19",
+      "browser_version": "7.0",
+      "os_version": "8.1",
+      "visits": "71"
+    },
+    {
+      "date": "2019-03-19",
+      "browser_version": "10.0",
+      "os_version": "7",
+      "visits": "35"
+    },
+    {
+      "date": "2019-03-19",
+      "browser_version": "9.0",
+      "os_version": "7",
+      "visits": "18"
+    },
+    {
+      "date": "2019-03-20",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "4268"
+    },
+    {
+      "date": "2019-03-20",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "1280"
+    },
+    {
+      "date": "2019-03-20",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "494"
+    },
+    {
+      "date": "2019-03-20",
+      "browser_version": "7.0",
+      "os_version": "10",
+      "visits": "305"
+    },
+    {
+      "date": "2019-03-20",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "140"
+    },
+    {
+      "date": "2019-03-20",
+      "browser_version": "7.0",
+      "os_version": "8.1",
+      "visits": "64"
+    },
+    {
+      "date": "2019-03-20",
+      "browser_version": "10.0",
+      "os_version": "7",
+      "visits": "26"
+    },
+    {
+      "date": "2019-03-20",
+      "browser_version": "9.0",
+      "os_version": "7",
+      "visits": "15"
+    },
+    {
+      "date": "2019-03-21",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "3862"
+    },
+    {
+      "date": "2019-03-21",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "1096"
+    },
+    {
+      "date": "2019-03-21",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "439"
+    },
+    {
+      "date": "2019-03-21",
+      "browser_version": "7.0",
+      "os_version": "10",
+      "visits": "300"
+    },
+    {
+      "date": "2019-03-21",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "123"
+    },
+    {
+      "date": "2019-03-21",
+      "browser_version": "7.0",
+      "os_version": "8.1",
+      "visits": "73"
+    },
+    {
+      "date": "2019-03-21",
+      "browser_version": "10.0",
+      "os_version": "7",
+      "visits": "28"
+    },
+    {
+      "date": "2019-03-21",
+      "browser_version": "9.0",
+      "os_version": "7",
+      "visits": "16"
+    },
+    {
+      "date": "2019-03-22",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "3371"
+    },
+    {
+      "date": "2019-03-22",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "956"
+    },
+    {
+      "date": "2019-03-22",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "410"
+    },
+    {
+      "date": "2019-03-22",
+      "browser_version": "7.0",
+      "os_version": "10",
+      "visits": "285"
+    },
+    {
+      "date": "2019-03-22",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "111"
+    },
+    {
+      "date": "2019-03-22",
+      "browser_version": "7.0",
+      "os_version": "8.1",
+      "visits": "74"
+    },
+    {
+      "date": "2019-03-22",
+      "browser_version": "10.0",
+      "os_version": "7",
+      "visits": "19"
+    },
+    {
+      "date": "2019-03-22",
+      "browser_version": "9.0",
+      "os_version": "7",
+      "visits": "16"
+    },
+    {
+      "date": "2019-03-23",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "667"
+    },
+    {
+      "date": "2019-03-23",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "200"
+    },
+    {
+      "date": "2019-03-23",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "25"
+    },
+    {
+      "date": "2019-03-23",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "24"
+    },
+    {
+      "date": "2019-03-24",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "590"
+    },
+    {
+      "date": "2019-03-24",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "165"
+    },
+    {
+      "date": "2019-03-24",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "23"
+    },
+    {
+      "date": "2019-03-24",
+      "browser_version": "7.0",
+      "os_version": "10",
+      "visits": "19"
+    },
+    {
+      "date": "2019-03-24",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "19"
+    },
+    {
+      "date": "2019-03-24",
+      "browser_version": "9.0",
+      "os_version": "7",
+      "visits": "12"
+    },
+    {
+      "date": "2019-03-25",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "4048"
+    },
+    {
+      "date": "2019-03-25",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "1298"
+    },
+    {
+      "date": "2019-03-25",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "477"
+    },
+    {
+      "date": "2019-03-25",
+      "browser_version": "7.0",
+      "os_version": "10",
+      "visits": "318"
+    },
+    {
+      "date": "2019-03-25",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "122"
+    },
+    {
+      "date": "2019-03-25",
+      "browser_version": "7.0",
+      "os_version": "8.1",
+      "visits": "92"
+    },
+    {
+      "date": "2019-03-25",
+      "browser_version": "10.0",
+      "os_version": "7",
+      "visits": "23"
+    },
+    {
+      "date": "2019-03-25",
+      "browser_version": "9.0",
+      "os_version": "7",
+      "visits": "14"
+    },
+    {
+      "date": "2019-03-26",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "4108"
+    },
+    {
+      "date": "2019-03-26",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "1361"
+    },
+    {
+      "date": "2019-03-26",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "501"
+    },
+    {
+      "date": "2019-03-26",
+      "browser_version": "7.0",
+      "os_version": "10",
+      "visits": "340"
+    },
+    {
+      "date": "2019-03-26",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "156"
+    },
+    {
+      "date": "2019-03-26",
+      "browser_version": "7.0",
+      "os_version": "8.1",
+      "visits": "77"
+    },
+    {
+      "date": "2019-03-26",
+      "browser_version": "10.0",
+      "os_version": "7",
+      "visits": "26"
+    },
+    {
+      "date": "2019-03-26",
+      "browser_version": "9.0",
+      "os_version": "7",
+      "visits": "11"
+    },
+    {
+      "date": "2019-03-27",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "3911"
+    },
+    {
+      "date": "2019-03-27",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "1334"
+    },
+    {
+      "date": "2019-03-27",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "502"
+    },
+    {
+      "date": "2019-03-27",
+      "browser_version": "7.0",
+      "os_version": "10",
+      "visits": "325"
+    },
+    {
+      "date": "2019-03-27",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "146"
+    },
+    {
+      "date": "2019-03-27",
+      "browser_version": "7.0",
+      "os_version": "8.1",
+      "visits": "71"
+    },
+    {
+      "date": "2019-03-27",
+      "browser_version": "10.0",
+      "os_version": "7",
+      "visits": "24"
+    },
+    {
+      "date": "2019-03-27",
+      "browser_version": "9.0",
+      "os_version": "7",
+      "visits": "11"
+    },
+    {
+      "date": "2019-03-28",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "3927"
+    },
+    {
+      "date": "2019-03-28",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "1315"
+    },
+    {
+      "date": "2019-03-28",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "476"
+    },
+    {
+      "date": "2019-03-28",
+      "browser_version": "7.0",
+      "os_version": "10",
+      "visits": "313"
+    },
+    {
+      "date": "2019-03-28",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "116"
+    },
+    {
+      "date": "2019-03-28",
+      "browser_version": "7.0",
+      "os_version": "8.1",
+      "visits": "79"
+    },
+    {
+      "date": "2019-03-28",
+      "browser_version": "10.0",
+      "os_version": "7",
+      "visits": "22"
+    },
+    {
+      "date": "2019-03-29",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "3552"
+    },
+    {
+      "date": "2019-03-29",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "1117"
+    },
+    {
+      "date": "2019-03-29",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "391"
+    },
+    {
+      "date": "2019-03-29",
+      "browser_version": "7.0",
+      "os_version": "10",
+      "visits": "287"
+    },
+    {
+      "date": "2019-03-29",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "105"
+    },
+    {
+      "date": "2019-03-29",
+      "browser_version": "7.0",
+      "os_version": "8.1",
+      "visits": "54"
+    },
+    {
+      "date": "2019-03-29",
+      "browser_version": "10.0",
+      "os_version": "7",
+      "visits": "18"
+    },
+    {
+      "date": "2019-03-30",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "643"
+    },
+    {
+      "date": "2019-03-30",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "176"
+    },
+    {
+      "date": "2019-03-30",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "43"
+    },
+    {
+      "date": "2019-03-30",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "20"
+    },
+    {
+      "date": "2019-03-31",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "635"
+    },
+    {
+      "date": "2019-03-31",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "164"
+    },
+    {
+      "date": "2019-03-31",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "54"
+    },
+    {
+      "date": "2019-03-31",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "20"
+    },
+    {
+      "date": "2019-04-01",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "4054"
+    },
+    {
+      "date": "2019-04-01",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "1297"
+    },
+    {
+      "date": "2019-04-01",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "553"
+    },
+    {
+      "date": "2019-04-01",
+      "browser_version": "7.0",
+      "os_version": "10",
+      "visits": "298"
+    },
+    {
+      "date": "2019-04-01",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "135"
+    },
+    {
+      "date": "2019-04-01",
+      "browser_version": "7.0",
+      "os_version": "8.1",
+      "visits": "61"
+    },
+    {
+      "date": "2019-04-01",
+      "browser_version": "10.0",
+      "os_version": "7",
+      "visits": "31"
+    },
+    {
+      "date": "2019-04-02",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "4234"
+    },
+    {
+      "date": "2019-04-02",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "1411"
+    },
+    {
+      "date": "2019-04-02",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "495"
+    },
+    {
+      "date": "2019-04-02",
+      "browser_version": "7.0",
+      "os_version": "10",
+      "visits": "335"
+    },
+    {
+      "date": "2019-04-02",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "173"
+    },
+    {
+      "date": "2019-04-02",
+      "browser_version": "7.0",
+      "os_version": "8.1",
+      "visits": "71"
+    },
+    {
+      "date": "2019-04-02",
+      "browser_version": "10.0",
+      "os_version": "7",
+      "visits": "36"
+    },
+    {
+      "date": "2019-04-03",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "4076"
+    },
+    {
+      "date": "2019-04-03",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "1353"
+    },
+    {
+      "date": "2019-04-03",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "489"
+    },
+    {
+      "date": "2019-04-03",
+      "browser_version": "7.0",
+      "os_version": "10",
+      "visits": "317"
+    },
+    {
+      "date": "2019-04-03",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "141"
+    },
+    {
+      "date": "2019-04-03",
+      "browser_version": "7.0",
+      "os_version": "8.1",
+      "visits": "80"
+    },
+    {
+      "date": "2019-04-03",
+      "browser_version": "10.0",
+      "os_version": "7",
+      "visits": "31"
+    },
+    {
+      "date": "2019-04-04",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "3873"
+    },
+    {
+      "date": "2019-04-04",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "1328"
+    },
+    {
+      "date": "2019-04-04",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "467"
+    },
+    {
+      "date": "2019-04-04",
+      "browser_version": "7.0",
+      "os_version": "10",
+      "visits": "295"
+    },
+    {
+      "date": "2019-04-04",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "149"
+    },
+    {
+      "date": "2019-04-04",
+      "browser_version": "7.0",
+      "os_version": "8.1",
+      "visits": "80"
+    },
+    {
+      "date": "2019-04-04",
+      "browser_version": "10.0",
+      "os_version": "7",
+      "visits": "17"
+    },
+    {
+      "date": "2019-04-05",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "3531"
+    },
+    {
+      "date": "2019-04-05",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "1052"
+    },
+    {
+      "date": "2019-04-05",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "410"
+    },
+    {
+      "date": "2019-04-05",
+      "browser_version": "7.0",
+      "os_version": "10",
+      "visits": "300"
+    },
+    {
+      "date": "2019-04-05",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "110"
+    },
+    {
+      "date": "2019-04-05",
+      "browser_version": "7.0",
+      "os_version": "8.1",
+      "visits": "60"
+    },
+    {
+      "date": "2019-04-05",
+      "browser_version": "10.0",
+      "os_version": "7",
+      "visits": "17"
+    },
+    {
+      "date": "2019-04-06",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "724"
+    },
+    {
+      "date": "2019-04-06",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "194"
+    },
+    {
+      "date": "2019-04-06",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "42"
+    },
+    {
+      "date": "2019-04-06",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "22"
+    },
+    {
+      "date": "2019-04-07",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "667"
+    },
+    {
+      "date": "2019-04-07",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "191"
+    },
+    {
+      "date": "2019-04-07",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "35"
+    },
+    {
+      "date": "2019-04-07",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "14"
+    },
+    {
+      "date": "2019-04-08",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "4028"
+    },
+    {
+      "date": "2019-04-08",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "1315"
+    },
+    {
+      "date": "2019-04-08",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "487"
+    },
+    {
+      "date": "2019-04-08",
+      "browser_version": "7.0",
+      "os_version": "10",
+      "visits": "299"
+    },
+    {
+      "date": "2019-04-08",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "142"
+    },
+    {
+      "date": "2019-04-08",
+      "browser_version": "7.0",
+      "os_version": "8.1",
+      "visits": "80"
+    },
+    {
+      "date": "2019-04-08",
+      "browser_version": "10.0",
+      "os_version": "7",
+      "visits": "29"
+    },
+    {
+      "date": "2019-04-09",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "4052"
+    },
+    {
+      "date": "2019-04-09",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "1442"
+    },
+    {
+      "date": "2019-04-09",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "535"
+    },
+    {
+      "date": "2019-04-09",
+      "browser_version": "7.0",
+      "os_version": "10",
+      "visits": "347"
+    },
+    {
+      "date": "2019-04-09",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "160"
+    },
+    {
+      "date": "2019-04-09",
+      "browser_version": "7.0",
+      "os_version": "8.1",
+      "visits": "73"
+    },
+    {
+      "date": "2019-04-09",
+      "browser_version": "10.0",
+      "os_version": "7",
+      "visits": "27"
+    },
+    {
+      "date": "2019-04-10",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "4050"
+    },
+    {
+      "date": "2019-04-10",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "1396"
+    },
+    {
+      "date": "2019-04-10",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "495"
+    },
+    {
+      "date": "2019-04-10",
+      "browser_version": "7.0",
+      "os_version": "10",
+      "visits": "355"
+    },
+    {
+      "date": "2019-04-10",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "144"
+    },
+    {
+      "date": "2019-04-10",
+      "browser_version": "7.0",
+      "os_version": "8.1",
+      "visits": "64"
+    },
+    {
+      "date": "2019-04-10",
+      "browser_version": "10.0",
+      "os_version": "7",
+      "visits": "31"
+    },
+    {
+      "date": "2019-04-11",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "4079"
+    },
+    {
+      "date": "2019-04-11",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "1359"
+    },
+    {
+      "date": "2019-04-11",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "493"
+    },
+    {
+      "date": "2019-04-11",
+      "browser_version": "7.0",
+      "os_version": "10",
+      "visits": "299"
+    },
+    {
+      "date": "2019-04-11",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "146"
+    },
+    {
+      "date": "2019-04-11",
+      "browser_version": "7.0",
+      "os_version": "8.1",
+      "visits": "67"
+    },
+    {
+      "date": "2019-04-11",
+      "browser_version": "10.0",
+      "os_version": "7",
+      "visits": "32"
+    },
+    {
+      "date": "2019-04-12",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "3563"
+    },
+    {
+      "date": "2019-04-12",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "1246"
+    },
+    {
+      "date": "2019-04-12",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "419"
+    },
+    {
+      "date": "2019-04-12",
+      "browser_version": "7.0",
+      "os_version": "10",
+      "visits": "296"
+    },
+    {
+      "date": "2019-04-12",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "129"
+    },
+    {
+      "date": "2019-04-12",
+      "browser_version": "7.0",
+      "os_version": "8.1",
+      "visits": "55"
+    },
+    {
+      "date": "2019-04-12",
+      "browser_version": "10.0",
+      "os_version": "7",
+      "visits": "33"
+    },
+    {
+      "date": "2019-04-13",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "788"
+    },
+    {
+      "date": "2019-04-13",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "260"
+    },
+    {
+      "date": "2019-04-13",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "57"
+    },
+    {
+      "date": "2019-04-13",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "24"
+    },
+    {
+      "date": "2019-04-14",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "727"
+    },
+    {
+      "date": "2019-04-14",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "311"
+    },
+    {
+      "date": "2019-04-14",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "75"
+    },
+    {
+      "date": "2019-04-14",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "17"
+    },
+    {
+      "date": "2019-04-14",
+      "browser_version": "7.0",
+      "os_version": "10",
+      "visits": "13"
+    },
+    {
+      "date": "2019-04-15",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "4086"
+    },
+    {
+      "date": "2019-04-15",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "1683"
+    },
+    {
+      "date": "2019-04-15",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "442"
+    },
+    {
+      "date": "2019-04-15",
+      "browser_version": "7.0",
+      "os_version": "10",
+      "visits": "354"
+    },
+    {
+      "date": "2019-04-15",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "183"
+    },
+    {
+      "date": "2019-04-15",
+      "browser_version": "7.0",
+      "os_version": "8.1",
+      "visits": "90"
+    },
+    {
+      "date": "2019-04-15",
+      "browser_version": "10.0",
+      "os_version": "7",
+      "visits": "26"
+    },
+    {
+      "date": "2019-04-16",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "3815"
+    },
+    {
+      "date": "2019-04-16",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "1308"
+    },
+    {
+      "date": "2019-04-16",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "514"
+    },
+    {
+      "date": "2019-04-16",
+      "browser_version": "7.0",
+      "os_version": "10",
+      "visits": "331"
+    },
+    {
+      "date": "2019-04-16",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "120"
+    },
+    {
+      "date": "2019-04-16",
+      "browser_version": "7.0",
+      "os_version": "8.1",
+      "visits": "67"
+    },
+    {
+      "date": "2019-04-16",
+      "browser_version": "10.0",
+      "os_version": "7",
+      "visits": "22"
+    },
+    {
+      "date": "2019-04-16",
+      "browser_version": "9.0",
+      "os_version": "7",
+      "visits": "11"
+    },
+    {
+      "date": "2019-04-17",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "3678"
+    },
+    {
+      "date": "2019-04-17",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "1120"
+    },
+    {
+      "date": "2019-04-17",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "461"
+    },
+    {
+      "date": "2019-04-17",
+      "browser_version": "7.0",
+      "os_version": "10",
+      "visits": "299"
+    },
+    {
+      "date": "2019-04-17",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "118"
+    },
+    {
+      "date": "2019-04-17",
+      "browser_version": "7.0",
+      "os_version": "8.1",
+      "visits": "62"
+    },
+    {
+      "date": "2019-04-17",
+      "browser_version": "10.0",
+      "os_version": "7",
+      "visits": "33"
+    },
+    {
+      "date": "2019-04-18",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "3528"
+    },
+    {
+      "date": "2019-04-18",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "1079"
+    },
+    {
+      "date": "2019-04-18",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "477"
+    },
+    {
+      "date": "2019-04-18",
+      "browser_version": "7.0",
+      "os_version": "10",
+      "visits": "286"
+    },
+    {
+      "date": "2019-04-18",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "118"
+    },
+    {
+      "date": "2019-04-18",
+      "browser_version": "7.0",
+      "os_version": "8.1",
+      "visits": "70"
+    },
+    {
+      "date": "2019-04-18",
+      "browser_version": "10.0",
+      "os_version": "7",
+      "visits": "24"
+    },
+    {
+      "date": "2019-04-19",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "940"
+    },
+    {
+      "date": "2019-04-19",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "402"
+    },
+    {
+      "date": "2019-04-19",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "43"
+    },
+    {
+      "date": "2019-04-19",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "18"
+    },
+    {
+      "date": "2019-04-20",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "597"
+    },
+    {
+      "date": "2019-04-20",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "107"
+    },
+    {
+      "date": "2019-04-20",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "21"
+    },
+    {
+      "date": "2019-04-20",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "20"
+    },
+    {
+      "date": "2019-04-21",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "509"
+    },
+    {
+      "date": "2019-04-21",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "116"
+    },
+    {
+      "date": "2019-04-21",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "16"
+    },
+    {
+      "date": "2019-04-21",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "12"
+    },
+    {
+      "date": "2019-04-22",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "3807"
+    },
+    {
+      "date": "2019-04-22",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "1330"
+    },
+    {
+      "date": "2019-04-22",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "496"
+    },
+    {
+      "date": "2019-04-22",
+      "browser_version": "7.0",
+      "os_version": "10",
+      "visits": "349"
+    },
+    {
+      "date": "2019-04-22",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "120"
+    },
+    {
+      "date": "2019-04-22",
+      "browser_version": "7.0",
+      "os_version": "8.1",
+      "visits": "83"
+    },
+    {
+      "date": "2019-04-22",
+      "browser_version": "10.0",
+      "os_version": "7",
+      "visits": "26"
+    },
+    {
+      "date": "2019-04-23",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "3885"
+    },
+    {
+      "date": "2019-04-23",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "1349"
+    },
+    {
+      "date": "2019-04-23",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "435"
+    },
+    {
+      "date": "2019-04-23",
+      "browser_version": "7.0",
+      "os_version": "10",
+      "visits": "344"
+    },
+    {
+      "date": "2019-04-23",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "151"
+    },
+    {
+      "date": "2019-04-23",
+      "browser_version": "7.0",
+      "os_version": "8.1",
+      "visits": "70"
+    },
+    {
+      "date": "2019-04-23",
+      "browser_version": "10.0",
+      "os_version": "7",
+      "visits": "32"
+    },
+    {
+      "date": "2019-04-24",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "3643"
+    },
+    {
+      "date": "2019-04-24",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "1270"
+    },
+    {
+      "date": "2019-04-24",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "471"
+    },
+    {
+      "date": "2019-04-24",
+      "browser_version": "7.0",
+      "os_version": "10",
+      "visits": "373"
+    },
+    {
+      "date": "2019-04-24",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "145"
+    },
+    {
+      "date": "2019-04-24",
+      "browser_version": "7.0",
+      "os_version": "8.1",
+      "visits": "56"
+    },
+    {
+      "date": "2019-04-24",
+      "browser_version": "10.0",
+      "os_version": "7",
+      "visits": "31"
+    },
+    {
+      "date": "2019-04-25",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "3792"
+    },
+    {
+      "date": "2019-04-25",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "1230"
+    },
+    {
+      "date": "2019-04-25",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "436"
+    },
+    {
+      "date": "2019-04-25",
+      "browser_version": "7.0",
+      "os_version": "10",
+      "visits": "332"
+    },
+    {
+      "date": "2019-04-25",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "128"
+    },
+    {
+      "date": "2019-04-25",
+      "browser_version": "7.0",
+      "os_version": "8.1",
+      "visits": "55"
+    },
+    {
+      "date": "2019-04-25",
+      "browser_version": "10.0",
+      "os_version": "7",
+      "visits": "25"
+    },
+    {
+      "date": "2019-04-26",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "3314"
+    },
+    {
+      "date": "2019-04-26",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "1079"
+    },
+    {
+      "date": "2019-04-26",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "402"
+    },
+    {
+      "date": "2019-04-26",
+      "browser_version": "7.0",
+      "os_version": "10",
+      "visits": "293"
+    },
+    {
+      "date": "2019-04-26",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "116"
+    },
+    {
+      "date": "2019-04-26",
+      "browser_version": "7.0",
+      "os_version": "8.1",
+      "visits": "58"
+    },
+    {
+      "date": "2019-04-26",
+      "browser_version": "10.0",
+      "os_version": "7",
+      "visits": "29"
+    },
+    {
+      "date": "2019-04-27",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "610"
+    },
+    {
+      "date": "2019-04-27",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "118"
+    },
+    {
+      "date": "2019-04-27",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "27"
+    },
+    {
+      "date": "2019-04-27",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "23"
+    },
+    {
+      "date": "2019-04-28",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "558"
+    },
+    {
+      "date": "2019-04-28",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "120"
+    },
+    {
+      "date": "2019-04-28",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "31"
+    },
+    {
+      "date": "2019-04-28",
+      "browser_version": "7.0",
+      "os_version": "10",
+      "visits": "19"
+    },
+    {
+      "date": "2019-04-28",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "17"
+    },
+    {
+      "date": "2019-04-29",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "3760"
+    },
+    {
+      "date": "2019-04-29",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "1247"
+    },
+    {
+      "date": "2019-04-29",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "472"
+    },
+    {
+      "date": "2019-04-29",
+      "browser_version": "7.0",
+      "os_version": "10",
+      "visits": "358"
+    },
+    {
+      "date": "2019-04-29",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "144"
+    },
+    {
+      "date": "2019-04-29",
+      "browser_version": "7.0",
+      "os_version": "8.1",
+      "visits": "65"
+    },
+    {
+      "date": "2019-04-29",
+      "browser_version": "10.0",
+      "os_version": "7",
+      "visits": "22"
+    },
+    {
+      "date": "2019-04-30",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "3914"
+    },
+    {
+      "date": "2019-04-30",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "1365"
+    },
+    {
+      "date": "2019-04-30",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "462"
+    },
+    {
+      "date": "2019-04-30",
+      "browser_version": "7.0",
+      "os_version": "10",
+      "visits": "330"
+    },
+    {
+      "date": "2019-04-30",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "138"
+    },
+    {
+      "date": "2019-04-30",
+      "browser_version": "7.0",
+      "os_version": "8.1",
+      "visits": "71"
+    },
+    {
+      "date": "2019-04-30",
+      "browser_version": "10.0",
+      "os_version": "7",
+      "visits": "34"
+    },
+    {
+      "date": "2019-05-01",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "3704"
+    },
+    {
+      "date": "2019-05-01",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "1150"
+    },
+    {
+      "date": "2019-05-01",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "469"
+    },
+    {
+      "date": "2019-05-01",
+      "browser_version": "7.0",
+      "os_version": "10",
+      "visits": "315"
+    },
+    {
+      "date": "2019-05-01",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "138"
+    },
+    {
+      "date": "2019-05-01",
+      "browser_version": "7.0",
+      "os_version": "8.1",
+      "visits": "72"
+    },
+    {
+      "date": "2019-05-01",
+      "browser_version": "10.0",
+      "os_version": "7",
+      "visits": "22"
+    },
+    {
+      "date": "2019-05-02",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "3569"
+    },
+    {
+      "date": "2019-05-02",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "1137"
+    },
+    {
+      "date": "2019-05-02",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "461"
+    },
+    {
+      "date": "2019-05-02",
+      "browser_version": "7.0",
+      "os_version": "10",
+      "visits": "339"
+    },
+    {
+      "date": "2019-05-02",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "115"
+    },
+    {
+      "date": "2019-05-02",
+      "browser_version": "7.0",
+      "os_version": "8.1",
+      "visits": "73"
+    },
+    {
+      "date": "2019-05-02",
+      "browser_version": "10.0",
+      "os_version": "7",
+      "visits": "23"
+    },
+    {
+      "date": "2019-05-03",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "3421"
+    },
+    {
+      "date": "2019-05-03",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "1082"
+    },
+    {
+      "date": "2019-05-03",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "387"
+    },
+    {
+      "date": "2019-05-03",
+      "browser_version": "7.0",
+      "os_version": "10",
+      "visits": "301"
+    },
+    {
+      "date": "2019-05-03",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "101"
+    },
+    {
+      "date": "2019-05-03",
+      "browser_version": "7.0",
+      "os_version": "8.1",
+      "visits": "66"
+    },
+    {
+      "date": "2019-05-03",
+      "browser_version": "10.0",
+      "os_version": "7",
+      "visits": "25"
+    },
+    {
+      "date": "2019-05-04",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "626"
+    },
+    {
+      "date": "2019-05-04",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "120"
+    },
+    {
+      "date": "2019-05-04",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "27"
+    },
+    {
+      "date": "2019-05-04",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "25"
+    },
+    {
+      "date": "2019-05-05",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "512"
+    },
+    {
+      "date": "2019-05-05",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "123"
+    },
+    {
+      "date": "2019-05-05",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "27"
+    },
+    {
+      "date": "2019-05-05",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "25"
+    },
+    {
+      "date": "2019-05-05",
+      "browser_version": "7.0",
+      "os_version": "10",
+      "visits": "11"
+    },
+    {
+      "date": "2019-05-06",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "3581"
+    },
+    {
+      "date": "2019-05-06",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "1254"
+    },
+    {
+      "date": "2019-05-06",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "460"
+    },
+    {
+      "date": "2019-05-06",
+      "browser_version": "7.0",
+      "os_version": "10",
+      "visits": "369"
+    },
+    {
+      "date": "2019-05-06",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "112"
+    },
+    {
+      "date": "2019-05-06",
+      "browser_version": "7.0",
+      "os_version": "8.1",
+      "visits": "79"
+    },
+    {
+      "date": "2019-05-06",
+      "browser_version": "10.0",
+      "os_version": "7",
+      "visits": "15"
+    },
+    {
+      "date": "2019-05-07",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "3662"
+    },
+    {
+      "date": "2019-05-07",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "1201"
+    },
+    {
+      "date": "2019-05-07",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "430"
+    },
+    {
+      "date": "2019-05-07",
+      "browser_version": "7.0",
+      "os_version": "10",
+      "visits": "361"
+    },
+    {
+      "date": "2019-05-07",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "123"
+    },
+    {
+      "date": "2019-05-07",
+      "browser_version": "7.0",
+      "os_version": "8.1",
+      "visits": "77"
+    },
+    {
+      "date": "2019-05-07",
+      "browser_version": "10.0",
+      "os_version": "7",
+      "visits": "23"
+    },
+    {
+      "date": "2019-05-08",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "3454"
+    },
+    {
+      "date": "2019-05-08",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "1190"
+    },
+    {
+      "date": "2019-05-08",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "442"
+    },
+    {
+      "date": "2019-05-08",
+      "browser_version": "7.0",
+      "os_version": "10",
+      "visits": "383"
+    },
+    {
+      "date": "2019-05-08",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "105"
+    },
+    {
+      "date": "2019-05-08",
+      "browser_version": "7.0",
+      "os_version": "8.1",
+      "visits": "66"
+    },
+    {
+      "date": "2019-05-08",
+      "browser_version": "10.0",
+      "os_version": "7",
+      "visits": "20"
+    },
+    {
+      "date": "2019-05-09",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "3505"
+    },
+    {
+      "date": "2019-05-09",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "1176"
+    },
+    {
+      "date": "2019-05-09",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "415"
+    },
+    {
+      "date": "2019-05-09",
+      "browser_version": "7.0",
+      "os_version": "10",
+      "visits": "354"
+    },
+    {
+      "date": "2019-05-09",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "109"
+    },
+    {
+      "date": "2019-05-09",
+      "browser_version": "7.0",
+      "os_version": "8.1",
+      "visits": "56"
+    },
+    {
+      "date": "2019-05-09",
+      "browser_version": "10.0",
+      "os_version": "7",
+      "visits": "21"
+    },
+    {
+      "date": "2019-05-10",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "3076"
+    },
+    {
+      "date": "2019-05-10",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "1048"
+    },
+    {
+      "date": "2019-05-10",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "411"
+    },
+    {
+      "date": "2019-05-10",
+      "browser_version": "7.0",
+      "os_version": "10",
+      "visits": "345"
+    },
+    {
+      "date": "2019-05-10",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "105"
+    },
+    {
+      "date": "2019-05-10",
+      "browser_version": "7.0",
+      "os_version": "8.1",
+      "visits": "68"
+    },
+    {
+      "date": "2019-05-10",
+      "browser_version": "10.0",
+      "os_version": "7",
+      "visits": "19"
+    },
+    {
+      "date": "2019-05-11",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "560"
+    },
+    {
+      "date": "2019-05-11",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "115"
+    },
+    {
+      "date": "2019-05-11",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "21"
+    },
+    {
+      "date": "2019-05-11",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "20"
+    },
+    {
+      "date": "2019-05-12",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "525"
+    },
+    {
+      "date": "2019-05-12",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "107"
+    },
+    {
+      "date": "2019-05-12",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "25"
+    },
+    {
+      "date": "2019-05-12",
+      "browser_version": "7.0",
+      "os_version": "10",
+      "visits": "19"
+    },
+    {
+      "date": "2019-05-12",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "13"
+    },
+    {
+      "date": "2019-05-13",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "3549"
+    },
+    {
+      "date": "2019-05-13",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "1350"
+    },
+    {
+      "date": "2019-05-13",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "422"
+    },
+    {
+      "date": "2019-05-13",
+      "browser_version": "7.0",
+      "os_version": "10",
+      "visits": "368"
+    },
+    {
+      "date": "2019-05-13",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "102"
+    },
+    {
+      "date": "2019-05-13",
+      "browser_version": "7.0",
+      "os_version": "8.1",
+      "visits": "77"
+    },
+    {
+      "date": "2019-05-13",
+      "browser_version": "10.0",
+      "os_version": "7",
+      "visits": "35"
+    },
+    {
+      "date": "2019-05-14",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "3755"
+    },
+    {
+      "date": "2019-05-14",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "1373"
+    },
+    {
+      "date": "2019-05-14",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "445"
+    },
+    {
+      "date": "2019-05-14",
+      "browser_version": "7.0",
+      "os_version": "10",
+      "visits": "409"
+    },
+    {
+      "date": "2019-05-14",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "136"
+    },
+    {
+      "date": "2019-05-14",
+      "browser_version": "7.0",
+      "os_version": "8.1",
+      "visits": "70"
+    },
+    {
+      "date": "2019-05-14",
+      "browser_version": "10.0",
+      "os_version": "7",
+      "visits": "30"
+    },
+    {
+      "date": "2019-05-15",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "3676"
+    },
+    {
+      "date": "2019-05-15",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "1383"
+    },
+    {
+      "date": "2019-05-15",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "460"
+    },
+    {
+      "date": "2019-05-15",
+      "browser_version": "7.0",
+      "os_version": "10",
+      "visits": "367"
+    },
+    {
+      "date": "2019-05-15",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "122"
+    },
+    {
+      "date": "2019-05-15",
+      "browser_version": "7.0",
+      "os_version": "8.1",
+      "visits": "59"
+    },
+    {
+      "date": "2019-05-15",
+      "browser_version": "10.0",
+      "os_version": "7",
+      "visits": "31"
+    },
+    {
+      "date": "2019-05-16",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "3515"
+    },
+    {
+      "date": "2019-05-16",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "1226"
+    },
+    {
+      "date": "2019-05-16",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "403"
+    },
+    {
+      "date": "2019-05-16",
+      "browser_version": "7.0",
+      "os_version": "10",
+      "visits": "352"
+    },
+    {
+      "date": "2019-05-16",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "108"
+    },
+    {
+      "date": "2019-05-16",
+      "browser_version": "7.0",
+      "os_version": "8.1",
+      "visits": "77"
+    },
+    {
+      "date": "2019-05-16",
+      "browser_version": "10.0",
+      "os_version": "7",
+      "visits": "26"
+    },
+    {
+      "date": "2019-05-16",
+      "browser_version": "8.0",
+      "os_version": "7",
+      "visits": "12"
+    },
+    {
+      "date": "2019-05-17",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "3084"
+    },
+    {
+      "date": "2019-05-17",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "1046"
+    },
+    {
+      "date": "2019-05-17",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "354"
+    },
+    {
+      "date": "2019-05-17",
+      "browser_version": "7.0",
+      "os_version": "10",
+      "visits": "324"
+    },
+    {
+      "date": "2019-05-17",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "106"
+    },
+    {
+      "date": "2019-05-17",
+      "browser_version": "7.0",
+      "os_version": "8.1",
+      "visits": "61"
+    },
+    {
+      "date": "2019-05-17",
+      "browser_version": "10.0",
+      "os_version": "7",
+      "visits": "24"
+    },
+    {
+      "date": "2019-05-18",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "531"
+    },
+    {
+      "date": "2019-05-18",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "88"
+    },
+    {
+      "date": "2019-05-18",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "33"
+    },
+    {
+      "date": "2019-05-18",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "21"
+    },
+    {
+      "date": "2019-05-18",
+      "browser_version": "7.0",
+      "os_version": "10",
+      "visits": "12"
+    },
+    {
+      "date": "2019-05-19",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "485"
+    },
+    {
+      "date": "2019-05-19",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "100"
+    },
+    {
+      "date": "2019-05-19",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "22"
+    },
+    {
+      "date": "2019-05-19",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "21"
+    },
+    {
+      "date": "2019-05-19",
+      "browser_version": "7.0",
+      "os_version": "10",
+      "visits": "12"
+    },
+    {
+      "date": "2019-05-20",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "3364"
+    },
+    {
+      "date": "2019-05-20",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "1228"
+    },
+    {
+      "date": "2019-05-20",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "486"
+    },
+    {
+      "date": "2019-05-20",
+      "browser_version": "7.0",
+      "os_version": "10",
+      "visits": "317"
+    },
+    {
+      "date": "2019-05-20",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "116"
+    },
+    {
+      "date": "2019-05-20",
+      "browser_version": "7.0",
+      "os_version": "8.1",
+      "visits": "70"
+    },
+    {
+      "date": "2019-05-20",
+      "browser_version": "10.0",
+      "os_version": "7",
+      "visits": "13"
+    },
+    {
+      "date": "2019-05-21",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "3606"
+    },
+    {
+      "date": "2019-05-21",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "1271"
+    },
+    {
+      "date": "2019-05-21",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "436"
+    },
+    {
+      "date": "2019-05-21",
+      "browser_version": "7.0",
+      "os_version": "10",
+      "visits": "365"
+    },
+    {
+      "date": "2019-05-21",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "143"
+    },
+    {
+      "date": "2019-05-21",
+      "browser_version": "7.0",
+      "os_version": "8.1",
+      "visits": "77"
+    },
+    {
+      "date": "2019-05-21",
+      "browser_version": "10.0",
+      "os_version": "7",
+      "visits": "31"
+    },
+    {
+      "date": "2019-05-22",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "3533"
+    },
+    {
+      "date": "2019-05-22",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "1236"
+    },
+    {
+      "date": "2019-05-22",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "485"
+    },
+    {
+      "date": "2019-05-22",
+      "browser_version": "7.0",
+      "os_version": "10",
+      "visits": "359"
+    },
+    {
+      "date": "2019-05-22",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "108"
+    },
+    {
+      "date": "2019-05-22",
+      "browser_version": "7.0",
+      "os_version": "8.1",
+      "visits": "63"
+    },
+    {
+      "date": "2019-05-22",
+      "browser_version": "10.0",
+      "os_version": "7",
+      "visits": "24"
+    },
+    {
+      "date": "2019-05-23",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "3464"
+    },
+    {
+      "date": "2019-05-23",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "1135"
+    },
+    {
+      "date": "2019-05-23",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "443"
+    },
+    {
+      "date": "2019-05-23",
+      "browser_version": "7.0",
+      "os_version": "10",
+      "visits": "357"
+    },
+    {
+      "date": "2019-05-23",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "114"
+    },
+    {
+      "date": "2019-05-23",
+      "browser_version": "7.0",
+      "os_version": "8.1",
+      "visits": "71"
+    },
+    {
+      "date": "2019-05-23",
+      "browser_version": "10.0",
+      "os_version": "7",
+      "visits": "16"
+    },
+    {
+      "date": "2019-05-24",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "2796"
+    },
+    {
+      "date": "2019-05-24",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "927"
+    },
+    {
+      "date": "2019-05-24",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "366"
+    },
+    {
+      "date": "2019-05-24",
+      "browser_version": "7.0",
+      "os_version": "10",
+      "visits": "305"
+    },
+    {
+      "date": "2019-05-24",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "92"
+    },
+    {
+      "date": "2019-05-24",
+      "browser_version": "7.0",
+      "os_version": "8.1",
+      "visits": "54"
+    },
+    {
+      "date": "2019-05-24",
+      "browser_version": "10.0",
+      "os_version": "7",
+      "visits": "17"
+    },
+    {
+      "date": "2019-05-25",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "498"
+    },
+    {
+      "date": "2019-05-25",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "95"
+    },
+    {
+      "date": "2019-05-25",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "23"
+    },
+    {
+      "date": "2019-05-25",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "18"
+    },
+    {
+      "date": "2019-05-26",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "480"
+    },
+    {
+      "date": "2019-05-26",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "104"
+    },
+    {
+      "date": "2019-05-26",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "20"
+    },
+    {
+      "date": "2019-05-26",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "18"
+    },
+    {
+      "date": "2019-05-27",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "675"
+    },
+    {
+      "date": "2019-05-27",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "127"
+    },
+    {
+      "date": "2019-05-27",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "20"
+    },
+    {
+      "date": "2019-05-27",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "20"
+    },
+    {
+      "date": "2019-05-28",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "3545"
+    },
+    {
+      "date": "2019-05-28",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "1311"
+    },
+    {
+      "date": "2019-05-28",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "471"
+    },
+    {
+      "date": "2019-05-28",
+      "browser_version": "7.0",
+      "os_version": "10",
+      "visits": "373"
+    },
+    {
+      "date": "2019-05-28",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "127"
+    },
+    {
+      "date": "2019-05-28",
+      "browser_version": "7.0",
+      "os_version": "8.1",
+      "visits": "69"
+    },
+    {
+      "date": "2019-05-28",
+      "browser_version": "10.0",
+      "os_version": "7",
+      "visits": "19"
+    },
+    {
+      "date": "2019-05-29",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "3215"
+    },
+    {
+      "date": "2019-05-29",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "1175"
+    },
+    {
+      "date": "2019-05-29",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "375"
+    },
+    {
+      "date": "2019-05-29",
+      "browser_version": "7.0",
+      "os_version": "10",
+      "visits": "310"
+    },
+    {
+      "date": "2019-05-29",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "92"
+    },
+    {
+      "date": "2019-05-29",
+      "browser_version": "7.0",
+      "os_version": "8.1",
+      "visits": "85"
+    },
+    {
+      "date": "2019-05-29",
+      "browser_version": "10.0",
+      "os_version": "7",
+      "visits": "20"
+    },
+    {
+      "date": "2019-05-30",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "3572"
+    },
+    {
+      "date": "2019-05-30",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "1239"
+    },
+    {
+      "date": "2019-05-30",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "523"
+    },
+    {
+      "date": "2019-05-30",
+      "browser_version": "7.0",
+      "os_version": "10",
+      "visits": "344"
+    },
+    {
+      "date": "2019-05-30",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "111"
+    },
+    {
+      "date": "2019-05-30",
+      "browser_version": "7.0",
+      "os_version": "8.1",
+      "visits": "76"
+    },
+    {
+      "date": "2019-05-30",
+      "browser_version": "10.0",
+      "os_version": "7",
+      "visits": "23"
+    },
+    {
+      "date": "2019-05-31",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "3156"
+    },
+    {
+      "date": "2019-05-31",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "1044"
+    },
+    {
+      "date": "2019-05-31",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "415"
+    },
+    {
+      "date": "2019-05-31",
+      "browser_version": "7.0",
+      "os_version": "10",
+      "visits": "285"
+    },
+    {
+      "date": "2019-05-31",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "102"
+    },
+    {
+      "date": "2019-05-31",
+      "browser_version": "7.0",
+      "os_version": "8.1",
+      "visits": "70"
+    },
+    {
+      "date": "2019-05-31",
+      "browser_version": "10.0",
+      "os_version": "7",
+      "visits": "23"
+    },
+    {
+      "date": "2019-06-01",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "676"
+    },
+    {
+      "date": "2019-06-01",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "130"
+    },
+    {
+      "date": "2019-06-01",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "20"
+    },
+    {
+      "date": "2019-06-01",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "19"
+    },
+    {
+      "date": "2019-06-02",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "599"
+    },
+    {
+      "date": "2019-06-02",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "134"
+    },
+    {
+      "date": "2019-06-02",
+      "browser_version": "7.0",
+      "os_version": "10",
+      "visits": "24"
+    },
+    {
+      "date": "2019-06-02",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "18"
+    },
+    {
+      "date": "2019-06-02",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "15"
+    },
+    {
+      "date": "2019-06-03",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "3819"
+    },
+    {
+      "date": "2019-06-03",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "1414"
+    },
+    {
+      "date": "2019-06-03",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "516"
+    },
+    {
+      "date": "2019-06-03",
+      "browser_version": "7.0",
+      "os_version": "10",
+      "visits": "391"
+    },
+    {
+      "date": "2019-06-03",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "113"
+    },
+    {
+      "date": "2019-06-03",
+      "browser_version": "7.0",
+      "os_version": "8.1",
+      "visits": "102"
+    },
+    {
+      "date": "2019-06-03",
+      "browser_version": "10.0",
+      "os_version": "7",
+      "visits": "21"
+    },
+    {
+      "date": "2019-06-03",
+      "browser_version": "8.0",
+      "os_version": "7",
+      "visits": "14"
+    },
+    {
+      "date": "2019-06-04",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "3582"
+    },
+    {
+      "date": "2019-06-04",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "1303"
+    },
+    {
+      "date": "2019-06-04",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "443"
+    },
+    {
+      "date": "2019-06-04",
+      "browser_version": "7.0",
+      "os_version": "10",
+      "visits": "362"
+    },
+    {
+      "date": "2019-06-04",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "132"
+    },
+    {
+      "date": "2019-06-04",
+      "browser_version": "7.0",
+      "os_version": "8.1",
+      "visits": "94"
+    },
+    {
+      "date": "2019-06-04",
+      "browser_version": "10.0",
+      "os_version": "7",
+      "visits": "34"
+    },
+    {
+      "date": "2019-06-05",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "3648"
+    },
+    {
+      "date": "2019-06-05",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "1314"
+    },
+    {
+      "date": "2019-06-05",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "451"
+    },
+    {
+      "date": "2019-06-05",
+      "browser_version": "7.0",
+      "os_version": "10",
+      "visits": "409"
+    },
+    {
+      "date": "2019-06-05",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "108"
+    },
+    {
+      "date": "2019-06-05",
+      "browser_version": "7.0",
+      "os_version": "8.1",
+      "visits": "84"
+    },
+    {
+      "date": "2019-06-05",
+      "browser_version": "10.0",
+      "os_version": "7",
+      "visits": "25"
+    },
+    {
+      "date": "2019-06-06",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "3520"
+    },
+    {
+      "date": "2019-06-06",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "1260"
+    },
+    {
+      "date": "2019-06-06",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "439"
+    },
+    {
+      "date": "2019-06-06",
+      "browser_version": "7.0",
+      "os_version": "10",
+      "visits": "385"
+    },
+    {
+      "date": "2019-06-06",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "110"
+    },
+    {
+      "date": "2019-06-06",
+      "browser_version": "7.0",
+      "os_version": "8.1",
+      "visits": "78"
+    },
+    {
+      "date": "2019-06-06",
+      "browser_version": "10.0",
+      "os_version": "7",
+      "visits": "33"
+    },
+    {
+      "date": "2019-06-07",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "2949"
+    },
+    {
+      "date": "2019-06-07",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "1018"
+    },
+    {
+      "date": "2019-06-07",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "369"
+    },
+    {
+      "date": "2019-06-07",
+      "browser_version": "7.0",
+      "os_version": "10",
+      "visits": "303"
+    },
+    {
+      "date": "2019-06-07",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "88"
+    },
+    {
+      "date": "2019-06-07",
+      "browser_version": "7.0",
+      "os_version": "8.1",
+      "visits": "65"
+    },
+    {
+      "date": "2019-06-07",
+      "browser_version": "10.0",
+      "os_version": "7",
+      "visits": "19"
+    },
+    {
+      "date": "2019-06-08",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "527"
+    },
+    {
+      "date": "2019-06-08",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "113"
+    },
+    {
+      "date": "2019-06-08",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "16"
+    },
+    {
+      "date": "2019-06-08",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "15"
+    },
+    {
+      "date": "2019-06-09",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "483"
+    },
+    {
+      "date": "2019-06-09",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "97"
+    },
+    {
+      "date": "2019-06-09",
+      "browser_version": "7.0",
+      "os_version": "10",
+      "visits": "18"
+    },
+    {
+      "date": "2019-06-09",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "17"
+    },
+    {
+      "date": "2019-06-09",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "12"
+    },
+    {
+      "date": "2019-06-10",
+      "browser_version": "11.0",
+      "os_version": "7",
+      "visits": "3223"
+    },
+    {
+      "date": "2019-06-10",
+      "browser_version": "11.0",
+      "os_version": "10",
+      "visits": "1280"
+    },
+    {
+      "date": "2019-06-10",
+      "browser_version": "7.0",
+      "os_version": "7",
+      "visits": "398"
+    },
+    {
+      "date": "2019-06-10",
+      "browser_version": "7.0",
+      "os_version": "10",
+      "visits": "353"
+    },
+    {
+      "date": "2019-06-10",
+      "browser_version": "11.0",
+      "os_version": "8.1",
+      "visits": "114"
+    },
+    {
+      "date": "2019-06-10",
+      "browser_version": "7.0",
+      "os_version": "8.1",
+      "visits": "62"
+    },
+    {
+      "date": "2019-06-10",
+      "browser_version": "10.0",
+      "os_version": "7",
+      "visits": "24"
+    }
+  ],
+  "totals": {
+    "visits": 392511,
+    "by_windows": {
+      "7": {
+        "11.0": 246472,
+        "7.0": 28908,
+        "10.0": 1566,
+        "9.0": 232,
+        "8.0": 26
+      },
+      "10": {
+        "11.0": 81463,
+        "7.0": 20802
+      },
+      "8.1": {
+        "11.0": 8638,
+        "7.0": 4404
+      }
+    },
+    "by_ie": {
+      "11.0": {
+        "7": 246472,
+        "10": 81463,
+        "8.1": 8638
+      },
+      "7.0": {
+        "7": 28908,
+        "10": 20802,
+        "8.1": 4404
+      },
+      "10.0": {
+        "7": 1566
+      },
+      "9.0": {
+        "7": 232
+      },
+      "8.0": {
+        "7": 26
+      }
+    }
+  },
+  "taken_at": "2019-06-11T22:30:08.119Z"
+}

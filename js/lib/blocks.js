@@ -69,7 +69,7 @@ export default {
          * users.json, we total up the device numbers to get the "big
          * number", saving us an extra XHR load.
          */
-      const total = d3.sum(data.map(d => d.value));
+        const total = d3.sum(data.map(d => d.value));
       d3.select('#total_visitors')
         .text(formatters.readableBigNumber(total));
     }),

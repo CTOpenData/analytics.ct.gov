@@ -1,0 +1,1552 @@
+{
+  "name": "device_model",
+  "query": {
+    "start-date": "90daysAgo",
+    "end-date": "yesterday",
+    "dimensions": "ga:date,ga:mobileDeviceModel",
+    "metrics": [
+      "ga:sessions"
+    ],
+    "sort": [
+      "ga:date"
+    ],
+    "filters": "ga:sessions>100",
+    "start-index": 1,
+    "max-results": 10000,
+    "samplingLevel": "HIGHER_PRECISION"
+  },
+  "meta": {
+    "name": "Device Model",
+    "description": "90 days of visits by Device Model for all sites. (>1000 sessions)"
+  },
+  "data": [
+    {
+      "date": "2019-03-13",
+      "mobile_device": "Windows RT Tablet",
+      "visits": "294"
+    },
+    {
+      "date": "2019-03-13",
+      "mobile_device": "iPad",
+      "visits": "481"
+    },
+    {
+      "date": "2019-03-13",
+      "mobile_device": "iPhone",
+      "visits": "2627"
+    },
+    {
+      "date": "2019-03-14",
+      "mobile_device": "Windows RT Tablet",
+      "visits": "273"
+    },
+    {
+      "date": "2019-03-14",
+      "mobile_device": "iPad",
+      "visits": "440"
+    },
+    {
+      "date": "2019-03-14",
+      "mobile_device": "iPhone",
+      "visits": "2405"
+    },
+    {
+      "date": "2019-03-15",
+      "mobile_device": "Windows RT Tablet",
+      "visits": "234"
+    },
+    {
+      "date": "2019-03-15",
+      "mobile_device": "iPad",
+      "visits": "459"
+    },
+    {
+      "date": "2019-03-15",
+      "mobile_device": "iPhone",
+      "visits": "2720"
+    },
+    {
+      "date": "2019-03-16",
+      "mobile_device": "iPad",
+      "visits": "344"
+    },
+    {
+      "date": "2019-03-16",
+      "mobile_device": "iPhone",
+      "visits": "1956"
+    },
+    {
+      "date": "2019-03-17",
+      "mobile_device": "iPad",
+      "visits": "360"
+    },
+    {
+      "date": "2019-03-17",
+      "mobile_device": "iPhone",
+      "visits": "1995"
+    },
+    {
+      "date": "2019-03-18",
+      "mobile_device": "(not set)",
+      "visits": "106"
+    },
+    {
+      "date": "2019-03-18",
+      "mobile_device": "SM-G950U",
+      "visits": "114"
+    },
+    {
+      "date": "2019-03-18",
+      "mobile_device": "Windows RT Tablet",
+      "visits": "294"
+    },
+    {
+      "date": "2019-03-18",
+      "mobile_device": "iPad",
+      "visits": "458"
+    },
+    {
+      "date": "2019-03-18",
+      "mobile_device": "iPhone",
+      "visits": "2809"
+    },
+    {
+      "date": "2019-03-19",
+      "mobile_device": "(not set)",
+      "visits": "101"
+    },
+    {
+      "date": "2019-03-19",
+      "mobile_device": "SM-G960U",
+      "visits": "112"
+    },
+    {
+      "date": "2019-03-19",
+      "mobile_device": "Windows RT Tablet",
+      "visits": "256"
+    },
+    {
+      "date": "2019-03-19",
+      "mobile_device": "iPad",
+      "visits": "487"
+    },
+    {
+      "date": "2019-03-19",
+      "mobile_device": "iPhone",
+      "visits": "2749"
+    },
+    {
+      "date": "2019-03-20",
+      "mobile_device": "SM-G950U",
+      "visits": "107"
+    },
+    {
+      "date": "2019-03-20",
+      "mobile_device": "Windows RT Tablet",
+      "visits": "275"
+    },
+    {
+      "date": "2019-03-20",
+      "mobile_device": "iPad",
+      "visits": "448"
+    },
+    {
+      "date": "2019-03-20",
+      "mobile_device": "iPhone",
+      "visits": "2793"
+    },
+    {
+      "date": "2019-03-21",
+      "mobile_device": "Windows RT Tablet",
+      "visits": "220"
+    },
+    {
+      "date": "2019-03-21",
+      "mobile_device": "iPad",
+      "visits": "427"
+    },
+    {
+      "date": "2019-03-21",
+      "mobile_device": "iPhone",
+      "visits": "2864"
+    },
+    {
+      "date": "2019-03-22",
+      "mobile_device": "Windows RT Tablet",
+      "visits": "208"
+    },
+    {
+      "date": "2019-03-22",
+      "mobile_device": "iPad",
+      "visits": "400"
+    },
+    {
+      "date": "2019-03-22",
+      "mobile_device": "iPhone",
+      "visits": "2410"
+    },
+    {
+      "date": "2019-03-23",
+      "mobile_device": "iPad",
+      "visits": "368"
+    },
+    {
+      "date": "2019-03-23",
+      "mobile_device": "iPhone",
+      "visits": "1955"
+    },
+    {
+      "date": "2019-03-24",
+      "mobile_device": "iPad",
+      "visits": "387"
+    },
+    {
+      "date": "2019-03-24",
+      "mobile_device": "iPhone",
+      "visits": "1826"
+    },
+    {
+      "date": "2019-03-25",
+      "mobile_device": "SM-G960U",
+      "visits": "103"
+    },
+    {
+      "date": "2019-03-25",
+      "mobile_device": "Windows RT Tablet",
+      "visits": "253"
+    },
+    {
+      "date": "2019-03-25",
+      "mobile_device": "iPad",
+      "visits": "441"
+    },
+    {
+      "date": "2019-03-25",
+      "mobile_device": "iPhone",
+      "visits": "2624"
+    },
+    {
+      "date": "2019-03-26",
+      "mobile_device": "(not set)",
+      "visits": "104"
+    },
+    {
+      "date": "2019-03-26",
+      "mobile_device": "Windows RT Tablet",
+      "visits": "280"
+    },
+    {
+      "date": "2019-03-26",
+      "mobile_device": "iPad",
+      "visits": "483"
+    },
+    {
+      "date": "2019-03-26",
+      "mobile_device": "iPhone",
+      "visits": "2696"
+    },
+    {
+      "date": "2019-03-27",
+      "mobile_device": "Windows RT Tablet",
+      "visits": "259"
+    },
+    {
+      "date": "2019-03-27",
+      "mobile_device": "iPad",
+      "visits": "454"
+    },
+    {
+      "date": "2019-03-27",
+      "mobile_device": "iPhone",
+      "visits": "2569"
+    },
+    {
+      "date": "2019-03-28",
+      "mobile_device": "(not set)",
+      "visits": "104"
+    },
+    {
+      "date": "2019-03-28",
+      "mobile_device": "SM-G960U",
+      "visits": "106"
+    },
+    {
+      "date": "2019-03-28",
+      "mobile_device": "Windows RT Tablet",
+      "visits": "279"
+    },
+    {
+      "date": "2019-03-28",
+      "mobile_device": "iPad",
+      "visits": "441"
+    },
+    {
+      "date": "2019-03-28",
+      "mobile_device": "iPhone",
+      "visits": "2611"
+    },
+    {
+      "date": "2019-03-29",
+      "mobile_device": "(not set)",
+      "visits": "106"
+    },
+    {
+      "date": "2019-03-29",
+      "mobile_device": "Windows RT Tablet",
+      "visits": "229"
+    },
+    {
+      "date": "2019-03-29",
+      "mobile_device": "iPad",
+      "visits": "452"
+    },
+    {
+      "date": "2019-03-29",
+      "mobile_device": "iPhone",
+      "visits": "2529"
+    },
+    {
+      "date": "2019-03-30",
+      "mobile_device": "iPad",
+      "visits": "294"
+    },
+    {
+      "date": "2019-03-30",
+      "mobile_device": "iPhone",
+      "visits": "1769"
+    },
+    {
+      "date": "2019-03-31",
+      "mobile_device": "iPad",
+      "visits": "409"
+    },
+    {
+      "date": "2019-03-31",
+      "mobile_device": "iPhone",
+      "visits": "1901"
+    },
+    {
+      "date": "2019-04-01",
+      "mobile_device": "(not set)",
+      "visits": "121"
+    },
+    {
+      "date": "2019-04-01",
+      "mobile_device": "SM-G950U",
+      "visits": "105"
+    },
+    {
+      "date": "2019-04-01",
+      "mobile_device": "Windows RT Tablet",
+      "visits": "244"
+    },
+    {
+      "date": "2019-04-01",
+      "mobile_device": "iPad",
+      "visits": "472"
+    },
+    {
+      "date": "2019-04-01",
+      "mobile_device": "iPhone",
+      "visits": "2755"
+    },
+    {
+      "date": "2019-04-02",
+      "mobile_device": "(not set)",
+      "visits": "109"
+    },
+    {
+      "date": "2019-04-02",
+      "mobile_device": "SM-G950U",
+      "visits": "105"
+    },
+    {
+      "date": "2019-04-02",
+      "mobile_device": "Windows RT Tablet",
+      "visits": "271"
+    },
+    {
+      "date": "2019-04-02",
+      "mobile_device": "iPad",
+      "visits": "521"
+    },
+    {
+      "date": "2019-04-02",
+      "mobile_device": "iPhone",
+      "visits": "3219"
+    },
+    {
+      "date": "2019-04-03",
+      "mobile_device": "(not set)",
+      "visits": "115"
+    },
+    {
+      "date": "2019-04-03",
+      "mobile_device": "SM-G950U",
+      "visits": "103"
+    },
+    {
+      "date": "2019-04-03",
+      "mobile_device": "SM-G960U",
+      "visits": "109"
+    },
+    {
+      "date": "2019-04-03",
+      "mobile_device": "Windows RT Tablet",
+      "visits": "243"
+    },
+    {
+      "date": "2019-04-03",
+      "mobile_device": "iPad",
+      "visits": "482"
+    },
+    {
+      "date": "2019-04-03",
+      "mobile_device": "iPhone",
+      "visits": "2658"
+    },
+    {
+      "date": "2019-04-04",
+      "mobile_device": "SM-G960U",
+      "visits": "104"
+    },
+    {
+      "date": "2019-04-04",
+      "mobile_device": "Windows RT Tablet",
+      "visits": "266"
+    },
+    {
+      "date": "2019-04-04",
+      "mobile_device": "iPad",
+      "visits": "455"
+    },
+    {
+      "date": "2019-04-04",
+      "mobile_device": "iPhone",
+      "visits": "2712"
+    },
+    {
+      "date": "2019-04-05",
+      "mobile_device": "(not set)",
+      "visits": "102"
+    },
+    {
+      "date": "2019-04-05",
+      "mobile_device": "Windows RT Tablet",
+      "visits": "208"
+    },
+    {
+      "date": "2019-04-05",
+      "mobile_device": "iPad",
+      "visits": "420"
+    },
+    {
+      "date": "2019-04-05",
+      "mobile_device": "iPhone",
+      "visits": "2527"
+    },
+    {
+      "date": "2019-04-06",
+      "mobile_device": "iPad",
+      "visits": "369"
+    },
+    {
+      "date": "2019-04-06",
+      "mobile_device": "iPhone",
+      "visits": "1923"
+    },
+    {
+      "date": "2019-04-07",
+      "mobile_device": "iPad",
+      "visits": "394"
+    },
+    {
+      "date": "2019-04-07",
+      "mobile_device": "iPhone",
+      "visits": "1937"
+    },
+    {
+      "date": "2019-04-08",
+      "mobile_device": "(not set)",
+      "visits": "116"
+    },
+    {
+      "date": "2019-04-08",
+      "mobile_device": "Windows RT Tablet",
+      "visits": "260"
+    },
+    {
+      "date": "2019-04-08",
+      "mobile_device": "iPad",
+      "visits": "507"
+    },
+    {
+      "date": "2019-04-08",
+      "mobile_device": "iPhone",
+      "visits": "2754"
+    },
+    {
+      "date": "2019-04-09",
+      "mobile_device": "(not set)",
+      "visits": "110"
+    },
+    {
+      "date": "2019-04-09",
+      "mobile_device": "SM-G960U",
+      "visits": "101"
+    },
+    {
+      "date": "2019-04-09",
+      "mobile_device": "Windows RT Tablet",
+      "visits": "301"
+    },
+    {
+      "date": "2019-04-09",
+      "mobile_device": "iPad",
+      "visits": "488"
+    },
+    {
+      "date": "2019-04-09",
+      "mobile_device": "iPhone",
+      "visits": "2783"
+    },
+    {
+      "date": "2019-04-10",
+      "mobile_device": "(not set)",
+      "visits": "117"
+    },
+    {
+      "date": "2019-04-10",
+      "mobile_device": "Windows RT Tablet",
+      "visits": "276"
+    },
+    {
+      "date": "2019-04-10",
+      "mobile_device": "iPad",
+      "visits": "505"
+    },
+    {
+      "date": "2019-04-10",
+      "mobile_device": "iPhone",
+      "visits": "2717"
+    },
+    {
+      "date": "2019-04-11",
+      "mobile_device": "(not set)",
+      "visits": "121"
+    },
+    {
+      "date": "2019-04-11",
+      "mobile_device": "Windows RT Tablet",
+      "visits": "276"
+    },
+    {
+      "date": "2019-04-11",
+      "mobile_device": "iPad",
+      "visits": "493"
+    },
+    {
+      "date": "2019-04-11",
+      "mobile_device": "iPhone",
+      "visits": "2632"
+    },
+    {
+      "date": "2019-04-12",
+      "mobile_device": "Windows RT Tablet",
+      "visits": "280"
+    },
+    {
+      "date": "2019-04-12",
+      "mobile_device": "iPad",
+      "visits": "424"
+    },
+    {
+      "date": "2019-04-12",
+      "mobile_device": "iPhone",
+      "visits": "2573"
+    },
+    {
+      "date": "2019-04-13",
+      "mobile_device": "iPad",
+      "visits": "405"
+    },
+    {
+      "date": "2019-04-13",
+      "mobile_device": "iPhone",
+      "visits": "2009"
+    },
+    {
+      "date": "2019-04-14",
+      "mobile_device": "iPad",
+      "visits": "470"
+    },
+    {
+      "date": "2019-04-14",
+      "mobile_device": "iPhone",
+      "visits": "2124"
+    },
+    {
+      "date": "2019-04-15",
+      "mobile_device": "(not set)",
+      "visits": "142"
+    },
+    {
+      "date": "2019-04-15",
+      "mobile_device": "SM-G950U",
+      "visits": "121"
+    },
+    {
+      "date": "2019-04-15",
+      "mobile_device": "SM-G960U",
+      "visits": "149"
+    },
+    {
+      "date": "2019-04-15",
+      "mobile_device": "Windows RT Tablet",
+      "visits": "380"
+    },
+    {
+      "date": "2019-04-15",
+      "mobile_device": "iPad",
+      "visits": "674"
+    },
+    {
+      "date": "2019-04-15",
+      "mobile_device": "iPhone",
+      "visits": "3513"
+    },
+    {
+      "date": "2019-04-16",
+      "mobile_device": "(not set)",
+      "visits": "107"
+    },
+    {
+      "date": "2019-04-16",
+      "mobile_device": "SM-G950U",
+      "visits": "103"
+    },
+    {
+      "date": "2019-04-16",
+      "mobile_device": "SM-G960U",
+      "visits": "106"
+    },
+    {
+      "date": "2019-04-16",
+      "mobile_device": "Windows RT Tablet",
+      "visits": "223"
+    },
+    {
+      "date": "2019-04-16",
+      "mobile_device": "iPad",
+      "visits": "431"
+    },
+    {
+      "date": "2019-04-16",
+      "mobile_device": "iPhone",
+      "visits": "2758"
+    },
+    {
+      "date": "2019-04-17",
+      "mobile_device": "Windows RT Tablet",
+      "visits": "211"
+    },
+    {
+      "date": "2019-04-17",
+      "mobile_device": "iPad",
+      "visits": "372"
+    },
+    {
+      "date": "2019-04-17",
+      "mobile_device": "iPhone",
+      "visits": "2596"
+    },
+    {
+      "date": "2019-04-18",
+      "mobile_device": "(not set)",
+      "visits": "104"
+    },
+    {
+      "date": "2019-04-18",
+      "mobile_device": "Windows RT Tablet",
+      "visits": "176"
+    },
+    {
+      "date": "2019-04-18",
+      "mobile_device": "iPad",
+      "visits": "356"
+    },
+    {
+      "date": "2019-04-18",
+      "mobile_device": "iPhone",
+      "visits": "2536"
+    },
+    {
+      "date": "2019-04-19",
+      "mobile_device": "iPad",
+      "visits": "347"
+    },
+    {
+      "date": "2019-04-19",
+      "mobile_device": "iPhone",
+      "visits": "2230"
+    },
+    {
+      "date": "2019-04-20",
+      "mobile_device": "iPad",
+      "visits": "308"
+    },
+    {
+      "date": "2019-04-20",
+      "mobile_device": "iPhone",
+      "visits": "1956"
+    },
+    {
+      "date": "2019-04-21",
+      "mobile_device": "iPad",
+      "visits": "322"
+    },
+    {
+      "date": "2019-04-21",
+      "mobile_device": "iPhone",
+      "visits": "1880"
+    },
+    {
+      "date": "2019-04-22",
+      "mobile_device": "(not set)",
+      "visits": "102"
+    },
+    {
+      "date": "2019-04-22",
+      "mobile_device": "SM-G950U",
+      "visits": "117"
+    },
+    {
+      "date": "2019-04-22",
+      "mobile_device": "SM-G960U",
+      "visits": "115"
+    },
+    {
+      "date": "2019-04-22",
+      "mobile_device": "Windows RT Tablet",
+      "visits": "248"
+    },
+    {
+      "date": "2019-04-22",
+      "mobile_device": "iPad",
+      "visits": "441"
+    },
+    {
+      "date": "2019-04-22",
+      "mobile_device": "iPhone",
+      "visits": "3194"
+    },
+    {
+      "date": "2019-04-23",
+      "mobile_device": "(not set)",
+      "visits": "109"
+    },
+    {
+      "date": "2019-04-23",
+      "mobile_device": "SM-G960U",
+      "visits": "103"
+    },
+    {
+      "date": "2019-04-23",
+      "mobile_device": "Windows RT Tablet",
+      "visits": "232"
+    },
+    {
+      "date": "2019-04-23",
+      "mobile_device": "iPad",
+      "visits": "442"
+    },
+    {
+      "date": "2019-04-23",
+      "mobile_device": "iPhone",
+      "visits": "2778"
+    },
+    {
+      "date": "2019-04-24",
+      "mobile_device": "SM-G950U",
+      "visits": "105"
+    },
+    {
+      "date": "2019-04-24",
+      "mobile_device": "Windows RT Tablet",
+      "visits": "254"
+    },
+    {
+      "date": "2019-04-24",
+      "mobile_device": "iPad",
+      "visits": "426"
+    },
+    {
+      "date": "2019-04-24",
+      "mobile_device": "iPhone",
+      "visits": "2760"
+    },
+    {
+      "date": "2019-04-25",
+      "mobile_device": "SM-G960U",
+      "visits": "109"
+    },
+    {
+      "date": "2019-04-25",
+      "mobile_device": "Windows RT Tablet",
+      "visits": "215"
+    },
+    {
+      "date": "2019-04-25",
+      "mobile_device": "iPad",
+      "visits": "411"
+    },
+    {
+      "date": "2019-04-25",
+      "mobile_device": "iPhone",
+      "visits": "2523"
+    },
+    {
+      "date": "2019-04-26",
+      "mobile_device": "Windows RT Tablet",
+      "visits": "223"
+    },
+    {
+      "date": "2019-04-26",
+      "mobile_device": "iPad",
+      "visits": "380"
+    },
+    {
+      "date": "2019-04-26",
+      "mobile_device": "iPhone",
+      "visits": "2420"
+    },
+    {
+      "date": "2019-04-27",
+      "mobile_device": "iPad",
+      "visits": "285"
+    },
+    {
+      "date": "2019-04-27",
+      "mobile_device": "iPhone",
+      "visits": "1753"
+    },
+    {
+      "date": "2019-04-28",
+      "mobile_device": "iPad",
+      "visits": "346"
+    },
+    {
+      "date": "2019-04-28",
+      "mobile_device": "iPhone",
+      "visits": "1782"
+    },
+    {
+      "date": "2019-04-29",
+      "mobile_device": "Windows RT Tablet",
+      "visits": "268"
+    },
+    {
+      "date": "2019-04-29",
+      "mobile_device": "iPad",
+      "visits": "412"
+    },
+    {
+      "date": "2019-04-29",
+      "mobile_device": "iPhone",
+      "visits": "2552"
+    },
+    {
+      "date": "2019-04-30",
+      "mobile_device": "(not set)",
+      "visits": "112"
+    },
+    {
+      "date": "2019-04-30",
+      "mobile_device": "SM-G960U",
+      "visits": "106"
+    },
+    {
+      "date": "2019-04-30",
+      "mobile_device": "Windows RT Tablet",
+      "visits": "259"
+    },
+    {
+      "date": "2019-04-30",
+      "mobile_device": "iPad",
+      "visits": "465"
+    },
+    {
+      "date": "2019-04-30",
+      "mobile_device": "iPhone",
+      "visits": "2759"
+    },
+    {
+      "date": "2019-05-01",
+      "mobile_device": "Windows RT Tablet",
+      "visits": "234"
+    },
+    {
+      "date": "2019-05-01",
+      "mobile_device": "iPad",
+      "visits": "416"
+    },
+    {
+      "date": "2019-05-01",
+      "mobile_device": "iPhone",
+      "visits": "2656"
+    },
+    {
+      "date": "2019-05-02",
+      "mobile_device": "Windows RT Tablet",
+      "visits": "241"
+    },
+    {
+      "date": "2019-05-02",
+      "mobile_device": "iPad",
+      "visits": "379"
+    },
+    {
+      "date": "2019-05-02",
+      "mobile_device": "iPhone",
+      "visits": "2631"
+    },
+    {
+      "date": "2019-05-03",
+      "mobile_device": "(not set)",
+      "visits": "102"
+    },
+    {
+      "date": "2019-05-03",
+      "mobile_device": "Windows RT Tablet",
+      "visits": "189"
+    },
+    {
+      "date": "2019-05-03",
+      "mobile_device": "iPad",
+      "visits": "388"
+    },
+    {
+      "date": "2019-05-03",
+      "mobile_device": "iPhone",
+      "visits": "2650"
+    },
+    {
+      "date": "2019-05-04",
+      "mobile_device": "iPad",
+      "visits": "263"
+    },
+    {
+      "date": "2019-05-04",
+      "mobile_device": "iPhone",
+      "visits": "1803"
+    },
+    {
+      "date": "2019-05-05",
+      "mobile_device": "iPad",
+      "visits": "356"
+    },
+    {
+      "date": "2019-05-05",
+      "mobile_device": "iPhone",
+      "visits": "1718"
+    },
+    {
+      "date": "2019-05-06",
+      "mobile_device": "(not set)",
+      "visits": "117"
+    },
+    {
+      "date": "2019-05-06",
+      "mobile_device": "Windows RT Tablet",
+      "visits": "257"
+    },
+    {
+      "date": "2019-05-06",
+      "mobile_device": "iPad",
+      "visits": "424"
+    },
+    {
+      "date": "2019-05-06",
+      "mobile_device": "iPhone",
+      "visits": "2569"
+    },
+    {
+      "date": "2019-05-07",
+      "mobile_device": "(not set)",
+      "visits": "102"
+    },
+    {
+      "date": "2019-05-07",
+      "mobile_device": "Windows RT Tablet",
+      "visits": "256"
+    },
+    {
+      "date": "2019-05-07",
+      "mobile_device": "iPad",
+      "visits": "384"
+    },
+    {
+      "date": "2019-05-07",
+      "mobile_device": "iPhone",
+      "visits": "2511"
+    },
+    {
+      "date": "2019-05-08",
+      "mobile_device": "Windows RT Tablet",
+      "visits": "248"
+    },
+    {
+      "date": "2019-05-08",
+      "mobile_device": "iPad",
+      "visits": "386"
+    },
+    {
+      "date": "2019-05-08",
+      "mobile_device": "iPhone",
+      "visits": "2396"
+    },
+    {
+      "date": "2019-05-09",
+      "mobile_device": "Windows RT Tablet",
+      "visits": "199"
+    },
+    {
+      "date": "2019-05-09",
+      "mobile_device": "iPad",
+      "visits": "388"
+    },
+    {
+      "date": "2019-05-09",
+      "mobile_device": "iPhone",
+      "visits": "2342"
+    },
+    {
+      "date": "2019-05-10",
+      "mobile_device": "Windows RT Tablet",
+      "visits": "213"
+    },
+    {
+      "date": "2019-05-10",
+      "mobile_device": "iPad",
+      "visits": "365"
+    },
+    {
+      "date": "2019-05-10",
+      "mobile_device": "iPhone",
+      "visits": "2215"
+    },
+    {
+      "date": "2019-05-11",
+      "mobile_device": "iPad",
+      "visits": "250"
+    },
+    {
+      "date": "2019-05-11",
+      "mobile_device": "iPhone",
+      "visits": "1583"
+    },
+    {
+      "date": "2019-05-12",
+      "mobile_device": "iPad",
+      "visits": "319"
+    },
+    {
+      "date": "2019-05-12",
+      "mobile_device": "iPhone",
+      "visits": "1701"
+    },
+    {
+      "date": "2019-05-13",
+      "mobile_device": "Windows RT Tablet",
+      "visits": "226"
+    },
+    {
+      "date": "2019-05-13",
+      "mobile_device": "iPad",
+      "visits": "461"
+    },
+    {
+      "date": "2019-05-13",
+      "mobile_device": "iPhone",
+      "visits": "2542"
+    },
+    {
+      "date": "2019-05-14",
+      "mobile_device": "(not set)",
+      "visits": "107"
+    },
+    {
+      "date": "2019-05-14",
+      "mobile_device": "Windows RT Tablet",
+      "visits": "229"
+    },
+    {
+      "date": "2019-05-14",
+      "mobile_device": "iPad",
+      "visits": "467"
+    },
+    {
+      "date": "2019-05-14",
+      "mobile_device": "iPhone",
+      "visits": "2607"
+    },
+    {
+      "date": "2019-05-15",
+      "mobile_device": "SM-G950U",
+      "visits": "128"
+    },
+    {
+      "date": "2019-05-15",
+      "mobile_device": "SM-G960U",
+      "visits": "139"
+    },
+    {
+      "date": "2019-05-15",
+      "mobile_device": "SM-G965U",
+      "visits": "101"
+    },
+    {
+      "date": "2019-05-15",
+      "mobile_device": "Windows RT Tablet",
+      "visits": "255"
+    },
+    {
+      "date": "2019-05-15",
+      "mobile_device": "iPad",
+      "visits": "460"
+    },
+    {
+      "date": "2019-05-15",
+      "mobile_device": "iPhone",
+      "visits": "3505"
+    },
+    {
+      "date": "2019-05-16",
+      "mobile_device": "SM-G960U",
+      "visits": "112"
+    },
+    {
+      "date": "2019-05-16",
+      "mobile_device": "Windows RT Tablet",
+      "visits": "199"
+    },
+    {
+      "date": "2019-05-16",
+      "mobile_device": "iPad",
+      "visits": "387"
+    },
+    {
+      "date": "2019-05-16",
+      "mobile_device": "iPhone",
+      "visits": "2904"
+    },
+    {
+      "date": "2019-05-17",
+      "mobile_device": "Windows RT Tablet",
+      "visits": "178"
+    },
+    {
+      "date": "2019-05-17",
+      "mobile_device": "iPad",
+      "visits": "385"
+    },
+    {
+      "date": "2019-05-17",
+      "mobile_device": "iPhone",
+      "visits": "2401"
+    },
+    {
+      "date": "2019-05-18",
+      "mobile_device": "iPad",
+      "visits": "262"
+    },
+    {
+      "date": "2019-05-18",
+      "mobile_device": "iPhone",
+      "visits": "1720"
+    },
+    {
+      "date": "2019-05-19",
+      "mobile_device": "iPad",
+      "visits": "332"
+    },
+    {
+      "date": "2019-05-19",
+      "mobile_device": "iPhone",
+      "visits": "1891"
+    },
+    {
+      "date": "2019-05-20",
+      "mobile_device": "Windows RT Tablet",
+      "visits": "239"
+    },
+    {
+      "date": "2019-05-20",
+      "mobile_device": "iPad",
+      "visits": "409"
+    },
+    {
+      "date": "2019-05-20",
+      "mobile_device": "iPhone",
+      "visits": "2607"
+    },
+    {
+      "date": "2019-05-21",
+      "mobile_device": "Windows RT Tablet",
+      "visits": "255"
+    },
+    {
+      "date": "2019-05-21",
+      "mobile_device": "iPad",
+      "visits": "405"
+    },
+    {
+      "date": "2019-05-21",
+      "mobile_device": "iPhone",
+      "visits": "2640"
+    },
+    {
+      "date": "2019-05-22",
+      "mobile_device": "(not set)",
+      "visits": "118"
+    },
+    {
+      "date": "2019-05-22",
+      "mobile_device": "Windows RT Tablet",
+      "visits": "246"
+    },
+    {
+      "date": "2019-05-22",
+      "mobile_device": "iPad",
+      "visits": "386"
+    },
+    {
+      "date": "2019-05-22",
+      "mobile_device": "iPhone",
+      "visits": "2551"
+    },
+    {
+      "date": "2019-05-23",
+      "mobile_device": "Windows RT Tablet",
+      "visits": "225"
+    },
+    {
+      "date": "2019-05-23",
+      "mobile_device": "iPad",
+      "visits": "353"
+    },
+    {
+      "date": "2019-05-23",
+      "mobile_device": "iPhone",
+      "visits": "2616"
+    },
+    {
+      "date": "2019-05-24",
+      "mobile_device": "Windows RT Tablet",
+      "visits": "173"
+    },
+    {
+      "date": "2019-05-24",
+      "mobile_device": "iPad",
+      "visits": "315"
+    },
+    {
+      "date": "2019-05-24",
+      "mobile_device": "iPhone",
+      "visits": "2376"
+    },
+    {
+      "date": "2019-05-25",
+      "mobile_device": "iPad",
+      "visits": "253"
+    },
+    {
+      "date": "2019-05-25",
+      "mobile_device": "iPhone",
+      "visits": "1582"
+    },
+    {
+      "date": "2019-05-26",
+      "mobile_device": "iPad",
+      "visits": "273"
+    },
+    {
+      "date": "2019-05-26",
+      "mobile_device": "iPhone",
+      "visits": "1637"
+    },
+    {
+      "date": "2019-05-27",
+      "mobile_device": "iPad",
+      "visits": "305"
+    },
+    {
+      "date": "2019-05-27",
+      "mobile_device": "iPhone",
+      "visits": "2275"
+    },
+    {
+      "date": "2019-05-28",
+      "mobile_device": "SM-G960U",
+      "visits": "102"
+    },
+    {
+      "date": "2019-05-28",
+      "mobile_device": "Windows RT Tablet",
+      "visits": "251"
+    },
+    {
+      "date": "2019-05-28",
+      "mobile_device": "iPad",
+      "visits": "491"
+    },
+    {
+      "date": "2019-05-28",
+      "mobile_device": "iPhone",
+      "visits": "3010"
+    },
+    {
+      "date": "2019-05-29",
+      "mobile_device": "Windows RT Tablet",
+      "visits": "221"
+    },
+    {
+      "date": "2019-05-29",
+      "mobile_device": "iPad",
+      "visits": "405"
+    },
+    {
+      "date": "2019-05-29",
+      "mobile_device": "iPhone",
+      "visits": "2822"
+    },
+    {
+      "date": "2019-05-30",
+      "mobile_device": "(not set)",
+      "visits": "115"
+    },
+    {
+      "date": "2019-05-30",
+      "mobile_device": "SM-G950U",
+      "visits": "112"
+    },
+    {
+      "date": "2019-05-30",
+      "mobile_device": "Windows RT Tablet",
+      "visits": "218"
+    },
+    {
+      "date": "2019-05-30",
+      "mobile_device": "iPad",
+      "visits": "413"
+    },
+    {
+      "date": "2019-05-30",
+      "mobile_device": "iPhone",
+      "visits": "2768"
+    },
+    {
+      "date": "2019-05-31",
+      "mobile_device": "Windows RT Tablet",
+      "visits": "198"
+    },
+    {
+      "date": "2019-05-31",
+      "mobile_device": "iPad",
+      "visits": "390"
+    },
+    {
+      "date": "2019-05-31",
+      "mobile_device": "iPhone",
+      "visits": "2595"
+    },
+    {
+      "date": "2019-06-01",
+      "mobile_device": "iPad",
+      "visits": "388"
+    },
+    {
+      "date": "2019-06-01",
+      "mobile_device": "iPhone",
+      "visits": "2139"
+    },
+    {
+      "date": "2019-06-02",
+      "mobile_device": "iPad",
+      "visits": "417"
+    },
+    {
+      "date": "2019-06-02",
+      "mobile_device": "iPhone",
+      "visits": "2457"
+    },
+    {
+      "date": "2019-06-03",
+      "mobile_device": "(not set)",
+      "visits": "128"
+    },
+    {
+      "date": "2019-06-03",
+      "mobile_device": "SM-G950U",
+      "visits": "110"
+    },
+    {
+      "date": "2019-06-03",
+      "mobile_device": "SM-G960U",
+      "visits": "124"
+    },
+    {
+      "date": "2019-06-03",
+      "mobile_device": "Windows RT Tablet",
+      "visits": "248"
+    },
+    {
+      "date": "2019-06-03",
+      "mobile_device": "iPad",
+      "visits": "460"
+    },
+    {
+      "date": "2019-06-03",
+      "mobile_device": "iPhone",
+      "visits": "3393"
+    },
+    {
+      "date": "2019-06-04",
+      "mobile_device": "(not set)",
+      "visits": "113"
+    },
+    {
+      "date": "2019-06-04",
+      "mobile_device": "SM-G960U",
+      "visits": "112"
+    },
+    {
+      "date": "2019-06-04",
+      "mobile_device": "Windows RT Tablet",
+      "visits": "246"
+    },
+    {
+      "date": "2019-06-04",
+      "mobile_device": "iPad",
+      "visits": "406"
+    },
+    {
+      "date": "2019-06-04",
+      "mobile_device": "iPhone",
+      "visits": "3167"
+    },
+    {
+      "date": "2019-06-05",
+      "mobile_device": "(not set)",
+      "visits": "123"
+    },
+    {
+      "date": "2019-06-05",
+      "mobile_device": "Windows RT Tablet",
+      "visits": "262"
+    },
+    {
+      "date": "2019-06-05",
+      "mobile_device": "iPad",
+      "visits": "426"
+    },
+    {
+      "date": "2019-06-05",
+      "mobile_device": "iPhone",
+      "visits": "2972"
+    },
+    {
+      "date": "2019-06-06",
+      "mobile_device": "(not set)",
+      "visits": "127"
+    },
+    {
+      "date": "2019-06-06",
+      "mobile_device": "SM-G950U",
+      "visits": "102"
+    },
+    {
+      "date": "2019-06-06",
+      "mobile_device": "SM-G960U",
+      "visits": "113"
+    },
+    {
+      "date": "2019-06-06",
+      "mobile_device": "Windows RT Tablet",
+      "visits": "264"
+    },
+    {
+      "date": "2019-06-06",
+      "mobile_device": "iPad",
+      "visits": "447"
+    },
+    {
+      "date": "2019-06-06",
+      "mobile_device": "iPhone",
+      "visits": "2823"
+    },
+    {
+      "date": "2019-06-07",
+      "mobile_device": "Windows RT Tablet",
+      "visits": "191"
+    },
+    {
+      "date": "2019-06-07",
+      "mobile_device": "iPad",
+      "visits": "374"
+    },
+    {
+      "date": "2019-06-07",
+      "mobile_device": "iPhone",
+      "visits": "2366"
+    },
+    {
+      "date": "2019-06-08",
+      "mobile_device": "iPad",
+      "visits": "277"
+    },
+    {
+      "date": "2019-06-08",
+      "mobile_device": "iPhone",
+      "visits": "1855"
+    },
+    {
+      "date": "2019-06-09",
+      "mobile_device": "iPad",
+      "visits": "303"
+    },
+    {
+      "date": "2019-06-09",
+      "mobile_device": "iPhone",
+      "visits": "1894"
+    },
+    {
+      "date": "2019-06-10",
+      "mobile_device": "Windows RT Tablet",
+      "visits": "251"
+    },
+    {
+      "date": "2019-06-10",
+      "mobile_device": "iPad",
+      "visits": "396"
+    },
+    {
+      "date": "2019-06-10",
+      "mobile_device": "iPhone",
+      "visits": "2593"
+    }
+  ],
+  "totals": {
+    "visits": 278722,
+    "device_models": {
+      "Windows RT Tablet": 15080,
+      "iPad": 36220,
+      "iPhone": 220604,
+      "(not set)": 3260,
+      "SM-G950U": 1432,
+      "SM-G960U": 2025,
+      "SM-G965U": 101
+    }
+  },
+  "taken_at": "2019-06-11T22:30:02.638Z"
+}
