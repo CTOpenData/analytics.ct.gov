@@ -41,11 +41,11 @@ collections:
     permalink: /:path/data/
 
 # Site title and description
-title: "analytics.usa.gov | The US government's web traffic."
-description: "Official data on web traffic to hundreds of US federal government websites. Published by the Digital Analytics Program."
+title: "analytics.ct.gov | The State of Connecticut's web traffic."
+description: "Official data on web traffic the State of Connecticut's websites."
 
 # Site's own URL
-url: https://analytics.usa.gov
+url: https://analytics.ct.gov
 
 # Default dropdown title, will not appear if there are no sub-pages
 dropdown_title: All Participating Websites
@@ -54,13 +54,13 @@ dropdown_title: All Participating Websites
 data_url: https://analytics.usa.gov/data
 
 # twitter information
-twitter: usgsa
+twitter: 
 
 # Site wide error message
 site_wide_error:
   display: false
   title: "This site is not being updated and may not be accurate"
-  body: "Due to a lapse in government funding, analytics.usa.gov will not be updated until further notice. Updates regarding government operating status and resumption of normal operations can be found at usa.gov."
+  body: "Due to a lapse in government funding, analytics.ct.gov will not be updated until further notice. Updates regarding government operating status and resumption of normal operations can be found at usa.gov."
 
 sass:
   sass_dir: sass

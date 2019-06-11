@@ -1,9 +1,9 @@
 ---
-project: "Analytics.USA.gov"
-full_name: Analytics.USA.gov
+project: "analytics.ct.gov.gov"
+full_name: analytics.ct.gov.gov
 name: dap
 github:
-- 18F/analytics.usa.gov
+- 18F/analytics.ct.gov.gov
 - 18F/analytics-reporter
 description: A lightweight dashboard that shows web traffic across the .gov domain.  
 impact: We designed a website that makes public and easy to understand the website analytics from the .gov domain.   
@@ -16,7 +16,7 @@ milestones:
 - 'May 2012: Digital Government Strategy calls for a government-wide analytics program'
 - 'May 2013: Digital Analytics Program announced'
 - 'August 2014: Full Digital Analytics Program access expanded to all federal staff at participating agencies'
-- 'March 2015: Analytics.USA.gov announced'
+- 'March 2015: analytics.ct.gov.gov announced'
 - 'December 2015: New features and expanded data feeds announced'
 contact:
 - dap@gsa.gov
@@ -35,14 +35,14 @@ team:
   role: lead
   id: ericschles
 type: app
-blogtag: analytics.usa.gov
+blogtag: analytics.ct.gov.gov
 licenses:
-  analytics.usa.gov:
+  analytics.ct.gov.gov:
     name: Public Domain (CC0)
-    url: https://github.com/18F/analytics.usa.gov/blob/18f-pages/LICENSE.md
+    url: https://github.com/18F/analytics.ct.gov.gov/blob/18f-pages/LICENSE.md
   analytics-reporter:
     name: Public Domain (CC0)
     url: https://github.com/18F/analytics-reporter/blob/master/LICENSE.md
 links:
-- https://analytics.usa.gov
+- https://analytics.ct.gov.gov
 status: 

@@ -92,31 +92,14 @@ export default {
     return proportions.slice(0, 10);
   }, 'city'),
 
-  countries: renderBlock.buildBarChart((d) => {
-    let totalVisits = 0;
-    let USVisits = 0;
-    d.data.forEach((c) => {
-      totalVisits += parseInt(c.active_visitors, 10);
-      if (c.country === 'United States') {
-        USVisits = c.active_visitors;
-      }
-    });
-    const international = totalVisits - USVisits;
-    const data = {
-      'United States': USVisits,
-      'International &amp; Territories': international,
-    };
-    return transformers.findProportionsOfMetricFromValue(transformers.listify(data));
-  }),
 
-  international_visits: renderBlock.buildBarChartWithLabel((d) => {
+  counties: renderBlock.buildBarChartWithLabel((d) => {
     let values = transformers.findProportionsOfMetric(
       d.data,
       list => list.map(x => x.active_visitors),
     );
-    values = values.filter(c => c.country !== 'United States');
     return values.slice(0, 15);
-  }, 'country'),
+  }, 'county'),
 
   'top-downloads': renderBlock.loadAndRender()
     .transform(d => d.data.slice(0, 10))
