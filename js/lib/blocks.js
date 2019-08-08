@@ -69,7 +69,7 @@ export default {
          * users.json, we total up the device numbers to get the "big
          * number", saving us an extra XHR load.
          */
-        const total = d3.sum(data.map(d => d.value));
+      const total = d3.sum(data.map(d => d.value));
       d3.select('#total_visitors')
         .text(formatters.readableBigNumber(total));
     }),
@@ -94,7 +94,7 @@ export default {
 
 
   counties: renderBlock.buildBarChartWithLabel((d) => {
-    let values = transformers.findProportionsOfMetric(
+    const values = transformers.findProportionsOfMetric(
       d.data,
       list => list.map(x => x.active_visitors),
     );
@@ -129,14 +129,11 @@ export default {
           d.text = this.innerText;
         })
         .html('')
-        .append('a')
-        .attr('target', '_blank')
-        .attr('href', d => exceptions[d.domain] || (`http://${d.domain}`))
-        .text(d => titleExceptions[d.domain] || d.domain);
+        .text(d => titleExceptions[d.page_title] || d.page_title);
     })
     .render(barChart()
       .label(d => d.domain)
-      .value(d => +d.visits)
+      .value(d => +d.pageviews)
       .scale(values => d3.scale.linear()
         .domain([0, 1, d3.max(values)])
         .rangeRound([0, 1, 100]))
@@ -152,15 +149,11 @@ export default {
           d.text = this.innerText;
         })
         .html('')
-        .append('a')
-        .attr('target', '_blank')
-        .attr('title', d => d.page_title)
-        .attr('href', d => exceptions[d.page] || (`http://${d.page}`))
         .text(d => titleExceptions[d.page] || d.page_title);
     })
     .render(barChart()
       .label(d => d.page_title)
-      .value(d => +d.active_visitors)
+      .value(d => +d['rt:pageviews'])
       .scale(values => d3.scale.linear()
         .domain([0, 1, d3.max(values)])
         .rangeRound([0, 1, 100]))
