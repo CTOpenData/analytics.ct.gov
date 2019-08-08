@@ -1,157 +1,20 @@
 {
   "name": "top-cities-realtime",
   "query": {
-    "dimensions": "rt:city",
+    "dimensions": "ga:city",
     "metrics": [
       "rt:activeUsers"
     ],
     "sort": [
       "-rt:activeUsers"
     ],
-    "max-results": 10000
+    "filters": "ga:city!~(not set)",
+    "max-results": 10
   },
   "meta": {
-    "name": "Top Cities (Live)",
-    "description": "Top cities for active onsite users."
+    "name": "Top Cities Right Now",
+    "description": "The top 10 cities, measured by active onsite users, for all sites."
   },
-  "data": [
-    {
-      "city": "Hartford",
-      "active_visitors": "9"
-    },
-    {
-      "city": "New Haven",
-      "active_visitors": "7"
-    },
-    {
-      "city": "New York",
-      "active_visitors": "7"
-    },
-    {
-      "city": "Colchester",
-      "active_visitors": "2"
-    },
-    {
-      "city": "Manchester",
-      "active_visitors": "2"
-    },
-    {
-      "city": "Middletown",
-      "active_visitors": "2"
-    },
-    {
-      "city": "Olathe",
-      "active_visitors": "2"
-    },
-    {
-      "city": "Waterbury",
-      "active_visitors": "2"
-    },
-    {
-      "city": "West Hartford",
-      "active_visitors": "2"
-    },
-    {
-      "city": "Windsor",
-      "active_visitors": "2"
-    },
-    {
-      "city": "Boston",
-      "active_visitors": "1"
-    },
-    {
-      "city": "Branford",
-      "active_visitors": "1"
-    },
-    {
-      "city": "Chattanooga",
-      "active_visitors": "1"
-    },
-    {
-      "city": "Clinton",
-      "active_visitors": "1"
-    },
-    {
-      "city": "Cranston",
-      "active_visitors": "1"
-    },
-    {
-      "city": "East Hampton",
-      "active_visitors": "1"
-    },
-    {
-      "city": "Greenfield",
-      "active_visitors": "1"
-    },
-    {
-      "city": "Naugatuck",
-      "active_visitors": "1"
-    },
-    {
-      "city": "New Britain",
-      "active_visitors": "1"
-    },
-    {
-      "city": "Plymouth",
-      "active_visitors": "1"
-    },
-    {
-      "city": "Pomfret",
-      "active_visitors": "1"
-    },
-    {
-      "city": "Roseville",
-      "active_visitors": "1"
-    },
-    {
-      "city": "Seymour",
-      "active_visitors": "1"
-    },
-    {
-      "city": "Simsbury",
-      "active_visitors": "1"
-    },
-    {
-      "city": "Southbury",
-      "active_visitors": "1"
-    },
-    {
-      "city": "Stamford",
-      "active_visitors": "1"
-    },
-    {
-      "city": "Stratford",
-      "active_visitors": "1"
-    },
-    {
-      "city": "Suffield",
-      "active_visitors": "1"
-    },
-    {
-      "city": "Tumwater",
-      "active_visitors": "1"
-    },
-    {
-      "city": "Washington",
-      "active_visitors": "1"
-    },
-    {
-      "city": "Westport",
-      "active_visitors": "1"
-    },
-    {
-      "city": "Wethersfield",
-      "active_visitors": "1"
-    },
-    {
-      "city": "Zhengzhou",
-      "active_visitors": "1"
-    },
-    {
-      "city": "zz",
-      "active_visitors": "1"
-    }
-  ],
   "totals": {},
-  "taken_at": "2019-06-11T22:30:20.813Z"
+  "taken_at": "2019-08-08T21:40:20.716Z"
 }

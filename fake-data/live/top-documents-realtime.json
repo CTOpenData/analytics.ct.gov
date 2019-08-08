@@ -1,0 +1,26 @@
+{
+  "name": "top-documents-realtime",
+  "query": {
+    "dimensions": "rt:eventAction",
+    "metrics": [
+      "rt:totalEvents"
+    ],
+    "sort": [
+      "-rt:totalEvents"
+    ],
+    "filters": "rt:eventCategory=~documents;rt:eventAction!~undefined",
+    "max-results": 10
+  },
+  "meta": {
+    "name": "Top Documents Right Now",
+    "description": "The top 10 Documents, measured by active onsite users, for all sites."
+  },
+  "data": [
+    {
+      "rt:eventAction": "https://www.ctohe.org/News/pdfs/2016/2015SystemTrends.pdf",
+      "total_events": "1"
+    }
+  ],
+  "totals": {},
+  "taken_at": "2019-08-08T21:40:28.256Z"
+}

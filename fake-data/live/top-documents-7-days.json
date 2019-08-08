@@ -1,0 +1,66 @@
+{
+  "name": "top-documents-7-days",
+  "query": {
+    "start-date": "7daysAgo",
+    "end-date": "yesterday",
+    "dimensions": "ga:eventAction",
+    "metrics": [
+      "ga:totalEvents"
+    ],
+    "sort": [
+      "-ga:totalEvents"
+    ],
+    "filters": "ga:eventCategory=~documents;ga:eventAction!~undefined",
+    "start-index": 1,
+    "max-results": 10,
+    "samplingLevel": "HIGHER_PRECISION"
+  },
+  "meta": {
+    "name": "Top Documents 7 Days",
+    "description": "The top 10 Documents, for the last 7 days for all sites."
+  },
+  "data": [
+    {
+      "ga:eventAction": "https://portal.ct.gov/-/media/DOT/documents/dcommunications/MajorProjectUpdates/MajorProjectsWebPDF.pdf",
+      "total_events": "44"
+    },
+    {
+      "ga:eventAction": "https://portal.ct.gov/-/media/SDE/KindergartenBrochure.pdf",
+      "total_events": "28"
+    },
+    {
+      "ga:eventAction": "https://portal.ct.gov/-/media/OPM/Budget/Special_Reports/agencyheads_old.pdf",
+      "total_events": "21"
+    },
+    {
+      "ga:eventAction": "https://portal.ct.gov/-/media/DOT/documents/dcommunications/MajorProjectUpdates/MajorProjectsWebPDFpdf.pdf",
+      "total_events": "17"
+    },
+    {
+      "ga:eventAction": "https://portal.ct.gov/-/media/SDE/Special-Education/Parents_Guide_SE.pdf",
+      "total_events": "16"
+    },
+    {
+      "ga:eventAction": "http://www.ctdol.state.ct.us/progsupt/unemplt/claimant-guide/uc-288.pdf",
+      "total_events": "14"
+    },
+    {
+      "ga:eventAction": "http://www.ctohe.org/SFA/pdfs/SFABrochure.pdf",
+      "total_events": "12"
+    },
+    {
+      "ga:eventAction": "https://portal.ct.gov/-/media/SDE/Adult-Ed/providerdirectory.pdf",
+      "total_events": "12"
+    },
+    {
+      "ga:eventAction": "http://www.ctdol.state.ct.us/wgwkstnd/MinWageGuide2014.pdf",
+      "total_events": "9"
+    },
+    {
+      "ga:eventAction": "https://portal.ct.gov/-/media/DOT/documents/dcommunications/MapRequestFormpdf.pdf",
+      "total_events": "7"
+    }
+  ],
+  "totals": {},
+  "taken_at": "2019-08-08T21:40:29.716Z"
+}

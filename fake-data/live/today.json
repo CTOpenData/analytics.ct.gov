@@ -3,7 +3,7 @@
   "query": {
     "start-date": "today",
     "end-date": "today",
-    "dimensions": "ga:date,ga:hour",
+    "dimensions": "ga:hour",
     "metrics": [
       "ga:sessions"
     ],
@@ -17,128 +17,104 @@
   },
   "data": [
     {
-      "date": "2019-06-11",
       "hour": "00",
-      "visits": "175"
+      "visits": "166"
     },
     {
-      "date": "2019-06-11",
       "hour": "01",
-      "visits": "119"
+      "visits": "133"
     },
     {
-      "date": "2019-06-11",
       "hour": "02",
-      "visits": "79"
+      "visits": "94"
     },
     {
-      "date": "2019-06-11",
       "hour": "03",
-      "visits": "93"
+      "visits": "97"
     },
     {
-      "date": "2019-06-11",
       "hour": "04",
-      "visits": "104"
+      "visits": "101"
     },
     {
-      "date": "2019-06-11",
       "hour": "05",
-      "visits": "152"
+      "visits": "153"
     },
     {
-      "date": "2019-06-11",
       "hour": "06",
-      "visits": "337"
+      "visits": "322"
     },
     {
-      "date": "2019-06-11",
       "hour": "07",
-      "visits": "653"
+      "visits": "663"
     },
     {
-      "date": "2019-06-11",
       "hour": "08",
-      "visits": "1160"
+      "visits": "1203"
     },
     {
-      "date": "2019-06-11",
       "hour": "09",
-      "visits": "1550"
+      "visits": "1384"
     },
     {
-      "date": "2019-06-11",
       "hour": "10",
-      "visits": "1678"
+      "visits": "1508"
     },
     {
-      "date": "2019-06-11",
       "hour": "11",
-      "visits": "1585"
+      "visits": "1457"
     },
     {
-      "date": "2019-06-11",
       "hour": "12",
-      "visits": "1428"
+      "visits": "1384"
     },
     {
-      "date": "2019-06-11",
       "hour": "13",
-      "visits": "1549"
+      "visits": "1324"
     },
     {
-      "date": "2019-06-11",
       "hour": "14",
-      "visits": "1588"
+      "visits": "1452"
     },
     {
-      "date": "2019-06-11",
       "hour": "15",
-      "visits": "1449"
+      "visits": "1360"
     },
     {
-      "date": "2019-06-11",
       "hour": "16",
-      "visits": "1056"
+      "visits": "1022"
     },
     {
-      "date": "2019-06-11",
       "hour": "17",
-      "visits": "647"
+      "visits": "442"
     },
     {
-      "date": "2019-06-11",
       "hour": "18",
-      "visits": "245"
+      "visits": "0"
     },
     {
-      "date": "2019-06-11",
       "hour": "19",
       "visits": "0"
     },
     {
-      "date": "2019-06-11",
       "hour": "20",
       "visits": "0"
     },
     {
-      "date": "2019-06-11",
       "hour": "21",
       "visits": "0"
     },
     {
-      "date": "2019-06-11",
       "hour": "22",
       "visits": "0"
     },
     {
-      "date": "2019-06-11",
       "hour": "23",
       "visits": "0"
     }
   ],
   "totals": {
-    "visits": 15647
+    "visits": 14265
   },
-  "taken_at": "2019-06-11T22:30:01.413Z"
+  "taken_at": "2019-08-08T21:40:13.379Z"
 }

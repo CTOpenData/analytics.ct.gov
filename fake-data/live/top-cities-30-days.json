@@ -1,0 +1,26 @@
+{
+  "name": "top-cities-30-days",
+  "query": {
+    "start-date": "30daysAgo",
+    "end-date": "yesterday",
+    "dimensions": "ga:city",
+    "metrics": [
+      "ga:users"
+    ],
+    "sort": [
+      "-ga:users"
+    ],
+    "filters": "ga:city!~(not set)",
+    "start-index": 1,
+    "max-results": 10,
+    "samplingLevel": "HIGHER_PRECISION"
+  },
+  "meta": {
+    "name": "Top Cities 30 Days",
+    "description": "The top 10 cities, from the last 30 days, for all sites."
+  },
+  "totals": {
+    "users": 102598
+  },
+  "taken_at": "2019-08-08T21:40:23.078Z"
+}

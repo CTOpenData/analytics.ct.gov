@@ -1,122 +1,102 @@
 {
   "name": "top-pages-realtime",
   "query": {
-    "dimensions": "rt:pagePath,rt:pageTitle",
+    "dimensions": "ga:pageTitle",
     "metrics": [
-      "rt:activeUsers"
+      "rt:pageviews"
     ],
     "sort": [
-      "-rt:activeUsers"
+      "-rt:pageviews"
     ],
-    "filters": "rt:pagePath!~ncbi\\.nlm\\.nih\\.gov/ncbi_.*",
+    "filters": "ga:pageTitle!~error",
     "max-results": 20
   },
   "meta": {
-    "name": "Top Pages (Live)",
+    "name": "Top Pages Right Now",
     "description": "The top 20 pages, measured by active onsite users, for all sites."
   },
   "data": [
     {
-      "page": "/",
       "page_title": "CT.GOV-Connecticut's Official State Website",
-      "active_visitors": "23"
+      "rt:pageviews": "227"
     },
     {
-      "page": "/en/services/public-safety/sex-offender-registry",
-      "page_title": "CT.gov: Sex Offender Registry",
-      "active_visitors": "4"
+      "page_title": "CT.gov Search Results",
+      "rt:pageviews": "141"
     },
     {
-      "page": "/services/jobs-and-employment",
-      "page_title": "CT.gov: Jobs and Employment",
-      "active_visitors": "4"
-    },
-    {
-      "page": "/services/driving-and-transportation/vehicle-registration-and-title/license-plates",
-      "page_title": "CT.gov: license plates",
-      "active_visitors": "2"
-    },
-    {
-      "page": "/services/health-and-human-services/children-family-and-older-adults/vital-records",
-      "page_title": "CT.gov: vital records",
-      "active_visitors": "2"
-    },
-    {
-      "page": "/cities_and_towns/",
-      "page_title": "CT.gov: Cities and Towns",
-      "active_visitors": "1"
-    },
-    {
-      "page": "/directories",
-      "page_title": "Directories",
-      "active_visitors": "1"
-    },
-    {
-      "page": "/en/404error/?item=/drs/individuals/individual-tax-page/8602975962&user=extranet\\anonymous&site=website",
-      "page_title": "404 Error Page",
-      "active_visitors": "1"
-    },
-    {
-      "page": "/for_state_employees_footer",
-      "page_title": "CT.gov: For State Employees",
-      "active_visitors": "1"
-    },
-    {
-      "page": "/government/departments-and-agencies/departments-and-agencies",
-      "page_title": "CT.gov: Departments and Agencies",
-      "active_visitors": "1"
-    },
-    {
-      "page": "/government/flag-status",
       "page_title": "Flag Status",
-      "active_visitors": "1"
+      "rt:pageviews": "24"
     },
     {
-      "page": "/search-results/?q=2019 income tax table",
-      "page_title": "CT.gov Search Results",
-      "active_visitors": "1"
+      "page_title": "CT.gov: Jobs and Employment",
+      "rt:pageviews": "21"
     },
     {
-      "page": "/search-results/?q=correctional officer physical fitness test",
-      "page_title": "CT.gov Search Results",
-      "active_visitors": "1"
+      "page_title": "CT.gov: Departments and Agencies",
+      "rt:pageviews": "19"
     },
     {
-      "page": "/search-results/?q=ct estate tax",
-      "page_title": "CT.gov Search Results",
-      "active_visitors": "1"
+      "page_title": "CT.gov: Traffic",
+      "rt:pageviews": "14"
     },
     {
-      "page": "/search-results/?q=ct-w4",
-      "page_title": "CT.gov Search Results",
-      "active_visitors": "1"
+      "page_title": "CT.gov Driving and Transportation Topic",
+      "rt:pageviews": "10"
     },
     {
-      "page": "/search-results/?q=how do i renew my ct hoisting equipment operator license",
-      "page_title": "CT.gov Search Results",
-      "active_visitors": "1"
+      "page_title": "CT.gov: Health and Human Services",
+      "rt:pageviews": "9"
     },
     {
-      "page": "/search-results/?q=jobs",
-      "page_title": "CT.gov Search Results",
-      "active_visitors": "1"
+      "page_title": "CT Government",
+      "rt:pageviews": "8"
     },
     {
-      "page": "/search-results/?q=laws on magazine size",
-      "page_title": "CT.gov Search Results",
-      "active_visitors": "1"
+      "page_title": "Departments and Agencies",
+      "rt:pageviews": "6"
     },
     {
-      "page": "/search-results/?q=registering a business",
-      "page_title": "CT.gov Search Results",
-      "active_visitors": "1"
+      "page_title": "Ct.Gov: Roads and Highways",
+      "rt:pageviews": "5"
     },
     {
-      "page": "/search-results/?q=schiller subaru",
-      "page_title": "CT.gov Search Results",
-      "active_visitors": "1"
+      "page_title": "Find a Job",
+      "rt:pageviews": "5"
+    },
+    {
+      "page_title": "CT.gov Revenue Topic",
+      "rt:pageviews": "4"
+    },
+    {
+      "page_title": "CT.gov: Sex Offender Registry",
+      "rt:pageviews": "4"
+    },
+    {
+      "page_title": "Ct.Gov: drivers license and ID",
+      "rt:pageviews": "4"
+    },
+    {
+      "page_title": "State Business Taxes",
+      "rt:pageviews": "4"
+    },
+    {
+      "page_title": "Unemployment Benefits",
+      "rt:pageviews": "4"
+    },
+    {
+      "page_title": "CT.gov: Cities and Towns",
+      "rt:pageviews": "3"
+    },
+    {
+      "page_title": "CT.gov: Food financial Social work assistance",
+      "rt:pageviews": "3"
+    },
+    {
+      "page_title": "CT.gov: Healthcare and Insurance",
+      "rt:pageviews": "3"
     }
   ],
   "totals": {},
-  "taken_at": "2019-06-11T22:30:11.719Z"
+  "taken_at": "2019-08-08T21:40:23.859Z"
 }

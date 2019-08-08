@@ -1,0 +1,66 @@
+{
+  "name": "top-documents-30-days",
+  "query": {
+    "start-date": "30daysAgo",
+    "end-date": "yesterday",
+    "dimensions": "ga:eventAction",
+    "metrics": [
+      "ga:totalEvents"
+    ],
+    "sort": [
+      "-ga:totalEvents"
+    ],
+    "filters": "ga:eventCategory=~documents;ga:eventAction!~undefined",
+    "start-index": 1,
+    "max-results": 10,
+    "samplingLevel": "HIGHER_PRECISION"
+  },
+  "meta": {
+    "name": "Top Documents 30 Days",
+    "description": "The top 10 Documents, for the last 30 days for all sites."
+  },
+  "data": [
+    {
+      "ga:eventAction": "http://www.ct.gov/dot/lib/dot/documents/dcommunications/majorprojectupdates/major_projects_webpdf.pdf",
+      "total_events": "170"
+    },
+    {
+      "ga:eventAction": "https://portal.ct.gov/-/media/SDE/Special-Education/Parents_Guide_SE.pdf",
+      "total_events": "100"
+    },
+    {
+      "ga:eventAction": "https://portal.ct.gov/-/media/SDE/KindergartenBrochure.pdf",
+      "total_events": "97"
+    },
+    {
+      "ga:eventAction": "https://portal.ct.gov/-/media/OPM/Budget/Special_Reports/agencyheads_old.pdf",
+      "total_events": "85"
+    },
+    {
+      "ga:eventAction": "http://www.ctdol.state.ct.us/progsupt/unemplt/claimant-guide/uc-288.pdf",
+      "total_events": "71"
+    },
+    {
+      "ga:eventAction": "http://www.ctohe.org/SFA/pdfs/SFABrochure.pdf",
+      "total_events": "53"
+    },
+    {
+      "ga:eventAction": "https://portal.ct.gov/-/media/SDE/Adult-Ed/providerdirectory.pdf",
+      "total_events": "53"
+    },
+    {
+      "ga:eventAction": "http://www.ctdol.state.ct.us/wgwkstnd/MinWageGuide2014.pdf",
+      "total_events": "47"
+    },
+    {
+      "ga:eventAction": "https://portal.ct.gov/-/media/DOT/documents/dcommunications/MajorProjectUpdates/MajorProjectsWebPDF.pdf",
+      "total_events": "44"
+    },
+    {
+      "ga:eventAction": "https://portal.ct.gov/-/media/DOT/documents/dcommunications/MajorProjectUpdates/MajorProjectsWebPDFpdf.pdf",
+      "total_events": "35"
+    }
+  ],
+  "totals": {},
+  "taken_at": "2019-08-08T21:40:30.853Z"
+}

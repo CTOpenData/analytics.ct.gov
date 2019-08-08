@@ -1,0 +1,106 @@
+{
+  "name": "top-pages-7-days",
+  "query": {
+    "start-date": "7daysAgo",
+    "end-date": "yesterday",
+    "dimensions": "ga:pageTitle",
+    "metrics": [
+      "ga:pageviews"
+    ],
+    "sort": [
+      "-ga:pageviews"
+    ],
+    "filters": "ga:pageTitle!~error",
+    "start-index": 1,
+    "max-results": 20,
+    "samplingLevel": "HIGHER_PRECISION"
+  },
+  "meta": {
+    "name": "Top Pages 7 Days",
+    "description": "The top 20 pages, from the last 7 days for all sites."
+  },
+  "data": [
+    {
+      "page_title": "CT.GOV-Connecticut's Official State Website",
+      "pageviews": "78552"
+    },
+    {
+      "page_title": "CT.gov Search Results",
+      "pageviews": "40213"
+    },
+    {
+      "page_title": "CT.gov: Jobs and Employment",
+      "pageviews": "6425"
+    },
+    {
+      "page_title": "CT.gov: Departments and Agencies",
+      "pageviews": "4900"
+    },
+    {
+      "page_title": "Flag Status",
+      "pageviews": "4757"
+    },
+    {
+      "page_title": "CT.gov: Traffic",
+      "pageviews": "2757"
+    },
+    {
+      "page_title": "CT Government",
+      "pageviews": "2354"
+    },
+    {
+      "page_title": "CT.gov: Sex Offender Registry",
+      "pageviews": "2151"
+    },
+    {
+      "page_title": "CT.gov: Cities and Towns",
+      "pageviews": "1921"
+    },
+    {
+      "page_title": "CT.gov: Health and Human Services",
+      "pageviews": "1917"
+    },
+    {
+      "page_title": "Find a Job",
+      "pageviews": "1824"
+    },
+    {
+      "page_title": "CT.gov: For State Employees",
+      "pageviews": "1641"
+    },
+    {
+      "page_title": "CT.gov Driving and Transportation Topic",
+      "pageviews": "1453"
+    },
+    {
+      "page_title": "Departments and Agencies",
+      "pageviews": "1426"
+    },
+    {
+      "page_title": "Directories",
+      "pageviews": "1287"
+    },
+    {
+      "page_title": "State Jobs",
+      "pageviews": "1193"
+    },
+    {
+      "page_title": "CT.gov Revenue Topic",
+      "pageviews": "1018"
+    },
+    {
+      "page_title": "Property Tax",
+      "pageviews": "854"
+    },
+    {
+      "page_title": "Job Search",
+      "pageviews": "847"
+    },
+    {
+      "page_title": "CT.gov: Public Safety",
+      "pageviews": "819"
+    }
+  ],
+  "totals": {},
+  "taken_at": "2019-08-08T21:40:25.616Z"
+}

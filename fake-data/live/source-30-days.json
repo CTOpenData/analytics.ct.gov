@@ -1,0 +1,25 @@
+{
+  "name": "source-30-days",
+  "query": {
+    "start-date": "30daysAgo",
+    "end-date": "yesterday",
+    "dimensions": "ga:channelGrouping",
+    "metrics": [
+      "ga:sessions"
+    ],
+    "sort": [
+      "-ga:sessions"
+    ],
+    "start-index": 1,
+    "max-results": 10000,
+    "samplingLevel": "HIGHER_PRECISION"
+  },
+  "meta": {
+    "name": "Source 30 Days",
+    "description": "30 days of direct/search/referral/email visits for all sites."
+  },
+  "totals": {
+    "visits": 420344
+  },
+  "taken_at": "2019-08-08T21:40:16.912Z"
+}
