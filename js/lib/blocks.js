@@ -92,7 +92,6 @@ export default {
     return proportions.slice(0, 10);
   }, 'city'),
 
-
   counties: renderBlock.buildBarChartWithLabel((d) => {
     const values = transformers.findProportionsOfMetric(
       d.data,
@@ -101,23 +100,57 @@ export default {
     return values.slice(0, 15);
   }, 'county'),
 
-  'top-downloads': renderBlock.loadAndRender()
-    .transform(d => d.data.slice(0, 10))
-    .render(
-      barChart()
-        .value(d => +d.total_events)
-        .label(d => [
-          '<span class="name"><a class="top-download-page" target="_blank" href=http://', d.page, '>', d.page_title, '</a></span> ',
-          '<span class="domain" >', formatters.formatURL(d.page), '</span> ',
-          '<span class="divider">/</span> ',
-          '<span class="filename"><a class="top-download-file" target="_blank" href=', d.event_label, '>',
-          formatters.formatFile(d.event_label), '</a></span>',
-        ].join(''))
-        .scale(values => d3.scale.linear()
-          .domain([0, 1, d3.max(values)])
-          .rangeRound([0, 1, 100]))
-        .format(formatters.addCommas),
-    ),
+  'top-documents': renderBlock.loadAndRender()
+    .transform(d => d.data)
+    .on('render', (selection) => {
+      // turn the labels into links
+      selection.selectAll('.label')
+        .each(function (d) {
+          d.text = this.innerText;
+        })
+        .html('')
+        .append('a')
+        .attr('target', '_blank')
+        .attr('href', d => d['ga:eventAction'])
+        .text(d => {
+          const rawTitle = titleExceptions[d['ga:eventAction']] || d['ga:eventAction'];
+          const splitTitle = rawTitle.split('/');
+          return splitTitle[splitTitle.length - 1];
+        });
+    })
+    .render(barChart()
+      .label(d => d['ga:eventAction'])
+      .value(d => +d.total_events)
+      .scale(values => d3.scale.linear()
+        .domain([0, 1, d3.max(values)])
+        .rangeRound([0, 1, 100]))
+      .format(formatters.addCommas)),
+
+  'top-documents-realtime': renderBlock.loadAndRender()
+    .transform(d => d.data)
+    .on('render', (selection) => {
+      // turn the labels into links
+      selection.selectAll('.label')
+        .each(function (d) {
+          d.text = this.innerText;
+        })
+        .html('')
+        .append('a')
+        .attr('target', '_blank')
+        .attr('href', d => d['rt:eventAction'])
+        .text(d => {
+          const rawTitle = titleExceptions[d['rt:eventAction']] || d['rt:eventAction'];
+          const splitTitle = rawTitle.split('/');
+          return splitTitle[splitTitle.length - 1];
+        });
+    })
+    .render(barChart()
+      .label(d => d['rt:eventAction'])
+      .value(d => +d.total_events)
+      .scale(values => d3.scale.linear()
+        .domain([0, 1, d3.max(values)])
+        .rangeRound([0, 1, 100]))
+      .format(formatters.addCommas)),
 
   // the top pages block(s)
   'top-pages': renderBlock.loadAndRender()

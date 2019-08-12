@@ -129,7 +129,6 @@
       <div id="secondary_data" class="width-one-third">
         <section id="top_100_table">
 
-          <!-- see: http://heydonworks.com/practical_aria_examples/ -->
           <h3>Top 20 <span id="top_table_type">Pages</span></h3>
           <ul class="pills" role="tablist">
             <li><a role="tab" data-type="Pages" aria-selected="true" href="#top-pages-realtime" class="site-nav">Now</a></li>
@@ -166,13 +165,38 @@
 
         </section>
 
-        <section id="top_downloads_table">
+        <section id="top_documents_table">
 
-          <h3>Top Downloads</h3>
-          <h5><em>Total file downloads yesterday on {{ entity }} domains.</em></h5>
-          <figure id="top-downloads"
-            data-block="top-downloads"
-            data-source="{{ site.data_url }}/{{ data_prefix }}/top-downloads-yesterday.json">
+          <h3>Top 10 Documents</h3>
+          <ul class="pills" role="tablist">
+            <li><a role="tab" data-type="Pages" aria-selected="true" href="#top-documents-realtime" class="site-nav">Now</a></li>
+            <li><a role="tab" data-type="Pages" href="#top-documents-7-days" class="site-nav">7 Days</a></li>
+            <li><a role="tab" data-type="Pages" href="#top-documents-30-days" class="site-nav">30 Days</a></li>
+          </ul>
+
+          <figure class="top-documents" id="top-documents-realtime" role="tabpanel"
+            data-block="top-documents-realtime"
+            data-source="{{ site.data_url }}/{{ data_prefix }}/top-documents-realtime.json"
+            data-refresh="15">
+            <h5><em>
+            </em></h5>
+            <div class="data bar-chart">
+            </div>
+          </figure>
+
+          <figure class="top-documents" id="top-documents-7-days" role="tabpanel"
+            data-block="top-documents"
+            data-source="{{ site.data_url }}/{{ data_prefix }}/top-documents-7-days.json">
+            <h5><em></em></h5>
+            <div class="data bar-chart">
+            </div>
+          </figure>
+
+          <figure class="top-documents" id="top-documents-30-days" role="tabpanel"
+            data-block="top-documents"
+            data-source="{{ site.data_url }}/{{ data_prefix }}/top-documents-30-days.json">
+            <h5><em>
+            </em></h5>
             <div class="data bar-chart">
             </div>
           </figure>
