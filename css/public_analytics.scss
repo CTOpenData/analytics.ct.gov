@@ -493,7 +493,28 @@ section {
   }
 }
 
+.two_column {
+  @include span-columns(4.5 of 9);
 
+  @include media($small-screen)  {
+    @include span-columns(1);
+    border-left: none;
+    border-top: 1px solid $gray;
+  }
+  h4 {
+    text-align: center;
+    margin: 0;
+    font-size: 90%;
+  }
+  h5 {
+    margin-top: 0;
+    text-align: center;
+  }
+}
+
+.two_column_dividor {
+  @include span-columns(1 of 9);
+}
 
 #realtime {
   text-align: center;
@@ -565,6 +586,63 @@ ul.pills {
 
   li {
     width: 33.3333%;
+  }
+
+  &, & > li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+  }
+
+  & {
+     margin: .60rem 0 1.5rem 0;
+  }
+
+  & > li {
+    float: left;
+
+    & > a {
+      color: $dark-blue;
+      background: $white;
+      width: 100%;
+      text-align: center;
+      font-weight: 300;
+      font-size: 0.8em;
+      display: inline-block;
+      padding: .32em 0em;
+      text-decoration: none;
+
+      border-top: 1px solid $gray;
+      border-bottom: 1px solid $gray;
+      border-right: 1px solid $gray;
+
+      &:hover {
+        text-decoration: underline;
+      }
+
+      &[aria-selected='true'] {
+        color: #fff;
+        background: $light-blue;
+      }
+    }
+
+    &:last-child > a {
+      border-right: none;
+    }
+  }
+}
+
+ul.pills-two-item {
+  @include clearfix;
+  @include span-columns(5 of 5);
+  display: inline-block;
+
+  border-right: 1px solid $gray;
+  border-left: 1px solid $gray;
+
+  li {
+    width: 50%;
   }
 
   &, & > li {
