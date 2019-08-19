@@ -100,6 +100,68 @@ export default {
     return values.slice(0, 15);
   }, 'county'),
 
+  'search-terms': renderBlock.loadAndRender()
+    .transform(d => d.data)
+    .on('render', (selection) => {
+      // turn the labels into links
+      selection.selectAll('.label')
+        .each(function (d) {
+          d.text = this.innerText;
+        })
+        .html('')
+        .text(d => titleExceptions[d['ga:searchKeyword']] || d['ga:searchKeyword']);
+    })
+    .render(barChart()
+      .label(d => d['ga:searchKeyword'])
+      .value(d => +d['ga:searchUniques'])
+      .scale(values => d3.scale.linear()
+        .domain([0, 1, d3.max(values)])
+        .rangeRound([0, 1, 100]))
+      .format(formatters.addCommas)),
+
+
+  'source': renderBlock.loadAndRender()
+    .transform(d => d.data)
+    .on('render', (selection) => {
+      // turn the labels into links
+      selection.selectAll('.label')
+        .each(function (d) {
+          d.text = this.innerText;
+        })
+        .html('')
+        .text(d => titleExceptions[d['ga:channelGrouping']] || d['ga:channelGrouping']);
+    })
+    .render(barChart()
+      .label(d => d['ga:channelGrouping'])
+      .value(d => +d.visits)
+      .scale(values => d3.scale.linear()
+        .domain([0, 1, d3.max(values)])
+        .rangeRound([0, 1, 100]))
+      .format(formatters.addCommas)),
+
+
+
+  'top-cities': renderBlock.loadAndRender()
+    .transform(d => d.data)
+    .on('render', (selection) => {
+      // turn the labels into links
+      selection.selectAll('.label')
+        .each(function (d) {
+          d.text = this.innerText;
+        })
+        .html('')
+        .text(d => titleExceptions[d.city] || d.city);
+    })
+    .render(barChart()
+      .label(d => d.city)
+      .value(d => +d.users)
+      .scale(values => d3.scale.linear()
+        .domain([0, 1, d3.max(values)])
+        .rangeRound([0, 1, 100]))
+      .format(formatters.addCommas)),
+
+
+
   'top-documents': renderBlock.loadAndRender()
     .transform(d => d.data)
     .on('render', (selection) => {

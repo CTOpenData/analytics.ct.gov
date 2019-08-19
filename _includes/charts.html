@@ -49,6 +49,66 @@
           There were <span id="total_visitors" class="data">...</span> visits over the past 90 days.
         </section>
 
+        <section class="two_column">
+          <section id="search_term_category_table">
+
+            <h3>Top Search Terms</h3>
+            <ul class="pills-two-item" role="tablist">
+              <li><a role="tab" data-type="Pages" aria-selected="true" href="#search-terms-7-days" class="site-nav">7 Days</a></li>
+              <li><a role="tab" data-type="Pages" href="#search-terms-30-days" class="site-nav">30 Days</a></li>
+            </ul>
+  
+            <figure class="top-pages" id="search-terms-7-days" role="tabpanel"
+              data-block="search-terms"
+              data-source="{{ site.data_url }}/{{ data_prefix }}/search-terms-7-days.json">
+              <h5><em></em></h5>
+              <div class="data bar-chart">
+              </div>
+            </figure>
+  
+            <figure class="top-pages" id="search-terms-30-days" role="tabpanel"
+              data-block="search-terms"
+              data-source="{{ site.data_url }}/{{ data_prefix }}/search-terms-30-days.json">
+              <h5><em>
+              </em></h5>
+              <div class="data bar-chart">
+              </div>
+            </figure>
+  
+          </section>
+        </section>
+
+        <section class="two_column">
+          <section id="cities_category_table">
+
+            <h3>Top Cities</h3>
+            <ul class="pills-two-item" role="tablist">
+              <li><a role="tab" data-type="Pages" aria-selected="true" href="#top-cities-7-days" class="site-nav">7 Days</a></li>
+              <li><a role="tab" data-type="Pages" href="#top-cities-30-days" class="site-nav">30 Days</a></li>
+            </ul>
+  
+            <figure class="top-pages" id="top-cities-7-days" role="tabpanel"
+              data-block="top-cities"
+              data-source="{{ site.data_url }}/{{ data_prefix }}/top-cities-7-days.json">
+              <h5><em></em></h5>
+              <div class="data bar-chart">
+              </div>
+            </figure>
+  
+            <figure class="top-pages" id="top-cities-30-days" role="tabpanel"
+              data-block="top-cities"
+              data-source="{{ site.data_url }}/{{ data_prefix }}/top-cities-30-days.json">
+              <h5><em>
+              </em></h5>
+              <div class="data bar-chart">
+              </div>
+            </figure>
+  
+          </section>
+        </section>
+
+        <!-- forces section to wrap, couldn't find a better way -->
+        <div style="clear: both"></div>
 
         <section class="two_column">
           <section id="device_category_table">
@@ -79,9 +139,34 @@
           </section>
         </section>
 
-        <!-- forces section to wrap, couldn't find a better way -->
-        <div style="clear: both"></div>
+        <section class="two_column">
+          <section id="sources_category_table">
 
+            <h3>Top Source</h3>
+            <ul class="pills-two-item" role="tablist">
+              <li><a role="tab" data-type="Pages" aria-selected="true" href="#source-7-days" class="site-nav">7 Days</a></li>
+              <li><a role="tab" data-type="Pages" href="#source-30-days" class="site-nav">30 Days</a></li>
+            </ul>
+  
+            <figure class="top-pages" id="source-7-days" role="tabpanel"
+              data-block="source"
+              data-source="{{ site.data_url }}/{{ data_prefix }}/source-7-days.json">
+              <h5><em></em></h5>
+              <div class="data bar-chart">
+              </div>
+            </figure>
+  
+            <figure class="top-pages" id="source-30-days" role="tabpanel"
+              data-block="source"
+              data-source="{{ site.data_url }}/{{ data_prefix }}/source-30-days.json">
+              <h5><em>
+              </em></h5>
+              <div class="data bar-chart">
+              </div>
+            </figure>
+  
+          </section>
+        </section>
 
       </div>
 
