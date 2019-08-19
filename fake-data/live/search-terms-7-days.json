@@ -18,6 +18,48 @@
     "name": "Search Terms 7 Days",
     "description": "7 days of search terms for all sites."
   },
+  "data": [
+    {
+      "ga:searchKeyword": "jobs",
+      "ga:searchUniques": "121"
+    },
+    {
+      "ga:searchKeyword": "birth certificate",
+      "ga:searchUniques": "99"
+    },
+    {
+      "ga:searchKeyword": "dmv",
+      "ga:searchUniques": "99"
+    },
+    {
+      "ga:searchKeyword": "tax free week",
+      "ga:searchUniques": "96"
+    },
+    {
+      "ga:searchKeyword": "das",
+      "ga:searchUniques": "82"
+    },
+    {
+      "ga:searchKeyword": "forms",
+      "ga:searchUniques": "81"
+    },
+    {
+      "ga:searchKeyword": "inmate search",
+      "ga:searchUniques": "74"
+    },
+    {
+      "ga:searchKeyword": "llc",
+      "ga:searchUniques": "74"
+    },
+    {
+      "ga:searchKeyword": "snap",
+      "ga:searchUniques": "73"
+    },
+    {
+      "ga:searchKeyword": "contact",
+      "ga:searchUniques": "67"
+    }
+  ],
   "totals": {},
-  "taken_at": "2019-08-08T21:40:18.076Z"
+  "taken_at": "2019-08-19T13:12:04.508Z"
 }

@@ -18,13 +18,27 @@
     "name": "Devices 7 Days",
     "description": "7 days of desktop/mobile/tablet visits for all sites."
   },
+  "data": [
+    {
+      "device": "desktop",
+      "visits": "64151"
+    },
+    {
+      "device": "mobile",
+      "visits": "27973"
+    },
+    {
+      "device": "tablet",
+      "visits": "4422"
+    }
+  ],
   "totals": {
-    "visits": 98335,
+    "visits": 96546,
     "devices": {
-      "desktop": 65137,
-      "mobile": 28807,
-      "tablet": 4391
+      "desktop": 64151,
+      "mobile": 27973,
+      "tablet": 4422
     }
   },
-  "taken_at": "2019-08-08T21:40:13.912Z"
+  "taken_at": "2019-08-19T13:12:03.272Z"
 }

@@ -15,12 +15,7 @@
     "name": "Top Documents Right Now",
     "description": "The top 10 Documents, measured by active onsite users, for all sites."
   },
-  "data": [
-    {
-      "rt:eventAction": "https://www.ctohe.org/News/pdfs/2016/2015SystemTrends.pdf",
-      "total_events": "1"
-    }
-  ],
+  "data": [],
   "totals": {},
-  "taken_at": "2019-08-08T21:40:28.256Z"
+  "taken_at": "2019-08-19T13:12:06.912Z"
 }

@@ -18,8 +18,26 @@
     "name": "Source 7 Days",
     "description": "7 days of direct/search/referral/email visits for all sites."
   },
+  "data": [
+    {
+      "ga:channelGrouping": "Direct",
+      "visits": "62394"
+    },
+    {
+      "ga:channelGrouping": "Organic Search",
+      "visits": "30689"
+    },
+    {
+      "ga:channelGrouping": "Referral",
+      "visits": "3209"
+    },
+    {
+      "ga:channelGrouping": "Social",
+      "visits": "254"
+    }
+  ],
   "totals": {
-    "visits": 98335
+    "visits": 96546
   },
-  "taken_at": "2019-08-08T21:40:16.073Z"
+  "taken_at": "2019-08-19T13:12:03.869Z"
 }

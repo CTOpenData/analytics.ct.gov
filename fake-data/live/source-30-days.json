@@ -18,8 +18,26 @@
     "name": "Source 30 Days",
     "description": "30 days of direct/search/referral/email visits for all sites."
   },
+  "data": [
+    {
+      "ga:channelGrouping": "Direct",
+      "visits": "262065"
+    },
+    {
+      "ga:channelGrouping": "Organic Search",
+      "visits": "128012"
+    },
+    {
+      "ga:channelGrouping": "Referral",
+      "visits": "11842"
+    },
+    {
+      "ga:channelGrouping": "Social",
+      "visits": "981"
+    }
+  ],
   "totals": {
-    "visits": 420344
+    "visits": 402900
   },
-  "taken_at": "2019-08-08T21:40:16.912Z"
+  "taken_at": "2019-08-19T13:12:04.239Z"
 }

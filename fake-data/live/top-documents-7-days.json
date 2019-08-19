@@ -22,45 +22,45 @@
   "data": [
     {
       "ga:eventAction": "https://portal.ct.gov/-/media/DOT/documents/dcommunications/MajorProjectUpdates/MajorProjectsWebPDF.pdf",
-      "total_events": "44"
-    },
-    {
-      "ga:eventAction": "https://portal.ct.gov/-/media/SDE/KindergartenBrochure.pdf",
-      "total_events": "28"
-    },
-    {
-      "ga:eventAction": "https://portal.ct.gov/-/media/OPM/Budget/Special_Reports/agencyheads_old.pdf",
-      "total_events": "21"
-    },
-    {
-      "ga:eventAction": "https://portal.ct.gov/-/media/DOT/documents/dcommunications/MajorProjectUpdates/MajorProjectsWebPDFpdf.pdf",
-      "total_events": "17"
+      "total_events": "68"
     },
     {
       "ga:eventAction": "https://portal.ct.gov/-/media/SDE/Special-Education/Parents_Guide_SE.pdf",
-      "total_events": "16"
+      "total_events": "42"
+    },
+    {
+      "ga:eventAction": "https://portal.ct.gov/-/media/SDE/KindergartenBrochure.pdf",
+      "total_events": "27"
+    },
+    {
+      "ga:eventAction": "https://portal.ct.gov/-/media/OPM/Budget/Special_Reports/agencyheads_old.pdf",
+      "total_events": "24"
     },
     {
       "ga:eventAction": "http://www.ctdol.state.ct.us/progsupt/unemplt/claimant-guide/uc-288.pdf",
-      "total_events": "14"
-    },
-    {
-      "ga:eventAction": "http://www.ctohe.org/SFA/pdfs/SFABrochure.pdf",
-      "total_events": "12"
-    },
-    {
-      "ga:eventAction": "https://portal.ct.gov/-/media/SDE/Adult-Ed/providerdirectory.pdf",
-      "total_events": "12"
+      "total_events": "19"
     },
     {
       "ga:eventAction": "http://www.ctdol.state.ct.us/wgwkstnd/MinWageGuide2014.pdf",
-      "total_events": "9"
+      "total_events": "15"
     },
     {
-      "ga:eventAction": "https://portal.ct.gov/-/media/DOT/documents/dcommunications/MapRequestFormpdf.pdf",
+      "ga:eventAction": "https://portal.ct.gov/-/media/SDE/Adult-Ed/providerdirectory.pdf",
+      "total_events": "15"
+    },
+    {
+      "ga:eventAction": "http://www.ctohe.org/SFA/pdfs/SFABrochure.pdf",
+      "total_events": "14"
+    },
+    {
+      "ga:eventAction": "https://portal.ct.gov/-/media/SDE/Special-Education/parents_guide_SE_span.pdf",
       "total_events": "7"
+    },
+    {
+      "ga:eventAction": "https://www.ctohe.org/News/pdfs/2016/2015SystemTrends.pdf",
+      "total_events": "6"
     }
   ],
   "totals": {},
-  "taken_at": "2019-08-08T21:40:29.716Z"
+  "taken_at": "2019-08-19T13:12:07.208Z"
 }

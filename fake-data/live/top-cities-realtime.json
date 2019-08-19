@@ -15,6 +15,48 @@
     "name": "Top Cities Right Now",
     "description": "The top 10 cities, measured by active onsite users, for all sites."
   },
+  "data": [
+    {
+      "city": "Hartford",
+      "active_visitors": "76"
+    },
+    {
+      "city": "New York",
+      "active_visitors": "10"
+    },
+    {
+      "city": "New Haven",
+      "active_visitors": "5"
+    },
+    {
+      "city": "Stamford",
+      "active_visitors": "4"
+    },
+    {
+      "city": "Farmington",
+      "active_visitors": "3"
+    },
+    {
+      "city": "Meriden",
+      "active_visitors": "3"
+    },
+    {
+      "city": "Milford",
+      "active_visitors": "3"
+    },
+    {
+      "city": "New London",
+      "active_visitors": "3"
+    },
+    {
+      "city": "Norwalk",
+      "active_visitors": "3"
+    },
+    {
+      "city": "Torrington",
+      "active_visitors": "3"
+    }
+  ],
   "totals": {},
-  "taken_at": "2019-08-08T21:40:20.716Z"
+  "taken_at": "2019-08-19T13:12:05.120Z"
 }

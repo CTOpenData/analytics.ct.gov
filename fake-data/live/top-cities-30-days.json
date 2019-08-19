@@ -19,8 +19,50 @@
     "name": "Top Cities 30 Days",
     "description": "The top 10 cities, from the last 30 days, for all sites."
   },
+  "data": [
+    {
+      "city": "Hartford",
+      "users": "40394"
+    },
+    {
+      "city": "New York",
+      "users": "16795"
+    },
+    {
+      "city": "New Haven",
+      "users": "14324"
+    },
+    {
+      "city": "Boston",
+      "users": "6807"
+    },
+    {
+      "city": "Stamford",
+      "users": "5586"
+    },
+    {
+      "city": "Waterbury",
+      "users": "4077"
+    },
+    {
+      "city": "Bridgeport",
+      "users": "4034"
+    },
+    {
+      "city": "Ashburn",
+      "users": "3080"
+    },
+    {
+      "city": "Middletown",
+      "users": "2786"
+    },
+    {
+      "city": "Danbury",
+      "users": "2735"
+    }
+  ],
   "totals": {
-    "users": 102598
+    "users": 100618
   },
-  "taken_at": "2019-08-08T21:40:23.078Z"
+  "taken_at": "2019-08-19T13:12:05.676Z"
 }

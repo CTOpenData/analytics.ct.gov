@@ -21,40 +21,40 @@
   },
   "data": [
     {
-      "ga:eventAction": "http://www.ct.gov/dot/lib/dot/documents/dcommunications/majorprojectupdates/major_projects_webpdf.pdf",
-      "total_events": "170"
+      "ga:eventAction": "https://portal.ct.gov/-/media/DOT/documents/dcommunications/MajorProjectUpdates/MajorProjectsWebPDF.pdf",
+      "total_events": "134"
     },
     {
       "ga:eventAction": "https://portal.ct.gov/-/media/SDE/Special-Education/Parents_Guide_SE.pdf",
-      "total_events": "100"
+      "total_events": "116"
     },
     {
       "ga:eventAction": "https://portal.ct.gov/-/media/SDE/KindergartenBrochure.pdf",
-      "total_events": "97"
+      "total_events": "100"
     },
     {
       "ga:eventAction": "https://portal.ct.gov/-/media/OPM/Budget/Special_Reports/agencyheads_old.pdf",
-      "total_events": "85"
+      "total_events": "93"
     },
     {
       "ga:eventAction": "http://www.ctdol.state.ct.us/progsupt/unemplt/claimant-guide/uc-288.pdf",
-      "total_events": "71"
+      "total_events": "69"
+    },
+    {
+      "ga:eventAction": "http://www.ct.gov/dot/lib/dot/documents/dcommunications/majorprojectupdates/major_projects_webpdf.pdf",
+      "total_events": "68"
     },
     {
       "ga:eventAction": "http://www.ctohe.org/SFA/pdfs/SFABrochure.pdf",
-      "total_events": "53"
-    },
-    {
-      "ga:eventAction": "https://portal.ct.gov/-/media/SDE/Adult-Ed/providerdirectory.pdf",
-      "total_events": "53"
+      "total_events": "58"
     },
     {
       "ga:eventAction": "http://www.ctdol.state.ct.us/wgwkstnd/MinWageGuide2014.pdf",
-      "total_events": "47"
+      "total_events": "56"
     },
     {
-      "ga:eventAction": "https://portal.ct.gov/-/media/DOT/documents/dcommunications/MajorProjectUpdates/MajorProjectsWebPDF.pdf",
-      "total_events": "44"
+      "ga:eventAction": "https://portal.ct.gov/-/media/SDE/Adult-Ed/providerdirectory.pdf",
+      "total_events": "51"
     },
     {
       "ga:eventAction": "https://portal.ct.gov/-/media/DOT/documents/dcommunications/MajorProjectUpdates/MajorProjectsWebPDFpdf.pdf",
@@ -62,5 +62,5 @@
     }
   ],
   "totals": {},
-  "taken_at": "2019-08-08T21:40:30.853Z"
+  "taken_at": "2019-08-19T13:12:07.490Z"
 }

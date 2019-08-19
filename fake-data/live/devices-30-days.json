@@ -18,13 +18,27 @@
     "name": "Devices 30 Days",
     "description": "30 days of desktop/mobile/tablet visits for all sites."
   },
+  "data": [
+    {
+      "device": "desktop",
+      "visits": "265599"
+    },
+    {
+      "device": "mobile",
+      "visits": "118996"
+    },
+    {
+      "device": "tablet",
+      "visits": "18305"
+    }
+  ],
   "totals": {
-    "visits": 420344,
+    "visits": 402900,
     "devices": {
-      "desktop": 284520,
-      "mobile": 117265,
-      "tablet": 18559
+      "desktop": 265599,
+      "mobile": 118996,
+      "tablet": 18305
     }
   },
-  "taken_at": "2019-08-08T21:40:15.073Z"
+  "taken_at": "2019-08-19T13:12:03.539Z"
 }

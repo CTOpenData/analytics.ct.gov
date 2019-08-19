@@ -18,6 +18,48 @@
     "name": "Search Terms 30 Days",
     "description": "30 days of search terms for all sites."
   },
+  "data": [
+    {
+      "ga:searchKeyword": "jobs",
+      "ga:searchUniques": "434"
+    },
+    {
+      "ga:searchKeyword": "dmv",
+      "ga:searchUniques": "427"
+    },
+    {
+      "ga:searchKeyword": "forms",
+      "ga:searchUniques": "371"
+    },
+    {
+      "ga:searchKeyword": "snap",
+      "ga:searchUniques": "328"
+    },
+    {
+      "ga:searchKeyword": "das",
+      "ga:searchUniques": "324"
+    },
+    {
+      "ga:searchKeyword": "inmate search",
+      "ga:searchUniques": "277"
+    },
+    {
+      "ga:searchKeyword": "llc",
+      "ga:searchUniques": "268"
+    },
+    {
+      "ga:searchKeyword": "birth certificate",
+      "ga:searchUniques": "267"
+    },
+    {
+      "ga:searchKeyword": "tsc",
+      "ga:searchUniques": "265"
+    },
+    {
+      "ga:searchKeyword": "contact",
+      "ga:searchUniques": "261"
+    }
+  ],
   "totals": {},
-  "taken_at": "2019-08-08T21:40:19.713Z"
+  "taken_at": "2019-08-19T13:12:04.796Z"
 }

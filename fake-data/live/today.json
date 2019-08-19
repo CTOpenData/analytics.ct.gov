@@ -18,75 +18,75 @@
   "data": [
     {
       "hour": "00",
-      "visits": "166"
+      "visits": "155"
     },
     {
       "hour": "01",
-      "visits": "133"
+      "visits": "111"
     },
     {
       "hour": "02",
-      "visits": "94"
+      "visits": "85"
     },
     {
       "hour": "03",
-      "visits": "97"
+      "visits": "74"
     },
     {
       "hour": "04",
-      "visits": "101"
+      "visits": "84"
     },
     {
       "hour": "05",
-      "visits": "153"
+      "visits": "142"
     },
     {
       "hour": "06",
-      "visits": "322"
+      "visits": "259"
     },
     {
       "hour": "07",
-      "visits": "663"
+      "visits": "645"
     },
     {
       "hour": "08",
-      "visits": "1203"
+      "visits": "1310"
     },
     {
       "hour": "09",
-      "visits": "1384"
+      "visits": "139"
     },
     {
       "hour": "10",
-      "visits": "1508"
+      "visits": "0"
     },
     {
       "hour": "11",
-      "visits": "1457"
+      "visits": "0"
     },
     {
       "hour": "12",
-      "visits": "1384"
+      "visits": "0"
     },
     {
       "hour": "13",
-      "visits": "1324"
+      "visits": "0"
     },
     {
       "hour": "14",
-      "visits": "1452"
+      "visits": "0"
     },
     {
       "hour": "15",
-      "visits": "1360"
+      "visits": "0"
     },
     {
       "hour": "16",
-      "visits": "1022"
+      "visits": "0"
     },
     {
       "hour": "17",
-      "visits": "442"
+      "visits": "0"
     },
     {
       "hour": "18",
@@ -114,7 +114,7 @@
     }
   ],
   "totals": {
-    "visits": 14265
+    "visits": 3004
   },
-  "taken_at": "2019-08-08T21:40:13.379Z"
+  "taken_at": "2019-08-19T13:12:02.977Z"
 }
