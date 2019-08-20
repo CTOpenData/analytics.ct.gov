@@ -1,0 +1,274 @@
+  {% if page.url == '/' %}
+    {% assign data_prefix = 'live' %}
+    {% assign entity = "government" %}
+  {% else %}
+    {% assign data_prefix = page.slug %}
+    {% assign entity = "agency" %}
+  {% endif %}
+    <!--
+      JavaScript block hooks look for any element with both data-block and
+      data-source attributes:
+      <section data-block="users" data-source="path/to/data.json">
+        The "loading", "loaded", and "error" classes are set on this element
+        the data-source URL is loaded. Then the renderer is called on the first
+        child of the block with the "data" class:
+        <div class="data">
+        </div>
+        Some renderers expect to be called on HTML tables, in which
+        case you would use:
+        <table class="data">
+        </table>
+      </section>
+      -->
+      <div id="main_data" class="width-two-thirds">
+        <section id="realtime"
+          data-block="realtime"
+          data-source="{{ site.data_url }}/{{ data_prefix }}/realtime.json"
+          data-refresh="15">
+          <h2 id="current_visitors" class="data">...</h2>
+          <div class="chart_subtitle">people on {{ entity }} websites now</div>
+        </section>
+
+        <section class="section_headline visits_today">
+          <h3>Visits Today</h3>
+          <h4>Eastern Time</h4>
+        </section>
+
+        <section id="time_series"
+          data-block="today"
+          data-source="{{ site.data_url }}/{{ data_prefix }}/today.json"
+          data-refresh="15">
+          <svg class="data time-series">
+          </svg>
+        </section>
+
+        <section class="section_headline">
+          <h3>Visits in the Past 90 Days</h3>
+        </section>
+
+        <section class="section_subheadline">
+          There were <span id="total_visitors" class="data">...</span> visits over the past 90 days.
+        </section>
+
+        <section class="two_column">
+          <section id="top_10_search_terms_table">
+
+            <h3>Top 10 Search Terms</h3>
+            <ul class="pills" role="tablist">
+              <li><a role="tab" data-type="Pages" aria-selected="true" href="#search-terms-realtime" class="site-nav">Now</a></li>
+              <li><a role="tab" data-type="Pages" href="#search-terms-7-days" class="site-nav">7 Days</a></li>
+              <li><a role="tab" data-type="Pages" href="#search-terms-30-days" class="site-nav">30 Days</a></li>
+            </ul>
+  
+            <figure class="top-pages" id="search-terms-realtime" role="tabpanel"
+              data-block="search-terms-realtime"
+              data-source="{{ site.data_url }}/{{ data_prefix }}/search-terms-realtime.json"
+              data-refresh="15">
+              <h5><em>
+              </em></h5>
+              <div class="data bar-chart">
+              </div>
+            </figure>
+  
+            <figure class="top-pages" id="search-terms-7-days" role="tabpanel"
+              data-block="top-pages"
+              data-source="{{ site.data_url }}/{{ data_prefix }}/search-terms-7-days.json">
+              <h5><em></em></h5>
+              <div class="data bar-chart">
+              </div>
+            </figure>
+  
+            <figure class="top-pages" id="search-terms-30-days" role="tabpanel"
+              data-block="top-pages"
+              data-source="{{ site.data_url }}/{{ data_prefix }}/search-terms-30-days.json">
+              <h5><em>
+              </em></h5>
+              <div class="data bar-chart">
+              </div>
+            </figure>
+  
+          </section>
+        </section>
+        
+        <section class="two_column">
+          <section id="top_10_cities_table">
+
+            <h3>Top 10 Cities</h3>
+            <ul class="pills" role="tablist">
+              <li><a role="tab" data-type="Pages" aria-selected="true" href="#top-cities-realtime" class="site-nav">Now</a></li>
+              <li><a role="tab" data-type="Pages" href="#top-cities-7-days" class="site-nav">7 Days</a></li>
+              <li><a role="tab" data-type="Pages" href="#top-cities-30-days" class="site-nav">30 Days</a></li>
+            </ul>
+  
+            <figure class="top-pages" id="top-cities-realtime" role="tabpanel"
+              data-block="top-cities-realtime"
+              data-source="{{ site.data_url }}/{{ data_prefix }}/top-cities-realtime.json"
+              data-refresh="15">
+              <h5><em>
+              </em></h5>
+              <div class="data bar-chart">
+              </div>
+            </figure>
+  
+            <figure class="top-pages" id="top-cities-7-days" role="tabpanel"
+              data-block="top-pages"
+              data-source="{{ site.data_url }}/{{ data_prefix }}/top-cities-7-days.json">
+              <h5><em></em></h5>
+              <div class="data bar-chart">
+              </div>
+            </figure>
+  
+            <figure class="top-pages" id="top-cities-30-days" role="tabpanel"
+              data-block="top-pages"
+              data-source="{{ site.data_url }}/{{ data_prefix }}/top-cities-30-days.json">
+              <h5><em>
+              </em></h5>
+              <div class="data bar-chart">
+              </div>
+            </figure>
+  
+          </section>
+        </section>
+
+        <!-- forces section to wrap, couldn't find a better way -->
+        <div style="clear: both"></div>
+
+        <section class="two_column">
+          <section id="top_device_category_table">
+
+            <h3>Device Category</h3>
+            <ul class="pills-two-item" role="tablist">
+              <li><a role="tab" data-type="Pages" aria-selected="true" href="#devices-7-days" class="site-nav">7 Days</a></li>
+              <li><a role="tab" data-type="Pages" href="#devices-30-days" class="site-nav">30 Days</a></li>
+            </ul>
+  
+            <figure class="top-pages" id="devices-7-days" role="tabpanel"
+              data-block="top-pages"
+              data-source="{{ site.data_url }}/{{ data_prefix }}/devices-7-days.json">
+              <h5><em></em></h5>
+              <div class="data bar-chart">
+              </div>
+            </figure>
+  
+            <figure class="top-pages" id="devices-30-days" role="tabpanel"
+              data-block="top-pages"
+              data-source="{{ site.data_url }}/{{ data_prefix }}/devices-30-days.json">
+              <h5><em>
+              </em></h5>
+              <div class="data bar-chart">
+              </div>
+            </figure>
+  
+          </section>
+        </section>
+        
+        <section class="two_column">
+          <section id="top_sources_table">
+
+            <h3>Source</span></h3>
+            <ul class="pills-two-item" role="tablist">
+              <li><a role="tab" data-type="Pages" aria-selected="true" href="#source-7-days" class="site-nav">7 Days</a></li>
+              <li><a role="tab" data-type="Pages" href="#source-30-days" class="site-nav">30 Days</a></li>
+            </ul>
+  
+            <figure class="top-pages" id="source-7-days" role="tabpanel"
+              data-block="top-pages"
+              data-source="{{ site.data_url }}/{{ data_prefix }}/source-7-days.json">
+              <h5><em></em></h5>
+              <div class="data bar-chart">
+              </div>
+            </figure>
+  
+            <figure class="top-pages" id="source-30-days" role="tabpanel"
+              data-block="top-pages"
+              data-source="{{ site.data_url }}/{{ data_prefix }}/source-30-days.json">
+              <h5><em>
+              </em></h5>
+              <div class="data bar-chart">
+              </div>
+            </figure>
+  
+          </section>
+        </section>
+
+      </div>
+
+      <div id="secondary_data" class="width-one-third">
+        <section id="top_100_table">
+
+          <h3>Top 20 <span id="top_table_type">Pages</span></h3>
+          <ul class="pills" role="tablist">
+            <li><a role="tab" data-type="Pages" aria-selected="true" href="#top-pages-realtime" class="site-nav">Now</a></li>
+            <li><a role="tab" data-type="Pages" href="#top-pages-7-days" class="site-nav">7 Days</a></li>
+            <li><a role="tab" data-type="Pages" href="#top-pages-30-days" class="site-nav">30 Days</a></li>
+          </ul>
+
+          <figure class="top-pages" id="top-pages-realtime" role="tabpanel"
+            data-block="top-pages-realtime"
+            data-source="{{ site.data_url }}/{{ data_prefix }}/top-pages-realtime.json"
+            data-refresh="15">
+            <h5><em>
+            </em></h5>
+            <div class="data bar-chart">
+            </div>
+          </figure>
+
+          <figure class="top-pages" id="top-pages-7-days" role="tabpanel"
+            data-block="top-pages"
+            data-source="{{ site.data_url }}/{{ data_prefix }}/top-pages-7-days.json">
+            <h5><em></em></h5>
+            <div class="data bar-chart">
+            </div>
+          </figure>
+
+          <figure class="top-pages" id="top-pages-30-days" role="tabpanel"
+            data-block="top-pages"
+            data-source="{{ site.data_url }}/{{ data_prefix }}/top-pages-30-days.json">
+            <h5><em>
+            </em></h5>
+            <div class="data bar-chart">
+            </div>
+          </figure>
+
+        </section>
+
+        <section id="top_documents_table">
+
+          <h3>Top 10 Documents</h3>
+          <ul class="pills" role="tablist">
+            <li><a role="tab" data-type="Pages" aria-selected="true" href="#top-documents-realtime" class="site-nav">Now</a></li>
+            <li><a role="tab" data-type="Pages" href="#top-documents-7-days" class="site-nav">7 Days</a></li>
+            <li><a role="tab" data-type="Pages" href="#top-documents-30-days" class="site-nav">30 Days</a></li>
+          </ul>
+
+          <figure class="top-documents" id="top-documents-realtime" role="tabpanel"
+            data-block="top-documents-realtime"
+            data-source="{{ site.data_url }}/{{ data_prefix }}/top-documents-realtime.json"
+            data-refresh="15">
+            <h5><em>
+            </em></h5>
+            <div class="data bar-chart">
+            </div>
+          </figure>
+
+          <figure class="top-documents" id="top-documents-7-days" role="tabpanel"
+            data-block="top-documents"
+            data-source="{{ site.data_url }}/{{ data_prefix }}/top-documents-7-days.json">
+            <h5><em></em></h5>
+            <div class="data bar-chart">
+            </div>
+          </figure>
+
+          <figure class="top-documents" id="top-documents-30-days" role="tabpanel"
+            data-block="top-documents"
+            data-source="{{ site.data_url }}/{{ data_prefix }}/top-documents-30-days.json">
+            <h5><em>
+            </em></h5>
+            <div class="data bar-chart">
+            </div>
+          </figure>
+
+        </section>
+      </div>
+
+
