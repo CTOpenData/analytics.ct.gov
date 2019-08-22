@@ -200,7 +200,7 @@ header {
   border-bottom: 6px solid $light-blue;
 
   .inner {
-    padding: 2.5rem;
+    padding: 0.5rem 2.5rem;
     @include responsive_container;
     @include media($mobile-small-screen) {
       padding: 1.5rem;
@@ -921,3 +921,17 @@ footer {
   }
 }
 
+#official-ct {
+    background: #3a95d2;
+    display: block;
+
+    span {
+      font-weight: 500;
+    }
+
+    .logo img {
+      float: left;
+      width: 4.313em;
+      margin-right: 1em
+  }
+}
