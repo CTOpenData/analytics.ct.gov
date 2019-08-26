@@ -256,6 +256,7 @@ header {
 .links {
   float: right;
   margin-bottom: 0;
+  margin-right: 0.5em;
     @include media($medium-screen) {
       li {
         display: inline;
@@ -358,6 +359,7 @@ section {
   border-right: 1px solid $gray;
   border-bottom: 1px solid $gray;
   background: $white;
+  padding: 0em 1.5em;
 }
 
 #main_data {
@@ -934,4 +936,8 @@ footer {
       width: 4.313em;
       margin-right: 1em
   }
+}
+
+.srvbtn {
+  z-index: 3;
 }
