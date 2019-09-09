@@ -43,7 +43,7 @@ function loadAndRender() {
       .each(load)
       .filter(function (d) {
         d.refresh = +this.getAttribute('data-refresh');
-        return !Number.isNaN(d.refresh) && d.refresh > 0;
+        return (isNaN( parseFloat(d.refresh) )) && d.refresh > 0;
       })
       .each(function (d) {
         const that = d3.select(this);
